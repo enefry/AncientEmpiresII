@@ -1,0 +1,10 @@
+Ancient Empires 矢量图标
+
+1. Ancient-Empires.svg 是纯矢量原稿（1024×1024），没有嵌入 PNG。
+2. 解压 Ancient-Empires.icon.zip，得到 Ancient-Empires.icon。用 Apple Icon Composer 打开，可编辑背景与剑主体、光照和外观；将 .icon 文件拖入 Xcode，并将 App Icon 名称设为 Ancient-Empires。
+3. 剑主体由真实 SVG 路径与渐变组成。背景由 Icon Composer 生成；独立 SVG / PNG 预览的背景渐变是近似效果。Liquid Glass 实际渲染以 Apple 工具为准。
+4. .icon 包依据你提供的 Icon Composer 示例结构制作，已检查 JSON、资源引用和 SVG 渲染。本环境未运行 Apple Icon Composer / Xcode，未做 Apple 端打开或编译验证。
+5. 这是上一版写实图标的简洁矢量重绘，保留左上指向的银剑、金色护手、红色握柄及深蓝底色，不是对原 PNG 的无损转换。
+
+Apple 官方说明：
+https://developer.apple.com/documentation/xcode/creating-your-app-icon-using-icon-composer

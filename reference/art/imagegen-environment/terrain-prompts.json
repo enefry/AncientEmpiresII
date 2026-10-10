@@ -1,0 +1,169 @@
+[
+  {
+    "key": "trees",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile15: THREE compact evergreen conifers, one tall upper-left, one small upper-right, medium one bottom-center. Saturated dark teal outlines, fresh green foliage with layered broad lime-green highlight tiers, tiny brown trunks and pale blue attached snow shadows. Original tight triangular group, no extra trees.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "trees-sparse",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile16: TWO compact evergreen conifers, one upper-right and one lower-left, separated by clear space. Green/lime tiered foliage, teal outlines, brown tiny trunks, pale blue snow shadows. Same original two-tree layout.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "mountain",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile17: cluster of snowy craggy peaks, one tall rounded triangular snow-white peak at upper left-center, smaller peak lower right and low rocks left foreground. Pale lavender and icy blue facets with darker slate blue creases. Original compact snowy mountain shape, not brown mountains. Thin crisp contours, no black heavy outline.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "hills",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile19: very low white/ivory snow drift ridge outlined on its upper arc in pale cyan, with two small cyan/lavender facets on right slope, a small detached snow mound lower left. Extremely sparse low relief; transparent negative space, no mountain.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "ruined-castle",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile27: original small dark gray ruined stone castle, broken crenellated silhouette, left tower stump and taller broken right tower, black empty openings, scattered attached gray rubble, pale blue small ground shadow. Roofless and obviously destroyed, preserve original architecture.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "wall",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile28: a LOW HORIZONTAL gray stone ruin/wall with two short square hollow posts at left and right, dark top openings, short connecting wall in middle. Very wide and low 24:8 shape, no tall towers, no ground.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "crater",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile31: original ROUND brown wooden/earth ruin like broken circular palisade/collapsed foundation. Ragged cylindrical brown upright stumps along back rim, reddish dark inner walls, brown flat interior with lighter ochre rubble in front, pale cyan attached ground shadow. Same open-roof circular ruin, not a house or mountain.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "temple",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile32: original neutral gray temple, low wide barnlike silver tiled pitched roof, two symmetrical front sections, dark center entrance, tiny gold circular medallion at roof meeting above entrance, three dark window/door openings along bottom. Preserve front view, gray palette and compact original silhouette.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "ancient-tower",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile34: original pale turquoise/icy ruined magical tower. Tall two-pronged rectangular pale-cream stone posts, narrow open center, bright cyan blue inset shadows, angular broken stone platform beneath. Airy open ruined arch like original, no new architecture.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "ancient-palace",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile36: original pale cyan-white icy ancient sanctuary. Symmetric central tall pointed hollow arch, two shorter side spires, thin vertical cyan recesses, broad pale cream steps/platform at bottom. Preserve compact original tower arrangement, clean pale blue outlines, no invented flags.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "village",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile39 BLUE occupied village: original small gray masonry house, tall steep BLUE pitched roof with central ridge running top center to lower center, tiny gray chimney at upper right, front gray arched dark doorway and small gray eaves. Exact recognizable original steep roof silhouette, saturated BLUE only on roof for team replacement. Stone gray, no blue stone. No banner, tree, extra house or perspective base.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "castle",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile40 BLUE occupied castle: original symmetric rectangular gray stone keep with two crenellated square side towers, dark rectangular windows, single dark central arched gate at bottom, long BLUE hanging banner with thin gold border centered above gate. Same original front view and proportions. Saturated BLUE only banner, all stone gray. No roof, new flags or fantasy extensions.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "volcano",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile47: snowy jagged mountain with tall central peak, narrow orange/red lava stream spilling from summit down front over icy blue and lavender snow facets. Match original mountain silhouette and vivid narrow orange lava seam, no black smoke or giant explosion.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "bridge",
+    "shared": "Use case: style-transfer. ONE isolated terrain/building asset for a faithful Ancient Empires II map remaster. Reference 1 is a labeled contact sheet of original 24x24 map tiles: use ONLY the stated tile number. Reference 2 is the approved archer: match its crisp smooth outlined cel-shaded game art, not its subject. Same frontal/slightly top-down game viewpoint and original shape/color, simple readable color planes, few clean details, no photorealism, no 3D, no soft blur, no pixel stairs, no text, labels or ornaments. Real transparent background with 5% margin. Include full original object but OMIT the cream ground, surrounding terrain and background; keep tiny attached pale blue ground shadow if present. Output only one object.",
+    "text": "Tile29: horizontal wooden plank bridge DECK in exact overhead orthographic view, rectangular square footprint; five vertical warm tan planks from top to bottom, slim darker horizontal wooden rail/beams across top and bottom, copper brown outer edges. Deck fills almost all square, no perspective, no river, no land, no posts beyond rectangle. True transparent background only tiny outer margin.",
+    "transparent": true,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "water",
+    "shared": "Use case: style-transfer. Seamlessly repeatable SQUARE texture tile for a clean cel-shaded 2D strategy game. Match original contact sheet colors. Full bleed opaque artwork, edges seamless, very low contrast, crisp shapes not blurry, no text, no frame, no perspective or objects.",
+    "text": "Top-down calm deep cobalt blue water matching original tile0, only a few tiny understated cyan ripples, large flat quiet blue areas. No coastline, no shore, no horizon.",
+    "transparent": false,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png"
+    ]
+  },
+  {
+    "key": "earth",
+    "shared": "Use case: style-transfer. Seamlessly repeatable SQUARE texture tile for a clean cel-shaded 2D strategy game. Match original contact sheet colors. Full bleed opaque artwork, edges seamless, very low contrast, crisp shapes not blurry, no text, no frame, no perspective or objects.",
+    "text": "Top-down warm ochre-brown packed dirt matching original road20. Sparse small darker brown pebbles and restrained flat hand-drawn texture. No grass, path outline or border.",
+    "transparent": false,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png"
+    ]
+  },
+  {
+    "key": "ground",
+    "shared": "Use case: style-transfer. Seamlessly repeatable SQUARE texture tile for a clean cel-shaded 2D strategy game. Match original contact sheet colors. Full bleed opaque artwork, edges seamless, very low contrast, crisp shapes not blurry, no text, no frame, no perspective or objects.",
+    "text": "Top-down pale cream snow/grass plain matching original tile18 (#f4f4e6). Almost uniformly ivory, extremely sparse tiny faint blue-white ground flecks. No rocks, grass tufts or strong shadows.",
+    "transparent": false,
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/tiles.png"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.3
+Created-By: 1.6.0-b105 (Sun Microsystems Inc.)
+MIDlet-1: Ancient Empires II,/gameicon.png,aeii.Main
+MIDlet-Vendor: Macrospace, SilentKnight
+MIDlet-Name: Ancient Empires II
+Developer-Mode: true
+Override-FPS: 15
+Disable-Intro: true
+MIDlet-Version: 2.5
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+

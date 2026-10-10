@@ -1,0 +1,37 @@
+INFO:  Decompiling class a/a/a
+INFO:  ... done
+INFO:  Decompiling class a/a/b
+INFO:  ... done
+INFO:  Decompiling class a/a/a/e
+INFO:  ... done
+INFO:  Decompiling class a/a/a/g
+INFO:  ... done
+INFO:  Decompiling class a/a/a/c
+INFO:  ... done
+INFO:  Decompiling class a/a/a/a
+INFO:  ... done
+INFO:  Decompiling class a/a/a/f
+INFO:  ... done
+INFO:  Decompiling class a/a/a/d
+INFO:  ... done
+INFO:  Decompiling class a/a/a/b
+INFO:  ... done
+INFO:  Decompiling class aeii/e
+INFO:  ... done
+INFO:  Decompiling class aeii/g
+INFO:  ... done
+INFO:  Decompiling class aeii/c
+INFO:  ... done
+INFO:  Decompiling class aeii/Main
+INFO:  ... done
+INFO:  Decompiling class aeii/a
+INFO:  ... done
+INFO:  Decompiling class aeii/f
+INFO:  ... done
+INFO:  Decompiling class aeii/d
+WARN:           Heavily obfuscated exception ranges found!
+INFO:  ... done
+INFO:  Decompiling class aeii/b
+INFO:  ... done
+INFO:  Decompiling class aeii/h
+INFO:  ... done

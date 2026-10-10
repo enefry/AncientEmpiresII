@@ -1,0 +1,1270 @@
+[
+  {
+    "id": 0,
+    "text": "en"
+  },
+  {
+    "id": 1,
+    "text": "PLAY"
+  },
+  {
+    "id": 2,
+    "text": "NEW GAME"
+  },
+  {
+    "id": 3,
+    "text": "SELECT LEVEL"
+  },
+  {
+    "id": 4,
+    "text": "SAVE GAME"
+  },
+  {
+    "id": 5,
+    "text": "LOAD GAME"
+  },
+  {
+    "id": 6,
+    "text": "SKIRMISH"
+  },
+  {
+    "id": 7,
+    "text": "ONLINE"
+  },
+  {
+    "id": 8,
+    "text": "SETTINGS"
+  },
+  {
+    "id": 9,
+    "text": "INSTRUCTIONS"
+  },
+  {
+    "id": 10,
+    "text": "ABOUT"
+  },
+  {
+    "id": 11,
+    "text": "EXIT"
+  },
+  {
+    "id": 12,
+    "text": "OK"
+  },
+  {
+    "id": 13,
+    "text": "Cancel"
+  },
+  {
+    "id": 14,
+    "text": "Next"
+  },
+  {
+    "id": 15,
+    "text": "Ancient Empires II is a thrilling strategy game that lets you control King Galamar and his brother Valadorn as they fight to protect their kingdom from evil.\n\nNext are instructions, hints and tips on how to play which also appear in the game. For more help visit www.macrospace.com.\n\nFor more information on new features of this modification like built-in level editor, visit projectd8.narod.ru."
+  },
+  {
+    "id": 16,
+    "text": "Ancient Empires II [version %U] is a product of Macrospace Ltd. For more information, questions or feedback please email games@macrospace.com.\nCopyright Macrospace Ltd 2005. All Rights Reserved.\n\nNew extended version provided by Kulikov Dmitriy (aka SilentKnight). For more information, questions or feedback on this modification please email projectd8@yandex.ru. Copyright is not applied, as it makes no sense. Enjoy!"
+  },
+  {
+    "id": 17,
+    "text": "'%U', '%U', '%U', '%U'"
+  },
+  {
+    "id": 18,
+    "text": "direction pad"
+  },
+  {
+    "id": 19,
+    "text": "joystick"
+  },
+  {
+    "id": 20,
+    "text": "'%U'/select"
+  },
+  {
+    "id": 21,
+    "text": "PAUSED(*)"
+  },
+  {
+    "id": 22,
+    "text": "©MACROSPACE LTD."
+  },
+  {
+    "id": 23,
+    "text": "PLAYER"
+  },
+  {
+    "id": 24,
+    "text": "Fight Animation"
+  },
+  {
+    "id": 25,
+    "text": "Help"
+  },
+  {
+    "id": 26,
+    "text": "Music"
+  },
+  {
+    "id": 27,
+    "text": "Sound"
+  },
+  {
+    "id": 28,
+    "text": "Vibrate"
+  },
+  {
+    "id": 29,
+    "text": "ON"
+  },
+  {
+    "id": 30,
+    "text": "OFF"
+  },
+  {
+    "id": 31,
+    "text": "Back"
+  },
+  {
+    "id": 32,
+    "text": "CAMPAIGN MODE"
+  },
+  {
+    "id": 33,
+    "text": "SKIRMISH MODE"
+  },
+  {
+    "id": 34,
+    "text": "SKIRMISH SETUP"
+  },
+  {
+    "id": 35,
+    "text": "PLAYER"
+  },
+  {
+    "id": 36,
+    "text": "CPU"
+  },
+  {
+    "id": 37,
+    "text": "NONE"
+  },
+  {
+    "id": 38,
+    "text": "Team %U"
+  },
+  {
+    "id": 39,
+    "text": "2 players and 2 teams minimum are required to start a skirmish game."
+  },
+  {
+    "id": 40,
+    "text": "Money"
+  },
+  {
+    "id": 41,
+    "text": "Unit Cap"
+  },
+  {
+    "id": 42,
+    "text": "LOCKED"
+  },
+  {
+    "id": 43,
+    "text": "Retrieving data..."
+  },
+  {
+    "id": 44,
+    "text": "Failed to retrieve data"
+  },
+  {
+    "id": 45,
+    "text": "LEVEL '%U' SAVED"
+  },
+  {
+    "id": 46,
+    "text": "ONLINE NEWS"
+  },
+  {
+    "id": 47,
+    "text": "DOWNLOAD LEVELS"
+  },
+  {
+    "id": 48,
+    "text": "DOWNLOAD"
+  },
+  {
+    "id": 49,
+    "text": "DELETE"
+  },
+  {
+    "id": 50,
+    "text": "Deleting skirmish map '%U'.\nAre you sure?"
+  },
+  {
+    "id": 51,
+    "text": "Map '%U' deleted."
+  },
+  {
+    "id": 52,
+    "text": "EMPTY"
+  },
+  {
+    "id": 53,
+    "text": "Free: %U KBytes"
+  },
+  {
+    "id": 54,
+    "text": "Needed: %U KBytes"
+  },
+  {
+    "id": 55,
+    "text": "You do not have enough memory left on on your phone to download this additional level. Please free some space and try again."
+  },
+  {
+    "id": 56,
+    "text": "You cannot delete the level you are currently playing."
+  },
+  {
+    "id": 57,
+    "text": "GAME OVER"
+  },
+  {
+    "id": 58,
+    "text": "LOADING . . ."
+  },
+  {
+    "id": 59,
+    "text": "PRESS ANY KEY"
+  },
+  {
+    "id": 60,
+    "text": "MAIN MENU"
+  },
+  {
+    "id": 61,
+    "text": "MOVE"
+  },
+  {
+    "id": 62,
+    "text": "ATTACK"
+  },
+  {
+    "id": 63,
+    "text": "BUY"
+  },
+  {
+    "id": 64,
+    "text": "END MOVE"
+  },
+  {
+    "id": 65,
+    "text": "CANCEL"
+  },
+  {
+    "id": 66,
+    "text": "END TURN"
+  },
+  {
+    "id": 67,
+    "text": "OCCUPY"
+  },
+  {
+    "id": 68,
+    "text": "REPAIR"
+  },
+  {
+    "id": 69,
+    "text": "RAISE"
+  },
+  {
+    "id": 70,
+    "text": "MAP"
+  },
+  {
+    "id": 71,
+    "text": "OBJECTIVE"
+  },
+  {
+    "id": 72,
+    "text": "MISSION COMPLETE"
+  },
+  {
+    "id": 73,
+    "text": "OCCUPIED!"
+  },
+  {
+    "id": 74,
+    "text": "REPAIRED!"
+  },
+  {
+    "id": 75,
+    "text": "NEW TURN!"
+  },
+  {
+    "id": 76,
+    "text": "INCOME: %U"
+  },
+  {
+    "id": 77,
+    "text": "GAME SAVED"
+  },
+  {
+    "id": 78,
+    "text": "GAME LOADED"
+  },
+  {
+    "id": 79,
+    "text": "NO SAVED GAMES"
+  },
+  {
+    "id": 80,
+    "text": "PROMOTION:"
+  },
+  {
+    "id": 81,
+    "text": "%U WINS!"
+  },
+  {
+    "id": 82,
+    "text": "Skirmish level:\n%U\nUnlocked!"
+  },
+  {
+    "id": 83,
+    "text": "GENERAL"
+  },
+  {
+    "id": 84,
+    "text": "BUILDING"
+  },
+  {
+    "id": 85,
+    "text": "INTRODUCTION"
+  },
+  {
+    "id": 86,
+    "text": "Exiting game, are you sure?"
+  },
+  {
+    "id": 87,
+    "text": "This will end your current game, are you sure?"
+  },
+  {
+    "id": 88,
+    "text": "Overwriting the current saved game, are you sure?"
+  },
+  {
+    "id": 89,
+    "text": "BLUE"
+  },
+  {
+    "id": 90,
+    "text": "RED"
+  },
+  {
+    "id": 91,
+    "text": "GREEN"
+  },
+  {
+    "id": 92,
+    "text": "BLACK"
+  },
+  {
+    "id": 93,
+    "text": "GALAMAR"
+  },
+  {
+    "id": 94,
+    "text": "DEMON LORD"
+  },
+  {
+    "id": 95,
+    "text": "VALADORN"
+  },
+  {
+    "id": 96,
+    "text": "SAETH"
+  },
+  {
+    "id": 97,
+    "text": "EXP"
+  },
+  {
+    "id": 98,
+    "text": "STATUS"
+  },
+  {
+    "id": 99,
+    "text": "POISON"
+  },
+  {
+    "id": 100,
+    "text": "AURA"
+  },
+  {
+    "id": 101,
+    "text": "(2)Icy Paths"
+  },
+  {
+    "id": 102,
+    "text": "(2)The Crossing"
+  },
+  {
+    "id": 103,
+    "text": "(3)Frozen fields"
+  },
+  {
+    "id": 104,
+    "text": "(4)Crossroads"
+  },
+  {
+    "id": 105,
+    "text": "(4)Solitude"
+  },
+  {
+    "id": 106,
+    "text": "(2)Peak Island"
+  },
+  {
+    "id": 107,
+    "text": "(4)Waterways"
+  },
+  {
+    "id": 108,
+    "text": "(2)Liberty Port"
+  },
+  {
+    "id": 109,
+    "text": "(4)Winterstorm"
+  },
+  {
+    "id": 110,
+    "text": "(2)Morningstar"
+  },
+  {
+    "id": 111,
+    "text": "(4)The Crucible"
+  },
+  {
+    "id": 112,
+    "text": "(4)Shadowlands"
+  },
+  {
+    "id": 113,
+    "text": "The Temple of Courage"
+  },
+  {
+    "id": 114,
+    "text": "The Temple of Wisdom"
+  },
+  {
+    "id": 115,
+    "text": "Forest of Mists"
+  },
+  {
+    "id": 116,
+    "text": "The Temple of Life"
+  },
+  {
+    "id": 117,
+    "text": "Pathway to Thorin"
+  },
+  {
+    "id": 118,
+    "text": "The Gates of Thorin"
+  },
+  {
+    "id": 119,
+    "text": "Outside the City"
+  },
+  {
+    "id": 120,
+    "text": "The Ancient Citadel"
+  },
+  {
+    "id": 121,
+    "text": "TEMPLE RAIDERS"
+  },
+  {
+    "id": 122,
+    "text": "TO THE RESCUE"
+  },
+  {
+    "id": 123,
+    "text": "PATH OF SHADOWS"
+  },
+  {
+    "id": 124,
+    "text": "REINFORCEMENTS"
+  },
+  {
+    "id": 125,
+    "text": "ESCORT DUTY"
+  },
+  {
+    "id": 126,
+    "text": "NORTHBOUND"
+  },
+  {
+    "id": 127,
+    "text": "RENDEZVOUS"
+  },
+  {
+    "id": 128,
+    "text": "HEAVEN'S FURY"
+  },
+  {
+    "id": 129,
+    "text": "Stop the raiders, King Galamar must survive."
+  },
+  {
+    "id": 130,
+    "text": "Destroy all attacking enemy troops, occupy both castles."
+  },
+  {
+    "id": 131,
+    "text": "Navigate safely through the forest. Destroy all opposition. King Galamar must survive."
+  },
+  {
+    "id": 132,
+    "text": "Protect the Temple of Life - destroy all enemy units, occupy the enemy castle!"
+  },
+  {
+    "id": 133,
+    "text": "Deliver the Crystal south to the city of Thorin. King Galamar must survive."
+  },
+  {
+    "id": 134,
+    "text": "Occupy the enemy castle and destroy all enemy troops."
+  },
+  {
+    "id": 135,
+    "text": "Escort the Crystal south to the city of Thorin. King Galamar must survive"
+  },
+  {
+    "id": 136,
+    "text": "Defeat Saeth and his minions!"
+  },
+  {
+    "id": 137,
+    "text": "Defeat the enemy commander and occupy all enemy castles!"
+  },
+  {
+    "id": 138,
+    "text": "Carve a path to the west through the enemy troops, defeat their commander and occupy all castles!"
+  },
+  {
+    "id": 139,
+    "text": "SOLDIER"
+  },
+  {
+    "id": 140,
+    "text": "WARRIOR"
+  },
+  {
+    "id": 141,
+    "text": "KNIGHT"
+  },
+  {
+    "id": 142,
+    "text": "SLAYER"
+  },
+  {
+    "id": 143,
+    "text": "ARCHER"
+  },
+  {
+    "id": 144,
+    "text": "ELITE ARCHER"
+  },
+  {
+    "id": 145,
+    "text": "RANGER"
+  },
+  {
+    "id": 146,
+    "text": "ELITE RANGER"
+  },
+  {
+    "id": 147,
+    "text": "ELEMENTAL"
+  },
+  {
+    "id": 148,
+    "text": "SEA ELEMENTAL"
+  },
+  {
+    "id": 149,
+    "text": "AQUEOS"
+  },
+  {
+    "id": 150,
+    "text": "NEPTUNIAN"
+  },
+  {
+    "id": 151,
+    "text": "SORCERESS"
+  },
+  {
+    "id": 152,
+    "text": "ENCHANTRESS"
+  },
+  {
+    "id": 153,
+    "text": "MAGI"
+  },
+  {
+    "id": 154,
+    "text": "HIGH MAGI"
+  },
+  {
+    "id": 155,
+    "text": "WISP"
+  },
+  {
+    "id": 156,
+    "text": "SHADE"
+  },
+  {
+    "id": 157,
+    "text": "SPIRIT"
+  },
+  {
+    "id": 158,
+    "text": "MISTRAL"
+  },
+  {
+    "id": 159,
+    "text": "DIRE WOLF"
+  },
+  {
+    "id": 160,
+    "text": "SHADOW BEAST"
+  },
+  {
+    "id": 161,
+    "text": "DEMON WOLF"
+  },
+  {
+    "id": 162,
+    "text": "HELLHOUND"
+  },
+  {
+    "id": 163,
+    "text": "GOLEM"
+  },
+  {
+    "id": 164,
+    "text": "COLOSSUS"
+  },
+  {
+    "id": 165,
+    "text": "BEHOLDER"
+  },
+  {
+    "id": 166,
+    "text": "TITAN"
+  },
+  {
+    "id": 167,
+    "text": "CATAPULT"
+  },
+  {
+    "id": 168,
+    "text": "SIEGE CATAPULT"
+  },
+  {
+    "id": 169,
+    "text": "HEAVY CATAPULT"
+  },
+  {
+    "id": 170,
+    "text": "BOMBARDER"
+  },
+  {
+    "id": 171,
+    "text": "DRAGON"
+  },
+  {
+    "id": 172,
+    "text": "STORM DRAGON"
+  },
+  {
+    "id": 173,
+    "text": "FIERY DRAGON"
+  },
+  {
+    "id": 174,
+    "text": "GRAND DRAGON"
+  },
+  {
+    "id": 175,
+    "text": "COMMANDER"
+  },
+  {
+    "id": 176,
+    "text": ""
+  },
+  {
+    "id": 177,
+    "text": ""
+  },
+  {
+    "id": 178,
+    "text": ""
+  },
+  {
+    "id": 179,
+    "text": "SKELETON"
+  },
+  {
+    "id": 180,
+    "text": "GHOUL"
+  },
+  {
+    "id": 181,
+    "text": "LICH"
+  },
+  {
+    "id": 182,
+    "text": "DEATH KNIGHT"
+  },
+  {
+    "id": 183,
+    "text": "CRYSTAL"
+  },
+  {
+    "id": 184,
+    "text": "Soldiers are solid all-round fighters that form the backbone of any army. Soldiers are also the only unit that can capture towns to earn gold."
+  },
+  {
+    "id": 185,
+    "text": "With their powerful bows archers can attack from a distance and are especially powerful against airborne enemies."
+  },
+  {
+    "id": 186,
+    "text": "Elementals are magical water spirits. When in water, Elementals have greater movement and stronger defence."
+  },
+  {
+    "id": 187,
+    "text": "Skilled in the use of magic, Sorceresses are weak in close combat. However, their ability to summon fighting skeletons from dead troops can be decisive in battle."
+  },
+  {
+    "id": 188,
+    "text": "These mystical beings of pure light radiate an aura which strengthens the attacking abilities of nearby friendly units. In close combat they are especially deadly against skeletons."
+  },
+  {
+    "id": 189,
+    "text": "Dire Wolves are feared hunters that travel in packs. Beware - their bite is poisonous and reduces both attack and defence levels for one turn."
+  },
+  {
+    "id": 190,
+    "text": "Golems are ancient beings - slow but immensely strong in defence. A golem stationed in a building or a well defended mountain is very difficult to defeat."
+  },
+  {
+    "id": 191,
+    "text": "Catapults blaze a trail of destruction with their enormous attack range. However, their relative immobility and inability to attack up close make them vulnerable, so guard them well. Catapults can either move or attack during a turn, but not do both."
+  },
+  {
+    "id": 192,
+    "text": "These massive flying beasts have ruled over the mountains of mist since ancient times. They are extremely mobile as well as deadly in attack on land, air and sea."
+  },
+  {
+    "id": 193,
+    "text": "A Commander is very strong in attack and defence. Commanders can also occupy castles to produce troops and can be revived in the castle if they fall in battle. Galamar, Valadorn and Demon Lords are examples of Commanders."
+  },
+  {
+    "id": 194,
+    "text": "Summoned by Sorceresses, these lifeless warriors are as strong as soldiers and deadly opponents on any battlefield."
+  },
+  {
+    "id": 195,
+    "text": "These legendary Crystals were originally retrieved from the ruins of the Ancient Citadel. Little is known of their power, except that they are rumoured to protect the kingdom, while also possessing the power to destroy it."
+  },
+  {
+    "id": 196,
+    "text": "Use %KM to move the cursor. Select and move units by pressing %K5 and then pressing %K5 again on the selected destination square. A unit can move and attack once per turn."
+  },
+  {
+    "id": 197,
+    "text": "The red squares mark the movement range of a unit. A unit's range is determined by its type and the terrain it is on."
+  },
+  {
+    "id": 198,
+    "text": "Different types of terrain affect a unit's ability to move, attack and defend. For example, mountains add defence points but reduce movement. When you move the cursor these terrain features appear at the bottom of the screen."
+  },
+  {
+    "id": 199,
+    "text": "When a unit has completed a move, it will change to grey. This means that it cannot be used again until your next turn."
+  },
+  {
+    "id": 200,
+    "text": "You can move each unit only once each turn. When you have finished moving all your units click %K5 and choose 'end turn'"
+  },
+  {
+    "id": 201,
+    "text": "You can view the characteristics of any unit by selecting it and pressing the '%K7' key. Units get more powerful as they gain battle experience and are upgraded in rank."
+  },
+  {
+    "id": 202,
+    "text": "You can view the attack range of any unit by pressing '%K0' when it is selected.\nYou can focus on your commanders instantly by pressing '%K9'."
+  },
+  {
+    "id": 203,
+    "text": "To attack an enemy unit, move your unit within range and select 'attack'. If there is more than one enemy in range, select which unit to attack. The success of your attack is determined by unit characteristics and terrain."
+  },
+  {
+    "id": 204,
+    "text": "Only a Commander can occupy a castle. Once a castle is occupied you can purchase new units with your gold. The Commander does not need to remain in the castle in order to purchase units."
+  },
+  {
+    "id": 205,
+    "text": "You can occupy buildings by moving a soldier or Commander onto it and selecting 'occupy'. Once a building is occupied, it changes colour. If a building is damaged you must repair the building before it can be occupied."
+  },
+  {
+    "id": 206,
+    "text": "Once a building has been occupied, it earns gold. The more buildings you occupy, the more gold you earn."
+  },
+  {
+    "id": 207,
+    "text": "Units can be healed by occupying buildings. The longer a unit stays, the more life it regains."
+  },
+  {
+    "id": 208,
+    "text": "If a Commander is defeated in battle, he can be resurrected in a castle. The more times a Commander is defeated, the more expensive he is to resurrect."
+  },
+  {
+    "id": 209,
+    "text": "Water Elementals are amphibious, giving them increased movement, attack and defence when in water."
+  },
+  {
+    "id": 210,
+    "text": "An attack by Dire Wolves is poisonous. A poisoned unit is slow and weak for its next turn."
+  },
+  {
+    "id": 211,
+    "text": "A Sorceress has the power to summon skeleton warriors from the graves of fallen soldiers. After a unit has been defeated, a tombstone appears for 1 turn. Move a Sorceress next to a tombstone and select 'raise'"
+  },
+  {
+    "id": 212,
+    "text": "Use Wisps to provide nearby friendly units with an aura that augments their attack points."
+  },
+  {
+    "id": 213,
+    "text": "The Catapult has the ability to destroy the enemy towns and help disrupt the flow of gold."
+  },
+  {
+    "id": 214,
+    "text": "Keep your Dragons away from enemy archers, as they are vulnerable to arrows!"
+  },
+  {
+    "id": 215,
+    "text": "With the passing of the war against the forces of darkness, the brothers Galamar and Valadorn are reunited in their rule of the kingdom of Thorin. The kingdom is slowly returning to its peace time ways, protected by three ancient crystals safely guarded in the temples of Courage, Wisdom and Life, when rumours of skirmishes in the North reach the palace..."
+  },
+  {
+    "id": 216,
+    "text": "'And three was their number, three to protect, three to destroy. Mercy upon the wielder of their power, mercy upon our souls, for He shall unleash the heavenly fires onto this world.'\n\n[Verse 3:7 from the Crystal Prophecies, author unknown, translated from the only surviving transcript from the Age of Darkness]"
+  },
+  {
+    "id": 217,
+    "text": "A messenger from the Temple of Courage arrives at the castle gates, pleading for the King's assistance - the Temple has fallen prey to brutal attackers, and must be protected..."
+  },
+  {
+    "id": 218,
+    "text": "With the help of the Elementals, King Galamar finally reaches the Temple of Life one step before the enemy..."
+  },
+  {
+    "id": 219,
+    "text": "Galamar and Valadorn follow the path of destruction left behind by the dragon and find themselves at the ruins of the Ancient Citadel..."
+  },
+  {
+    "id": 220,
+    "text": "'And the Earth shall tremble, and the skies shall weep. For He who is the destroyer shall be destroyed, for the He who is the taker shall be taken. And a new age, free of evil and darkness shall dawn.'\n\n[Final verse from the Crystal Prophecies, author unknown, never translated, lost during the age of darkness]"
+  },
+  {
+    "id": 221,
+    "text": "Help us! We are under attack! These skeleton raiders have stolen the Crystal of Courage we swore to protect!"
+  },
+  {
+    "id": 222,
+    "text": "Aargh... we've failed!"
+  },
+  {
+    "id": 223,
+    "text": "Captain, we must stop this menace at once!"
+  },
+  {
+    "id": 224,
+    "text": "Forward troops! Make these raiders pay!"
+  },
+  {
+    "id": 225,
+    "text": "More attackers!"
+  },
+  {
+    "id": 226,
+    "text": "These are no raiders! They look like enemy troops! Be careful, Captain!"
+  },
+  {
+    "id": 227,
+    "text": "Thank you, your Majesty, you must help us return the Crystal as quickly as possible. Such an important relic must not fall into the wrong hands!"
+  },
+  {
+    "id": 228,
+    "text": "I am at your service. Who could possibly be after the Crystal?"
+  },
+  {
+    "id": 229,
+    "text": "I fear these criminals may be allied to a greater evil. It would be wise to consult with the High Priest at the Temple of Wisdom. He may know more of this."
+  },
+  {
+    "id": 230,
+    "text": "I shall send my brother Valadorn there immediately. I will take my troops and follow the attackers who got away."
+  },
+  {
+    "id": 231,
+    "text": "How can this be? The Temple of Wisdom is also under attack!"
+  },
+  {
+    "id": 232,
+    "text": "Well, well... Valadorn, I presume? Prepare to be defeated! "
+  },
+  {
+    "id": 233,
+    "text": "Sir, a part of the enemy force is retreating!"
+  },
+  {
+    "id": 234,
+    "text": "The Crystal of Wisdom! Do not let them escape!"
+  },
+  {
+    "id": 235,
+    "text": "Aarrghh!"
+  },
+  {
+    "id": 236,
+    "text": "Sir, we must follow them!"
+  },
+  {
+    "id": 237,
+    "text": "Let us stop this attack first. The temple guards will not stand a chance otherwise!"
+  },
+  {
+    "id": 238,
+    "text": "Let us make our stand at this castle!"
+  },
+  {
+    "id": 239,
+    "text": "Well done, Captain. But there is no time to rest. The Crystal of Life may also be in danger. We must warn King Galamar!"
+  },
+  {
+    "id": 240,
+    "text": "Yes, Sir. I will ready the troops."
+  },
+  {
+    "id": 241,
+    "text": "Your Majesty, this forest is known to be home of spirits, elementals, and other magical creatures. Travelling at night is not safe."
+  },
+  {
+    "id": 242,
+    "text": "Captain, you heard Valadorn's messenger - we must press on! Nothing must stand between us and the Temple of Life."
+  },
+  {
+    "id": 243,
+    "text": "Understood. Troops, keep your eyes open and protect King Galamar!"
+  },
+  {
+    "id": 244,
+    "text": "More wolves! Your Majesty, this does not look good..."
+  },
+  {
+    "id": 245,
+    "text": "By the Creator! What are those things!"
+  },
+  {
+    "id": 246,
+    "text": "Greetings, men of Thorin! We, the Elementals, have heard of your quest to protect our lands from evil and offer our allegiance to our King."
+  },
+  {
+    "id": 247,
+    "text": "We gladly accept your offer. Your loyalty to the kingdom shall not be forgotten."
+  },
+  {
+    "id": 248,
+    "text": "The Water Elementals have joined the party."
+  },
+  {
+    "id": 249,
+    "text": "Your Majesty, thank the Creator you are here! Please help us protect the Crystal!"
+  },
+  {
+    "id": 250,
+    "text": "Only in the heavily guarded fortresses of Thorin will the Crystal be safe. We must deliver it there."
+  },
+  {
+    "id": 251,
+    "text": "Your Majesty, our scouts report enemy troops nearby!"
+  },
+  {
+    "id": 252,
+    "text": "They are destroying our buildings to cripple our supply of gold! They must be stopped!"
+  },
+  {
+    "id": 253,
+    "text": "Captain, we must save the Crystal, prepare the troops for battle!"
+  },
+  {
+    "id": 254,
+    "text": "Your Majesty, We have stopped the attack."
+  },
+  {
+    "id": 255,
+    "text": "Well done, Captain! Prepare the troops to march to Thorin!"
+  },
+  {
+    "id": 256,
+    "text": "Your Highness, I do not like the look of this forest, we must be careful!"
+  },
+  {
+    "id": 257,
+    "text": "Very well, Captain. Let us follow this path and stay on our guard."
+  },
+  {
+    "id": 258,
+    "text": "Ambush! Protect the Crystal at all cost!"
+  },
+  {
+    "id": 259,
+    "text": "This seems to be the last of them..."
+  },
+  {
+    "id": 260,
+    "text": "The enemy is planning to attack King Galamar before he reaches Thorin! We must defeat them!"
+  },
+  {
+    "id": 261,
+    "text": "Let us hurry North to meet Galamar. The enemy knows of his plans and he may need help!"
+  },
+  {
+    "id": 262,
+    "text": "Your Highness, the troops are exhausted! I suggest we camp here for the night"
+  },
+  {
+    "id": 263,
+    "text": "We must not delay, Captain. The sooner we get to Thorin the better. The troops can rest when we are safe."
+  },
+  {
+    "id": 264,
+    "text": "Another ambush! Don't let the Crystal leave your sight!"
+  },
+  {
+    "id": 265,
+    "text": "Troops! That dragon is heading towards us - protect the King!"
+  },
+  {
+    "id": 266,
+    "text": "It is the Crystal it is after! May the Creator protect us!"
+  },
+  {
+    "id": 267,
+    "text": "Run, pitiful human, before it is too late!"
+  },
+  {
+    "id": 268,
+    "text": "The enemy force looks formidable, I recommend retreat."
+  },
+  {
+    "id": 269,
+    "text": "We have no choice but to attack - we must go after the Crystal!"
+  },
+  {
+    "id": 270,
+    "text": "Galamar! We came as fast as we could! Let us fight side by side!"
+  },
+  {
+    "id": 271,
+    "text": "The Ruins of the Ancient Citadel... and Saeth! With the Crystals!"
+  },
+  {
+    "id": 272,
+    "text": "At last, Galamar and Valadorn! How very brave of you to confront me! All the keys are now in place, and soon the greatest power ever created on this earth will roar and bend to my will. Your destruction will be testimony to its might and glory!"
+  },
+  {
+    "id": 273,
+    "text": "Your ruses can no longer fool us, Saeth!"
+  },
+  {
+    "id": 274,
+    "text": "You do not believe me? Fools! I will favour you with a glimpse of this ancient power. Behold!"
+  },
+  {
+    "id": 275,
+    "text": "What in the name of the Creator is that!"
+  },
+  {
+    "id": 276,
+    "text": "Pathetic creatures, this is something ancient that you would not understand even if you lived a thousand years! Witness the power of Heaven's Fury!"
+  },
+  {
+    "id": 277,
+    "text": "Galamar! We must hurry if our troops are to stand a chance!"
+  },
+  {
+    "id": 278,
+    "text": "Sire, we should attack these castles first before we launch an attack on the Saeth and the Ruins."
+  },
+  {
+    "id": 279,
+    "text": "TARGET AQUIRED..."
+  },
+  {
+    "id": 280,
+    "text": "HEAVEN'S FURY ACTIVATED"
+  },
+  {
+    "id": 281,
+    "text": "Pitiful wretches. You will not live long enough to see your precious Kingdom engulfed in shadow..."
+  },
+  {
+    "id": 282,
+    "text": "Saeth! This time your defeat is complete!"
+  },
+  {
+    "id": 283,
+    "text": "In your insignificant life and narrow mind, perhaps... Nevertheless everything is now set in motion - the invisible forces that govern time are beyond your knowledge. You cannot stop me from rising again!"
+  },
+  {
+    "id": 284,
+    "text": "Your Majesty, the Ruins are falling apart! We should leave immediately!"
+  },
+  {
+    "id": 285,
+    "text": "But the Crystals... They are still in there!"
+  },
+  {
+    "id": 286,
+    "text": "The only thing we can save now is ourselves!"
+  },
+  {
+    "id": 287,
+    "text": "You have served me well. Now move!"
+  },
+  {
+    "id": 288,
+    "text": "\nCongratulations!\n\n And thank you for playing Ancient Empires II - we very much hope you enjoyed playing it as much as we enjoyed making it!\n\nCREDITS:\nTommy \"King\" Chuang\nKenneth \"Pixel\" Fejer\nMichelle \"Artful\" Chuang\nKim Daniel \"Ninja\" Arthur\nKristian \"Saeth\" Segerstråle\nSilje \"Nullpointer\" Brevik\n\nand the rest of the Macrospace Team without whom this product would not have been possible to make! And let's not forget the excellent service provider that delivered this game successfully to your handset!\n\nWatch out for further Macrospace releases at www.macrospace.com and your local service provider!"
+  },
+  {
+    "id": 289,
+    "text": "IMPORT"
+  },
+  {
+    "id": 290,
+    "text": "IMPORT LEVELS"
+  },
+  {
+    "id": 291,
+    "text": "LEVEL EDITOR"
+  },
+  {
+    "id": 292,
+    "text": "CREATE LEVEL"
+  },
+  {
+    "id": 293,
+    "text": "SAVE LEVEL"
+  },
+  {
+    "id": 294,
+    "text": "Level name"
+  },
+  {
+    "id": 295,
+    "text": "Map width"
+  },
+  {
+    "id": 296,
+    "text": "Map height"
+  },
+  {
+    "id": 297,
+    "text": "Fill with"
+  },
+  {
+    "id": 298,
+    "text": "EXPORT"
+  },
+  {
+    "id": 299,
+    "text": "EXPORT LEVELS"
+  },
+  {
+    "id": 300,
+    "text": "SAVE HERE"
+  },
+  {
+    "id": 301,
+    "text": "Select all"
+  },
+  {
+    "id": 302,
+    "text": "Deselect all"
+  },
+  {
+    "id": 303,
+    "text": "FILL SETUP"
+  },
+  {
+    "id": 304,
+    "text": "Probabilities"
+  },
+  {
+    "id": 305,
+    "text": "RENAME"
+  },
+  {
+    "id": 306,
+    "text": "RESIZE"
+  },
+  {
+    "id": 307,
+    "text": "RND SELECT"
+  },
+  {
+    "id": 308,
+    "text": "Tile %U"
+  },
+  {
+    "id": 309,
+    "text": "Weight"
+  },
+  {
+    "id": 310,
+    "text": "Left"
+  },
+  {
+    "id": 311,
+    "text": "Right"
+  },
+  {
+    "id": 312,
+    "text": "Top"
+  },
+  {
+    "id": 313,
+    "text": "Bottom"
+  },
+  {
+    "id": 314,
+    "text": "CONSOLE"
+  },
+  {
+    "id": 315,
+    "text": "Coverage %U"
+  },
+  {
+    "id": 316,
+    "text": "Unique name"
+  }
+]

@@ -1,0 +1,25 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.swift text eol=lf
+*.java text eol=lf
+*.md text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.jar binary
+*.zip binary
+*.class binary
+*.aem binary
+*.sprite binary
+*.unit binary
+*.dat binary
+*.mid binary
+*.m4a binary
+*.mp4 binary
+
+# Original research inputs and JAR exports must retain their exact bytes.
+reference/inputs/** -text
+reference/original/** -text
+Packages/AncientEmpiresEngine/Sources/AEContent/Resources/Original/** -text

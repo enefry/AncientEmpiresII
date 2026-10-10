@@ -1,0 +1,23 @@
+{
+  "description": "Human-assigned class names based on recovered responsibilities; not original author names. Original packages are preserved.",
+  "classes": [
+    {"original": "aeii.Main", "name": "GameMIDlet", "role": "J2ME 游戏应用入口和生命周期", "evidence": "继承 MIDlet；startApp 创建 Canvas，destroyApp 关闭游戏。"},
+    {"original": "aeii.c", "name": "GameCanvas", "role": "画布、主循环、输入与平台服务", "evidence": "继承 Canvas，实现 Runnable；处理 paint、keyPressed、RecordStore、MIDI 和资源读取。"},
+    {"original": "aeii.f", "name": "GameScreen", "role": "游戏界面基类和文字工具", "evidence": "提供界面尺寸、更新和绘制入口，派生类为主游戏与菜单；兼有语言表、文字换行和占位符处理。"},
+    {"original": "aeii.g", "name": "GameController", "role": "游戏总控制器", "evidence": "管理地图、单位、阵营、回合、AI、存档、剧情、菜单、编辑器及旧网络功能；保留原有多职责结构。"},
+    {"original": "aeii.a", "name": "Unit", "role": "战场单位与兵种规则", "evidence": "继承精灵类；读取 .unit，维护位置和生命值，计算伤害、升级、射程、移动范围和路径。"},
+    {"original": "aeii.h", "name": "BattleSideView", "role": "战斗演出中的单方画面", "evidence": "构造器接收控制器、一个单位和对方视图；左右双方分别实例化并互相引用，维护各自背景、人物与特效。"},
+    {"original": "aeii.e", "name": "MenuScreen", "role": "菜单、对话框与选择面板", "evidence": "继承界面基类；根据面板类型处理选项、文字、图像、按键和绘制。"},
+    {"original": "aeii.d", "name": "SpriteImage", "role": "精灵图像封装与图像处理", "evidence": "封装 J2ME Image、尺寸和区域；支持裁切、变换、缩放、绘制及 PNG 调色板处理。"},
+    {"original": "aeii.b", "name": "FileBrowser", "role": "文件浏览与筛选", "evidence": "维护当前路径，切换目录，枚举目录与文件，按扩展名过滤并排序。"},
+    {"original": "a.a.a.g", "name": "Sprite", "role": "精灵、帧序列、动画与特效", "evidence": "读取 .sprite，保存帧图像与序列，执行更新和绘制；同时混入静态连接工具，本次不拆分。"},
+    {"original": "a.a.a.a", "name": "FileSystemSupport", "role": "文件 API 检测与根目录枚举", "evidence": "用 Class.forName 检测标准、Siemens 和 Motorola 文件 API，再选择相应的根目录枚举接口。"},
+    {"original": "a.a.a.c", "name": "GameFileConnection", "role": "游戏使用的统一文件连接接口", "evidence": "继承 StreamConnection，统一目录枚举、创建、存在检查与截断操作。"},
+    {"original": "a.a.a.e", "name": "Jsr75FileConnectionAdapter", "role": "标准 JSR-75 文件 API 适配", "evidence": "包装 javax.microedition.io.file.FileConnection，并实现统一文件连接接口。"},
+    {"original": "a.a.a.d", "name": "SiemensFileConnectionAdapter", "role": "Siemens 文件 API 适配", "evidence": "包装 com.siemens.mp.io.file.FileConnection，并实现统一文件连接接口。"},
+    {"original": "a.a.a.b", "name": "MotorolaFileConnectionAdapter", "role": "Motorola io 命名空间的文件 API 适配", "evidence": "包装 com.motorola.io.FileConnection；与 io.file 版本区分。"},
+    {"original": "a.a.a.f", "name": "MotorolaFilePackageConnectionAdapter", "role": "Motorola io.file 命名空间的文件 API 适配", "evidence": "包装 com.motorola.io.file.FileConnection；FilePackage 指原 API 的 .file 包，并非功能更强或版本更新。"},
+    {"original": "a.a.b", "name": "ChainedEnumeration", "role": "串联多个枚举器", "evidence": "保存一组 Enumeration，并在当前枚举器耗尽后依次切换。"},
+    {"original": "a.a.a", "name": "EmptyEnumeration", "role": "空枚举器", "evidence": "hasMoreElements 始终为 false，nextElement 抛出 NoSuchElementException；用于枚举链初始状态。"}
+  ]
+}

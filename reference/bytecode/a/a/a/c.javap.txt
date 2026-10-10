@@ -1,0 +1,19 @@
+public interface a.a.a.c extends javax.microedition.io.StreamConnection {
+  public abstract java.io.InputStream openInputStream();
+    descriptor: ()Ljava/io/InputStream;
+
+  public abstract java.io.OutputStream openOutputStream();
+    descriptor: ()Ljava/io/OutputStream;
+
+  public abstract java.util.Enumeration a();
+    descriptor: ()Ljava/util/Enumeration;
+
+  public abstract void a();
+    descriptor: ()V
+
+  public abstract boolean a();
+    descriptor: ()Z
+
+  public abstract void a(long);
+    descriptor: (J)V
+}

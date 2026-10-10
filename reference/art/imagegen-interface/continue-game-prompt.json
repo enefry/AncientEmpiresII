@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE new CONTINUE GAME / resume saved battle icon for Ancient Empires II, matching the supplied menu sprite sheet as STYLE REFERENCE only. Single isolated icon, transparent RGBA background. Nostalgic sharp 2D hand-painted fantasy inventory art with silver metal, golden highlights and bold clean dark outline. Subject: a compact ivory parchment save scroll, curled ends, with a bold emerald-green RIGHT-POINTING PLAY TRIANGLE over its center and a small golden curved return arrow wrapping around its lower-left edge to indicate resume saved progress. Three elements integrated into ONE easily recognizable simple silhouette, legible at 25 logical pixels, minimal fine detail, no text, no numbers, no globe, no circular button background. Clear smoothly drawn antialiased edges and refined highlights, no blur. Occupy central80% of square canvas. Palette and illustration quality match the remastered sword, book and hourglass icons in reference, retain retro fantasy character. This is a new replacement for defunct online menu icon. Output single square sprite on actual transparency, no label, no grid.",
+  "reference": "core.png",
+  "output": "continue-game.png",
+  "atlas": "menu_icons.png",
+  "frame": 5
+}

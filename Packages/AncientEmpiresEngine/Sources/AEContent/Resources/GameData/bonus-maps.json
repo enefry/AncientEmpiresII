@@ -1,0 +1,50 @@
+[
+  {
+    "id": "b0",
+    "name": "(4)Classic 1",
+    "source_sha256": "12865e5b3f226760ee5112f5f249cb0372eaf9ad976b8adc33120dee5cea90b8",
+    "source_commit": "ef6d59f719f946d910fbd896290bbe7418c0e32b"
+  },
+  {
+    "id": "b1",
+    "name": "(3)Classic 2",
+    "source_sha256": "f56e09e14b7b547485f1965d4d966caff5c8570d8ead76cc2e9a0947e9f79d73",
+    "source_commit": "ef6d59f719f946d910fbd896290bbe7418c0e32b"
+  },
+  {
+    "id": "b2",
+    "name": "(2)Duel",
+    "source_sha256": "22cbd836fa020de6abb9d83ea85d668565438de4c8dc79e7eabf91a3d396c433",
+    "source_commit": "ef6d59f719f946d910fbd896290bbe7418c0e32b"
+  },
+  {
+    "id": "b3",
+    "name": "(2)Crossed Swords",
+    "source_sha256": "2382911477354493406f66d274b521c30a21251d9ba27ea6251e2e64fea9f105",
+    "source_commit": "ef6d59f719f946d910fbd896290bbe7418c0e32b"
+  },
+  {
+    "id": "b4",
+    "name": "(4)Critical Mass",
+    "source_sha256": "d60cc25f967c13c82fa5acbf9c78c2bf6f3846e6817779f24a516897af6f13cd",
+    "source_commit": "ef6d59f719f946d910fbd896290bbe7418c0e32b"
+  },
+  {
+    "id": "b5",
+    "name": "(3)Midway",
+    "source_sha256": "75e1e8441d313544fd217eb065d424b2272b19e4105035c110a72af8d6b2f5d3",
+    "source_commit": "ef6d59f719f946d910fbd896290bbe7418c0e32b"
+  },
+  {
+    "id": "b6",
+    "name": "(2)Swamplands",
+    "source_sha256": "c910ffe9f1e210b7daa19ffac88e1515f0746af16613b95f72def474b14191b6",
+    "source_commit": "ef6d59f719f946d910fbd896290bbe7418c0e32b"
+  },
+  {
+    "id": "b7",
+    "name": "(3)Glu",
+    "source_sha256": "e253225807ed2a363338433823dce8b78668a43e578f28a7dafe04cc7ad066ee",
+    "source_commit": "ef6d59f719f946d910fbd896290bbe7418c0e32b"
+  }
+]

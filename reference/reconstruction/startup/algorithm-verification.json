@@ -1,0 +1,1120 @@
+{
+  "jar_sha256": "f2b3e06190014940a04da70677d6504dd3fd3d9fbc39a49192926293f830f5ae",
+  "scope": "Unmodified selected JVM Code attributes, recorded Graphics calls; not a full J2ME runtime",
+  "methods": {
+    "f": {
+      "original_class_sha256": "03bb2c224dec72d736433a0033973263b5919456f46787cf9ee9178afb747a63",
+      "selected_methods": [
+        {
+          "name": "c",
+          "descriptor": "()V",
+          "code_attribute_sha256": "cc790df0ac46afa54b45f4f35e365840ebf4769824fe70aeaf73395a3fc1a8d5"
+        },
+        {
+          "name": "a",
+          "descriptor": "(I)S",
+          "code_attribute_sha256": "3214e519c103146a08f4465acf5b255bb18de7f9a2876ef616371834bc1ae4bd"
+        },
+        {
+          "name": "<clinit>",
+          "descriptor": "()V",
+          "code_attribute_sha256": "7c9ac50ea95fc6a31d9eabf52cbbb6fbcbeadc59a655437b40e7fbe365c5c286"
+        }
+      ]
+    },
+    "g": {
+      "original_class_sha256": "f29139e1bf7235d1b3001952ec70310d103174883a7ebe0e11db3e1e04f6b7e5",
+      "selected_methods": [
+        {
+          "name": "l",
+          "descriptor": "()V",
+          "code_attribute_sha256": "f4d4a7fe1b94f4b3c61a57b4b3de18bcf37f36ecf904be0a7501ba47ce80f0b7"
+        },
+        {
+          "name": "e",
+          "descriptor": "(Ljavax/microedition/lcdui/Graphics;)V",
+          "code_attribute_sha256": "0b0922430ce0be5bb54b7245118010756b22462f394011b30fc16db68fe59c3e"
+        },
+        {
+          "name": "a",
+          "descriptor": "(Ljavax/microedition/lcdui/Graphics;IIILaeii/d;III)V",
+          "code_attribute_sha256": "56e5b994e6faa95916c016d8945baaf7c94a405b4c074c563ada81cec96d8676"
+        }
+      ]
+    }
+  },
+  "lut": [
+    0,
+    17,
+    35,
+    53,
+    71,
+    89,
+    107,
+    125,
+    143,
+    160,
+    178,
+    196,
+    213,
+    231,
+    248,
+    266,
+    283,
+    300,
+    317,
+    334,
+    351,
+    368,
+    385,
+    401,
+    418,
+    434,
+    450,
+    466,
+    482,
+    498,
+    514,
+    529,
+    545,
+    560,
+    575,
+    589,
+    604,
+    618,
+    633,
+    647,
+    660,
+    674,
+    687,
+    701,
+    714,
+    726,
+    739,
+    751,
+    763,
+    775,
+    787,
+    798,
+    809,
+    820,
+    831,
+    841,
+    851,
+    861,
+    871,
+    880,
+    889,
+    898,
+    906,
+    914,
+    922,
+    930,
+    937,
+    944,
+    951,
+    958,
+    964,
+    970,
+    975,
+    981,
+    986,
+    990,
+    995,
+    999,
+    1003,
+    1006,
+    1009,
+    1012,
+    1015,
+    1017,
+    1019,
+    1020,
+    1022,
+    1023,
+    1023,
+    1024,
+    1024,
+    1023,
+    1023,
+    1022,
+    1021,
+    1019,
+    1017,
+    1015,
+    1013,
+    1010,
+    1007,
+    1003,
+    1000,
+    996,
+    991,
+    987,
+    982,
+    976,
+    971,
+    965,
+    959,
+    952,
+    946,
+    939,
+    931,
+    924,
+    916,
+    908,
+    899,
+    891,
+    882,
+    872,
+    863,
+    853,
+    843,
+    833,
+    822,
+    811,
+    800,
+    789,
+    777,
+    766,
+    753,
+    741,
+    729,
+    716,
+    703,
+    690,
+    677,
+    663,
+    649,
+    635,
+    621,
+    607,
+    592,
+    577,
+    562,
+    547,
+    532,
+    517,
+    501,
+    485,
+    469,
+    453,
+    437,
+    421,
+    404,
+    388,
+    371,
+    354,
+    338,
+    321,
+    303,
+    286,
+    269,
+    252,
+    234,
+    217,
+    199,
+    181,
+    164,
+    146,
+    128,
+    110,
+    92,
+    75,
+    57,
+    39,
+    21,
+    3,
+    0,
+    -32,
+    -50,
+    -68,
+    -86,
+    -104,
+    -122,
+    -139,
+    -157,
+    -175,
+    -193,
+    -210,
+    -228,
+    -245,
+    -263,
+    -280,
+    -297,
+    -314,
+    -331,
+    -348,
+    -365,
+    -382,
+    -399,
+    -415,
+    -431,
+    -448,
+    -464,
+    -480,
+    -495,
+    -511,
+    -526,
+    -542,
+    -557,
+    -572,
+    -587,
+    -601,
+    -616,
+    -630,
+    -644,
+    -658,
+    -672,
+    -685,
+    -698,
+    -711,
+    -724,
+    -737,
+    -749,
+    -761,
+    -773,
+    -785,
+    -796,
+    -807,
+    -818,
+    -829,
+    -839,
+    -849,
+    -859,
+    -869,
+    -878,
+    -887,
+    -896,
+    -905,
+    -913,
+    -921,
+    -929,
+    -936,
+    -943,
+    -950,
+    -957,
+    -963,
+    -969,
+    -974,
+    -980,
+    -985,
+    -990,
+    -994,
+    -998,
+    -1002,
+    -1006,
+    -1009,
+    -1012,
+    -1014,
+    -1017,
+    -1019,
+    -1020,
+    -1021,
+    -1023,
+    -1023,
+    -1024,
+    -1024,
+    -1024,
+    -1023,
+    -1022,
+    -1021,
+    -1019,
+    -1018,
+    -1016,
+    -1013,
+    -1010,
+    -1007,
+    -1004,
+    -1000,
+    -996,
+    -992,
+    -987,
+    -983,
+    -977,
+    -972,
+    -966,
+    -960,
+    -954,
+    -947,
+    -940,
+    -933,
+    -925,
+    -917,
+    -909,
+    -901,
+    -892,
+    -883,
+    -874,
+    -865,
+    -855,
+    -845,
+    -835,
+    -824,
+    -813,
+    -802,
+    -791,
+    -779,
+    -768,
+    -756,
+    -743,
+    -731,
+    -718,
+    -705,
+    -692,
+    -679,
+    -665,
+    -652,
+    -638,
+    -624,
+    -609,
+    -595,
+    -580,
+    -565,
+    -550,
+    -535,
+    -519,
+    -504,
+    -488,
+    -472,
+    -456,
+    -440,
+    -424,
+    -408,
+    -391,
+    -374,
+    -358,
+    -341,
+    -324,
+    -307,
+    -289,
+    -272,
+    -255,
+    -237,
+    -220,
+    -202,
+    -185,
+    -167,
+    -149,
+    -131,
+    -114,
+    -96,
+    -78,
+    -60,
+    -42,
+    -24,
+    -6,
+    11
+  ],
+  "wave_cases": 369,
+  "wave_rows_compared": 31980,
+  "wave_mismatches": 0,
+  "dimensions": [
+    176,
+    240,
+    320
+  ],
+  "wave_counts": [
+    1,
+    2,
+    4
+  ],
+  "phases_verified": "wave p=0..40, fade q=0..16, glow increment/reset, blink flags, Disable-Intro skip",
+  "frame_duration_ms": 66,
+  "frames": [
+    {
+      "index": 0,
+      "phase": 3,
+      "progress": 0,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 1,
+      "phase": 3,
+      "progress": 1,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 2,
+      "phase": 3,
+      "progress": 2,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 3,
+      "phase": 3,
+      "progress": 3,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 4,
+      "phase": 3,
+      "progress": 4,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 5,
+      "phase": 3,
+      "progress": 5,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 6,
+      "phase": 3,
+      "progress": 6,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 7,
+      "phase": 3,
+      "progress": 7,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 8,
+      "phase": 3,
+      "progress": 8,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 9,
+      "phase": 3,
+      "progress": 9,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 10,
+      "phase": 3,
+      "progress": 10,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 11,
+      "phase": 3,
+      "progress": 11,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 12,
+      "phase": 3,
+      "progress": 12,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 13,
+      "phase": 3,
+      "progress": 13,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 14,
+      "phase": 3,
+      "progress": 14,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 15,
+      "phase": 3,
+      "progress": 15,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 16,
+      "phase": 3,
+      "progress": 16,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 17,
+      "phase": 3,
+      "progress": 17,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 18,
+      "phase": 3,
+      "progress": 18,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 19,
+      "phase": 3,
+      "progress": 19,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 20,
+      "phase": 3,
+      "progress": 20,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 21,
+      "phase": 3,
+      "progress": 21,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 22,
+      "phase": 3,
+      "progress": 22,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 23,
+      "phase": 3,
+      "progress": 23,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 24,
+      "phase": 3,
+      "progress": 24,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 25,
+      "phase": 3,
+      "progress": 25,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 26,
+      "phase": 3,
+      "progress": 26,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 27,
+      "phase": 3,
+      "progress": 27,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 28,
+      "phase": 3,
+      "progress": 28,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 29,
+      "phase": 3,
+      "progress": 29,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 30,
+      "phase": 3,
+      "progress": 30,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 31,
+      "phase": 3,
+      "progress": 31,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 32,
+      "phase": 3,
+      "progress": 32,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 33,
+      "phase": 3,
+      "progress": 33,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 34,
+      "phase": 3,
+      "progress": 34,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 35,
+      "phase": 3,
+      "progress": 35,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 36,
+      "phase": 3,
+      "progress": 36,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 37,
+      "phase": 3,
+      "progress": 37,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 38,
+      "phase": 3,
+      "progress": 38,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 39,
+      "phase": 3,
+      "progress": 39,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 40,
+      "phase": 3,
+      "progress": 40,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 41,
+      "phase": 4,
+      "progress": 0,
+      "glow_x": 0,
+      "press_any_key": false
+    },
+    {
+      "index": 42,
+      "phase": 4,
+      "progress": 1,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 43,
+      "phase": 4,
+      "progress": 2,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 44,
+      "phase": 4,
+      "progress": 3,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 45,
+      "phase": 4,
+      "progress": 4,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 46,
+      "phase": 4,
+      "progress": 5,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 47,
+      "phase": 4,
+      "progress": 6,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 48,
+      "phase": 4,
+      "progress": 7,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 49,
+      "phase": 4,
+      "progress": 8,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 50,
+      "phase": 4,
+      "progress": 9,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 51,
+      "phase": 4,
+      "progress": 10,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 52,
+      "phase": 4,
+      "progress": 11,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 53,
+      "phase": 4,
+      "progress": 12,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 54,
+      "phase": 4,
+      "progress": 13,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 55,
+      "phase": 4,
+      "progress": 14,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 56,
+      "phase": 4,
+      "progress": 15,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 57,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 58,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": -27,
+      "press_any_key": true
+    },
+    {
+      "index": 59,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 13,
+      "press_any_key": true
+    },
+    {
+      "index": 60,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 53,
+      "press_any_key": false
+    },
+    {
+      "index": 61,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 93,
+      "press_any_key": false
+    },
+    {
+      "index": 62,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 133,
+      "press_any_key": true
+    },
+    {
+      "index": 63,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 173,
+      "press_any_key": true
+    },
+    {
+      "index": 64,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 213,
+      "press_any_key": false
+    },
+    {
+      "index": 65,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 253,
+      "press_any_key": false
+    },
+    {
+      "index": 66,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 293,
+      "press_any_key": true
+    },
+    {
+      "index": 67,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 333,
+      "press_any_key": true
+    },
+    {
+      "index": 68,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 373,
+      "press_any_key": false
+    },
+    {
+      "index": 69,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 413,
+      "press_any_key": false
+    },
+    {
+      "index": 70,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 453,
+      "press_any_key": true
+    },
+    {
+      "index": 71,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 493,
+      "press_any_key": true
+    },
+    {
+      "index": 72,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 533,
+      "press_any_key": false
+    },
+    {
+      "index": 73,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 573,
+      "press_any_key": false
+    },
+    {
+      "index": 74,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 613,
+      "press_any_key": true
+    },
+    {
+      "index": 75,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 653,
+      "press_any_key": true
+    },
+    {
+      "index": 76,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 693,
+      "press_any_key": false
+    },
+    {
+      "index": 77,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 733,
+      "press_any_key": false
+    },
+    {
+      "index": 78,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 773,
+      "press_any_key": true
+    },
+    {
+      "index": 79,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 813,
+      "press_any_key": true
+    },
+    {
+      "index": 80,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 853,
+      "press_any_key": false
+    },
+    {
+      "index": 81,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 893,
+      "press_any_key": false
+    },
+    {
+      "index": 82,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 933,
+      "press_any_key": true
+    },
+    {
+      "index": 83,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 973,
+      "press_any_key": true
+    },
+    {
+      "index": 84,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": -67,
+      "press_any_key": false
+    },
+    {
+      "index": 85,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": -27,
+      "press_any_key": false
+    },
+    {
+      "index": 86,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 13,
+      "press_any_key": true
+    },
+    {
+      "index": 87,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 53,
+      "press_any_key": true
+    },
+    {
+      "index": 88,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 93,
+      "press_any_key": false
+    },
+    {
+      "index": 89,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 133,
+      "press_any_key": false
+    },
+    {
+      "index": 90,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 173,
+      "press_any_key": true
+    },
+    {
+      "index": 91,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 213,
+      "press_any_key": true
+    },
+    {
+      "index": 92,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 253,
+      "press_any_key": false
+    },
+    {
+      "index": 93,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 293,
+      "press_any_key": false
+    },
+    {
+      "index": 94,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 333,
+      "press_any_key": true
+    },
+    {
+      "index": 95,
+      "phase": 4,
+      "progress": 16,
+      "glow_x": 373,
+      "press_any_key": true
+    }
+  ],
+  "original_images": {
+    "logo": {
+      "width": 240,
+      "height": 85,
+      "sha256": "6cf9783c7a93252ca53e9f9a2316bd445db8a178c84d636265bd903dc8dd3f23"
+    },
+    "splash": {
+      "width": 240,
+      "height": 320,
+      "sha256": "6e6c09c10a604e502488163d051c4a72059a9d388074d07745020eccdbfc181c"
+    },
+    "glow": {
+      "width": 67,
+      "height": 78,
+      "sha256": "ef4ef14bfcafcb399faa2b680230c2e6406cd14ed4073611c0689b1e84dcf95a"
+    }
+  },
+  "limitations": [
+    "No J2ME device/font rendering",
+    "Pillow alpha compositing is a reference, not device drawRGB verification",
+    "No full intro/story screens or circular menu emulation",
+    "Recording version/configuration and playback clock require independent alignment"
+  ]
+}

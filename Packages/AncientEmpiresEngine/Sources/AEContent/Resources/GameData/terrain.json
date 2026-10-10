@@ -1,0 +1,373 @@
+{
+  "terrain_count": 11,
+  "tile_count": 48,
+  "types": [
+    {
+      "id": 0,
+      "steps": 1,
+      "defence": 0,
+      "battle_background": "road",
+      "battle_foreground": "road"
+    },
+    {
+      "id": 1,
+      "steps": 1,
+      "defence": 5,
+      "battle_background": "grass",
+      "battle_foreground": "grass"
+    },
+    {
+      "id": 2,
+      "steps": 2,
+      "defence": 10,
+      "battle_background": "woods",
+      "battle_foreground": "grass"
+    },
+    {
+      "id": 3,
+      "steps": 2,
+      "defence": 10,
+      "battle_background": "hill",
+      "battle_foreground": "grass"
+    },
+    {
+      "id": 4,
+      "steps": 3,
+      "defence": 15,
+      "battle_background": "mountain",
+      "battle_foreground": "mountain"
+    },
+    {
+      "id": 5,
+      "steps": 3,
+      "defence": 0,
+      "battle_background": "water",
+      "battle_foreground": "water"
+    },
+    {
+      "id": 6,
+      "steps": 1,
+      "defence": 5,
+      "battle_background": "bridge",
+      "battle_foreground": "bridge"
+    },
+    {
+      "id": 7,
+      "steps": 1,
+      "defence": 15,
+      "battle_background": "town",
+      "battle_foreground": "town"
+    },
+    {
+      "id": 8,
+      "steps": 1,
+      "defence": 15,
+      "battle_background": "town",
+      "battle_foreground": "town"
+    },
+    {
+      "id": 9,
+      "steps": 1,
+      "defence": 15,
+      "battle_background": "town",
+      "battle_foreground": "town"
+    },
+    {
+      "id": 10,
+      "steps": 3,
+      "defence": -15,
+      "battle_background": "lava",
+      "battle_foreground": "lava"
+    }
+  ],
+  "tiles": [
+    {
+      "id": 0,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_00.png"
+    },
+    {
+      "id": 1,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_01.png"
+    },
+    {
+      "id": 2,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_02.png"
+    },
+    {
+      "id": 3,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_03.png"
+    },
+    {
+      "id": 4,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_04.png"
+    },
+    {
+      "id": 5,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_05.png"
+    },
+    {
+      "id": 6,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_06.png"
+    },
+    {
+      "id": 7,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_07.png"
+    },
+    {
+      "id": 8,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_08.png"
+    },
+    {
+      "id": 9,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_09.png"
+    },
+    {
+      "id": 10,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_10.png"
+    },
+    {
+      "id": 11,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_11.png"
+    },
+    {
+      "id": 12,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_12.png"
+    },
+    {
+      "id": 13,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_13.png"
+    },
+    {
+      "id": 14,
+      "terrain": 5,
+      "minimap_frame": 5,
+      "image": "res/tiles0_14.png"
+    },
+    {
+      "id": 15,
+      "terrain": 2,
+      "minimap_frame": 2,
+      "image": "res/tiles0_15.png"
+    },
+    {
+      "id": 16,
+      "terrain": 2,
+      "minimap_frame": 2,
+      "image": "res/tiles0_16.png"
+    },
+    {
+      "id": 17,
+      "terrain": 4,
+      "minimap_frame": 4,
+      "image": "res/tiles0_17.png"
+    },
+    {
+      "id": 18,
+      "terrain": 1,
+      "minimap_frame": 1,
+      "image": "res/tiles0_18.png"
+    },
+    {
+      "id": 19,
+      "terrain": 3,
+      "minimap_frame": 3,
+      "image": "res/tiles0_19.png"
+    },
+    {
+      "id": 20,
+      "terrain": 0,
+      "minimap_frame": 0,
+      "image": "res/tiles0_20.png"
+    },
+    {
+      "id": 21,
+      "terrain": 0,
+      "minimap_frame": 0,
+      "image": "res/tiles0_21.png"
+    },
+    {
+      "id": 22,
+      "terrain": 0,
+      "minimap_frame": 0,
+      "image": "res/tiles0_22.png"
+    },
+    {
+      "id": 23,
+      "terrain": 0,
+      "minimap_frame": 0,
+      "image": "res/tiles0_23.png"
+    },
+    {
+      "id": 24,
+      "terrain": 0,
+      "minimap_frame": 0,
+      "image": "res/tiles0_24.png"
+    },
+    {
+      "id": 25,
+      "terrain": 0,
+      "minimap_frame": 0,
+      "image": "res/tiles0_25.png"
+    },
+    {
+      "id": 26,
+      "terrain": 0,
+      "minimap_frame": 0,
+      "image": "res/tiles0_26.png"
+    },
+    {
+      "id": 27,
+      "terrain": 8,
+      "minimap_frame": 8,
+      "image": "res/tiles0_27.png"
+    },
+    {
+      "id": 28,
+      "terrain": 0,
+      "minimap_frame": 0,
+      "image": "res/tiles0_28.png"
+    },
+    {
+      "id": 29,
+      "terrain": 6,
+      "minimap_frame": 6,
+      "image": "res/tiles0_29.png"
+    },
+    {
+      "id": 30,
+      "terrain": 6,
+      "minimap_frame": 6,
+      "image": "res/tiles0_30.png"
+    },
+    {
+      "id": 31,
+      "terrain": 7,
+      "minimap_frame": 7,
+      "image": "res/tiles0_31.png"
+    },
+    {
+      "id": 32,
+      "terrain": 7,
+      "minimap_frame": 7,
+      "image": "res/tiles0_32.png"
+    },
+    {
+      "id": 33,
+      "terrain": 3,
+      "minimap_frame": 3,
+      "image": "res/tiles0_33.png"
+    },
+    {
+      "id": 34,
+      "terrain": 7,
+      "minimap_frame": 7,
+      "image": "res/tiles0_34.png"
+    },
+    {
+      "id": 35,
+      "terrain": 3,
+      "minimap_frame": 3,
+      "image": "res/tiles0_35.png"
+    },
+    {
+      "id": 36,
+      "terrain": 3,
+      "minimap_frame": 3,
+      "image": "res/tiles0_36.png"
+    },
+    {
+      "id": 37,
+      "terrain": 8,
+      "minimap_frame": 8,
+      "image": "res/tiles0_37.png"
+    },
+    {
+      "id": 38,
+      "terrain": 9,
+      "minimap_frame": 9,
+      "image": "res/tiles0_38.png"
+    },
+    {
+      "id": 39,
+      "terrain": 8,
+      "minimap_frame": 10,
+      "image": "res/tiles0_39.png"
+    },
+    {
+      "id": 40,
+      "terrain": 9,
+      "minimap_frame": 11,
+      "image": "res/tiles0_40.png"
+    },
+    {
+      "id": 41,
+      "terrain": 8,
+      "minimap_frame": 12,
+      "image": "res/tiles0_41.png"
+    },
+    {
+      "id": 42,
+      "terrain": 9,
+      "minimap_frame": 13,
+      "image": "res/tiles0_42.png"
+    },
+    {
+      "id": 43,
+      "terrain": 8,
+      "minimap_frame": 14,
+      "image": "res/tiles0_43.png"
+    },
+    {
+      "id": 44,
+      "terrain": 9,
+      "minimap_frame": 15,
+      "image": "res/tiles0_44.png"
+    },
+    {
+      "id": 45,
+      "terrain": 8,
+      "minimap_frame": 16,
+      "image": "res/tiles0_45.png"
+    },
+    {
+      "id": 46,
+      "terrain": 9,
+      "minimap_frame": 17,
+      "image": "res/tiles0_46.png"
+    },
+    {
+      "id": 47,
+      "terrain": 10,
+      "minimap_frame": 4,
+      "image": "res/tiles0_47.png"
+    }
+  ]
+}

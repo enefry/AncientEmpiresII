@@ -1,0 +1,91 @@
+public final class a.a.a.a {
+  private static int a;
+    descriptor: I
+
+  public a.a.a.a();
+    descriptor: ()V
+    Code:
+         0: aload_0
+         1: invokespecial #20                 // Method java/lang/Object."<init>":()V
+         4: return
+
+  static int a();
+    descriptor: ()I
+    Code:
+         0: getstatic     #13                 // Field a:I
+         3: ifge          70
+         6: ldc           #4                  // String javax.microedition.io.file.FileConnection
+         8: invokestatic  #15                 // Method a:(Ljava/lang/String;)Z
+        11: ifeq          21
+        14: iconst_1
+        15: putstatic     #13                 // Field a:I
+        18: goto          70
+        21: ldc           #3                  // String com.siemens.mp.io.file.FileConnection
+        23: invokestatic  #15                 // Method a:(Ljava/lang/String;)Z
+        26: ifeq          36
+        29: iconst_2
+        30: putstatic     #13                 // Field a:I
+        33: goto          70
+        36: ldc           #1                  // String com.motorola.io.FileConnection
+        38: invokestatic  #15                 // Method a:(Ljava/lang/String;)Z
+        41: ifeq          51
+        44: iconst_3
+        45: putstatic     #13                 // Field a:I
+        48: goto          70
+        51: ldc           #2                  // String com.motorola.io.file.FileConnection
+        53: invokestatic  #15                 // Method a:(Ljava/lang/String;)Z
+        56: ifeq          66
+        59: iconst_4
+        60: putstatic     #13                 // Field a:I
+        63: goto          70
+        66: iconst_0
+        67: putstatic     #13                 // Field a:I
+        70: getstatic     #13                 // Field a:I
+        73: ireturn
+
+  private static boolean a(java.lang.String);
+    descriptor: (Ljava/lang/String;)Z
+    Code:
+         0: aload_0
+         1: invokestatic  #19                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+         4: ifnull        9
+         7: iconst_1
+         8: ireturn
+         9: iconst_0
+        10: ireturn
+        11: pop
+        12: iconst_0
+        13: ireturn
+      Exception table:
+         from    to  target type
+             0    10    11   Class java/lang/Throwable
+
+  public static java.util.Enumeration a();
+    descriptor: ()Ljava/util/Enumeration;
+    Code:
+         0: invokestatic  #14                 // Method a:()I
+         3: tableswitch   { // 1 to 4
+                       1: 32
+                       2: 36
+                       3: 40
+                       4: 44
+                 default: 48
+            }
+        32: invokestatic  #21                 // Method javax/microedition/io/file/FileSystemRegistry.listRoots:()Ljava/util/Enumeration;
+        35: areturn
+        36: invokestatic  #18                 // Method com/siemens/mp/io/file/FileSystemRegistry.listRoots:()Ljava/util/Enumeration;
+        39: areturn
+        40: invokestatic  #16                 // Method com/motorola/io/FileSystemRegistry.listRoots:()Ljava/util/Enumeration;
+        43: areturn
+        44: invokestatic  #17                 // Method com/motorola/io/file/FileSystemRegistry.listRoots:()Ljava/util/Enumeration;
+        47: areturn
+        48: aconst_null
+        49: areturn
+
+  static {};
+    descriptor: ()V
+    Code:
+         0: iconst_m1
+         1: putstatic     #13                 // Field a:I
+         4: return
+}

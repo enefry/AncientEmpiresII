@@ -1,0 +1,52 @@
+{
+  "shared": "Faithful identity-preserving remaster of ONE Ancient Empires II MAP UNIT. Reference image 1 shows original units in four team rows; use ONLY the specified unit in its FIRST BLUE ROW. Reference image 2 is the APPROVED clean archer, use its crisp continuous ink contours, compact cel shading and readable small-sprite finish ONLY, do not copy its costume. Output one isolated full-body sprite with real transparent background, 8% margin, same pose, silhouette, facing, proportions, equipment and limited palette as the specified original unit. Smooth precise vector-like curves, dark outline, large readable color blocks, NOT enlarged pixel art. No square pixel stairs, no blur, no painterly texture, no photorealism or 3D, no added ornament or weapon, no labels, no terrain or UI. Keep non-team materials warm/neutral gray, bone, wood, skin; reserve saturated BLUE strictly for original team regions for mask recoloring. ",
+  "units": [
+    {
+      "key": "soldier",
+      "text": "Target FIRST character from left in the blue row: SOLDIER. Small stocky blonde swordsman with large golden swept hair/cap silhouette and exposed ochre face with two simple dark eyes, silver-gray plate armor and shoulder guards, blue cloth details. One short straight silver sword extends diagonally DOWN LEFT in viewer-left hand. Small upright shield at viewer right has pale gold rim and vivid blue inset. Wide stubby dark boots. EXACT original blond head shape, original short broad body; no closed knight helmet, no feather, no beard, no realistic anatomy."
+    },
+    {
+      "key": "lizard",
+      "superseded_by": "identity-corrections.json: lizard (WATER ELEMENTAL)",
+      "text": "Target THIRD character from left in blue row: LIZARD. An upright small blue reptile with a large rounded snout facing LEFT, tiny fierce white eye, small dark nostril, pale icy belly from chin to feet, short tucked forearms, a curled tail going to the RIGHT, blue rear dorsal shapes and small feet resting above its pale blue oval water-like footing. Keep the characteristic upright S silhouette and head-to-body proportions. Team color covers blue scales; pale belly and white eye remain neutral. No weapons, clothing, horns or wings."
+    },
+    {
+      "key": "wizard",
+      "text": "Target FOURTH character from left in blue row: WIZARD. Compact big-headed human in original BROWN rounded pointed hood/hair silhouette, dark face opening with ochre face and two small dark eyes, BLUE robe/collar/skirt, brown sleeves and tan boots. Small raised hand at viewer left holding the original tiny red-orange magical glow; the other arm extends to viewer right. Match the hunched three-quarter stance and broad brown hood shape precisely. No long beard, no tall wizard hat, no staff, no bow, no new ornaments."
+    },
+    {
+      "key": "wisp",
+      "superseded_by": "identity-corrections.json: wisp (LIGHT SPIRIT)",
+      "text": "Target FIFTH unit in first blue row: WISP. This is an abstract floating bright WHITE magical energy core, not a person or animal. Keep the irregular almost circular eight-lobed white star/cloud center, BLUE segmented thick luminous perimeter with darker blue lower rim, small pale blue upper highlights, tiny dark oval grounding shadow beneath. Pure white center MUST stay white and only blue rim changes team color. Match the original map wisp silhouette with slightly pointed lobes. No face, eyes, limbs, clothing or symbols, no soft halo or blurred glow."
+    },
+    {
+      "key": "spider",
+      "superseded_by": "identity-corrections.json: spider (DIRE WOLF)",
+      "text": "Target SIXTH unit in first blue row: SPIDER. Low wide crouching blue monster facing LEFT, compact dark blue segmented body and long splayed angular blue legs, large pale silver-white fangs protrude to left below a small reddish orange eye. Preserve original wide squat spider silhouette and exact splayed legs, pale gray mouth, dark outline, blue chitin team areas. No humanoid elements, no bow, no wings, no cute round eyes. All legs included, profile three-quarter view as original."
+    },
+    {
+      "key": "golem",
+      "text": "Target SEVENTH unit in blue row: GOLEM. Nearly spherical ORANGE lava/rock creature with a central horizontal BLUE oval face/core window, a dark blue slit inside it, faceted warm golden orange rock surface with simple orange red polygon patches, small irregular orange knobs around the circumference and two tiny dark feet/shadow below. Keep round compact silhouette. Only the blue central window is team color; all surrounding orange rock stays orange. NOT a humanoid stone giant; no large arms, no clothing, no face outside blue oval."
+    },
+    {
+      "key": "catapult",
+      "text": "Target EIGHTH unit in first blue row: CATAPULT. Preserve the low squat diagonally oriented wooden siege cart pointing to lower LEFT. Golden-brown wooden frame, two visible small dark brown wheels on right side, large pale gray metal plate at left/front, BLUE cloth/panel in the central bed, a thick throwing beam rising toward UPPER RIGHT ending in a gray round stone/scoop. Same compact isometric view, same broad low silhouette and original arrangement. Only the central BLUE panel is team color. Metal neutral gray, wood brown. No character riding it, no cannon barrel, no arrows, no extra wheels, no ornate machinery."
+    },
+    {
+      "key": "wyvern",
+      "text": "Target NINTH unit in first blue row: WYVERN/DRAGON. The original upright small blue winged dragon with a long orange-brown horned snout facing LEFT, BLUE slender neck and body, two raised bat-like BLUE wings with tan brown membranes, short clawed legs, curved tail hooking to RIGHT. Reproduce the original orange horns/head accents and blue outline of wings, same tightly packed upright silhouette and original standing pose. No human rider, no saddle, no weapon, no large new horns, no horizontal flying pose. Tan membranes remain tan; blue scales and wing edges are team regions."
+    },
+    {
+      "key": "king",
+      "text": "Target TENTH unit in first blue row: KING, but output ONLY THE ARMOR BODY COMPONENT, completely omit the head and hair because an existing game layer supplies four interchangeable heads. Headless game sprite component is intentional. Reproduce the original small squat silver-armored body from just BELOW the chin: pale gray broad pauldrons, silver breastplate, small blue cloth edges, short straight silver sword angled DOWN LEFT held on viewer left, upright small shield on viewer RIGHT with golden rim and blue inset, two broad short dark boots in a wide stance. Body component must be short and wide, about 23:15 aspect ratio, same original proportions. Neck socket at top center must be tiny and dark and fit underneath an overlaid head. No head, face, hair, crown, helmet, floating objects, severed tissue or labels. Entire body isolated transparent."
+    },
+    {
+      "key": "skeleton",
+      "text": "Target ELEVENTH unit in first blue row: SKELETON. Compact hunching beige-gray skeleton fighter with a large skull facing LEFT and a small RED glowing eye, gray metal dome/pauldron on upper RIGHT of skull, bent beige bony left arm projecting LEFT holding small neutral-gray weapon/bone, right arm bearing small round shield with gold rim and BLUE inset on viewer right. Dark rib cage/torso, small bent bony legs and broad dark feet. Match the original hunched slightly asymmetrical skull, pose, equipment and bone proportions exactly. No living human face, no blue hood, no extra armor, no giant sword. Only shield inset is saturated blue; bones warm ivory, metal neutral gray."
+    },
+    {
+      "key": "crystall",
+      "text": "Target TWELFTH and last unit in the blue row: CRYSTAL. Floating pointed tall MAGENTA/PINK elongated faceted gem, broad middle, tall sharp triangular apex, pointed lower end, strong dark magenta outer edges, bright pale pink upper-left facet and deep pink central lower facets, small dark grounding diamond/oval shadow beneath. Preserve exact original symmetrical angular crystal geometry and proportions. This asset NEVER changes team color: all colors stay pink in every army. No blue, no text, no rune, no pedestal, no extra shards, no aura, no sparkle clouds, no softened rounded crystal corners. Clean geometric edges."
+    }
+  ]
+}

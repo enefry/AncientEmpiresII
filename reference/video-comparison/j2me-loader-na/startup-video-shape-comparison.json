@@ -1,0 +1,415 @@
+{
+  "method": "Thresholded title foreground overlap against existing JAR-derived reference frames; not pixel equality or complete UIKit validation",
+  "crop_xywh": [
+    0,
+    0,
+    720,
+    255
+  ],
+  "resampled_wh": [
+    240,
+    85
+  ],
+  "excluded_left_columns": 4,
+  "threshold": 55,
+  "sample_fps": 30,
+  "matched_progress_count": 32,
+  "matched_progress_range": [
+    5,
+    39
+  ],
+  "estimated_ms_per_progress": 64.921,
+  "median_foreground_iou": 0.7802,
+  "frames": [
+    {
+      "time_seconds": 0.0,
+      "progress": 5,
+      "foreground_iou": 0.8287
+    },
+    {
+      "time_seconds": 0.0333,
+      "progress": 5,
+      "foreground_iou": 0.8331
+    },
+    {
+      "time_seconds": 0.0667,
+      "progress": 6,
+      "foreground_iou": 0.7463
+    },
+    {
+      "time_seconds": 0.1,
+      "progress": 7,
+      "foreground_iou": 0.8245
+    },
+    {
+      "time_seconds": 0.1333,
+      "progress": 7,
+      "foreground_iou": 0.8245
+    },
+    {
+      "time_seconds": 0.1667,
+      "progress": 8,
+      "foreground_iou": 0.7411
+    },
+    {
+      "time_seconds": 0.2,
+      "progress": 8,
+      "foreground_iou": 0.7411
+    },
+    {
+      "time_seconds": 0.2333,
+      "progress": 8,
+      "foreground_iou": 0.7411
+    },
+    {
+      "time_seconds": 0.2667,
+      "progress": 8,
+      "foreground_iou": 0.7411
+    },
+    {
+      "time_seconds": 0.3,
+      "progress": 10,
+      "foreground_iou": 0.7657
+    },
+    {
+      "time_seconds": 0.3333,
+      "progress": 10,
+      "foreground_iou": 0.7652
+    },
+    {
+      "time_seconds": 0.3667,
+      "progress": 11,
+      "foreground_iou": 0.824
+    },
+    {
+      "time_seconds": 0.4,
+      "progress": 11,
+      "foreground_iou": 0.824
+    },
+    {
+      "time_seconds": 0.4333,
+      "progress": 12,
+      "foreground_iou": 0.7577
+    },
+    {
+      "time_seconds": 0.4667,
+      "progress": 12,
+      "foreground_iou": 0.7577
+    },
+    {
+      "time_seconds": 0.5,
+      "progress": 13,
+      "foreground_iou": 0.8285
+    },
+    {
+      "time_seconds": 0.5333,
+      "progress": 13,
+      "foreground_iou": 0.828
+    },
+    {
+      "time_seconds": 0.5667,
+      "progress": 14,
+      "foreground_iou": 0.7475
+    },
+    {
+      "time_seconds": 0.6,
+      "progress": 14,
+      "foreground_iou": 0.7475
+    },
+    {
+      "time_seconds": 0.6333,
+      "progress": 15,
+      "foreground_iou": 0.855
+    },
+    {
+      "time_seconds": 0.6667,
+      "progress": 15,
+      "foreground_iou": 0.855
+    },
+    {
+      "time_seconds": 0.7,
+      "progress": 16,
+      "foreground_iou": 0.7536
+    },
+    {
+      "time_seconds": 0.7333,
+      "progress": 16,
+      "foreground_iou": 0.7536
+    },
+    {
+      "time_seconds": 0.7667,
+      "progress": 17,
+      "foreground_iou": 0.8623
+    },
+    {
+      "time_seconds": 0.8,
+      "progress": 17,
+      "foreground_iou": 0.8619
+    },
+    {
+      "time_seconds": 0.8333,
+      "progress": 18,
+      "foreground_iou": 0.7238
+    },
+    {
+      "time_seconds": 0.8667,
+      "progress": 18,
+      "foreground_iou": 0.7233
+    },
+    {
+      "time_seconds": 0.9,
+      "progress": 19,
+      "foreground_iou": 0.8698
+    },
+    {
+      "time_seconds": 0.9333,
+      "progress": 19,
+      "foreground_iou": 0.8698
+    },
+    {
+      "time_seconds": 0.9667,
+      "progress": 20,
+      "foreground_iou": 0.7257
+    },
+    {
+      "time_seconds": 1.0,
+      "progress": 20,
+      "foreground_iou": 0.7278
+    },
+    {
+      "time_seconds": 1.0333,
+      "progress": 21,
+      "foreground_iou": 0.8631
+    },
+    {
+      "time_seconds": 1.0667,
+      "progress": 22,
+      "foreground_iou": 0.7274
+    },
+    {
+      "time_seconds": 1.1,
+      "progress": 22,
+      "foreground_iou": 0.729
+    },
+    {
+      "time_seconds": 1.1333,
+      "progress": 23,
+      "foreground_iou": 0.8735
+    },
+    {
+      "time_seconds": 1.1667,
+      "progress": 23,
+      "foreground_iou": 0.8735
+    },
+    {
+      "time_seconds": 1.2,
+      "progress": 24,
+      "foreground_iou": 0.7492
+    },
+    {
+      "time_seconds": 1.2333,
+      "progress": 24,
+      "foreground_iou": 0.7492
+    },
+    {
+      "time_seconds": 1.2667,
+      "progress": 25,
+      "foreground_iou": 0.866
+    },
+    {
+      "time_seconds": 1.3,
+      "progress": 25,
+      "foreground_iou": 0.866
+    },
+    {
+      "time_seconds": 1.3333,
+      "progress": 25,
+      "foreground_iou": 0.866
+    },
+    {
+      "time_seconds": 1.3667,
+      "progress": 25,
+      "foreground_iou": 0.866
+    },
+    {
+      "time_seconds": 1.4,
+      "progress": 27,
+      "foreground_iou": 0.8442
+    },
+    {
+      "time_seconds": 1.4333,
+      "progress": 27,
+      "foreground_iou": 0.8439
+    },
+    {
+      "time_seconds": 1.4667,
+      "progress": 28,
+      "foreground_iou": 0.7387
+    },
+    {
+      "time_seconds": 1.5,
+      "progress": 28,
+      "foreground_iou": 0.7383
+    },
+    {
+      "time_seconds": 1.5333,
+      "progress": 29,
+      "foreground_iou": 0.8563
+    },
+    {
+      "time_seconds": 1.5667,
+      "progress": 29,
+      "foreground_iou": 0.8563
+    },
+    {
+      "time_seconds": 1.6,
+      "progress": 30,
+      "foreground_iou": 0.7802
+    },
+    {
+      "time_seconds": 1.6333,
+      "progress": 30,
+      "foreground_iou": 0.7802
+    },
+    {
+      "time_seconds": 1.6667,
+      "progress": 30,
+      "foreground_iou": 0.7802
+    },
+    {
+      "time_seconds": 1.7,
+      "progress": 30,
+      "foreground_iou": 0.7802
+    },
+    {
+      "time_seconds": 1.7333,
+      "progress": 32,
+      "foreground_iou": 0.7711
+    },
+    {
+      "time_seconds": 1.7667,
+      "progress": 32,
+      "foreground_iou": 0.7711
+    },
+    {
+      "time_seconds": 1.8,
+      "progress": 33,
+      "foreground_iou": 0.8723
+    },
+    {
+      "time_seconds": 1.8333,
+      "progress": 33,
+      "foreground_iou": 0.8732
+    },
+    {
+      "time_seconds": 1.8667,
+      "progress": 34,
+      "foreground_iou": 0.7554
+    },
+    {
+      "time_seconds": 1.9,
+      "progress": 34,
+      "foreground_iou": 0.7554
+    },
+    {
+      "time_seconds": 1.9333,
+      "progress": 35,
+      "foreground_iou": 0.8654
+    },
+    {
+      "time_seconds": 1.9667,
+      "progress": 35,
+      "foreground_iou": 0.8658
+    },
+    {
+      "time_seconds": 2.0,
+      "progress": 36,
+      "foreground_iou": 0.7283
+    },
+    {
+      "time_seconds": 2.0333,
+      "progress": 36,
+      "foreground_iou": 0.7283
+    },
+    {
+      "time_seconds": 2.0667,
+      "progress": 37,
+      "foreground_iou": 0.8742
+    },
+    {
+      "time_seconds": 2.1,
+      "progress": 37,
+      "foreground_iou": 0.8742
+    },
+    {
+      "time_seconds": 2.1333,
+      "progress": 38,
+      "foreground_iou": 0.7364
+    },
+    {
+      "time_seconds": 2.1667,
+      "progress": 38,
+      "foreground_iou": 0.7364
+    },
+    {
+      "time_seconds": 2.2,
+      "progress": 39,
+      "foreground_iou": 0.8921
+    },
+    {
+      "time_seconds": 2.2333,
+      "progress": 39,
+      "foreground_iou": 0.8912
+    },
+    {
+      "time_seconds": 2.2667,
+      "progress": 40,
+      "foreground_iou": 0.8917
+    },
+    {
+      "time_seconds": 2.3,
+      "progress": 40,
+      "foreground_iou": 0.8917
+    },
+    {
+      "time_seconds": 2.3333,
+      "progress": 40,
+      "foreground_iou": 0.8921
+    },
+    {
+      "time_seconds": 2.3667,
+      "progress": 40,
+      "foreground_iou": 0.8921
+    },
+    {
+      "time_seconds": 2.4,
+      "progress": 40,
+      "foreground_iou": 0.8921
+    },
+    {
+      "time_seconds": 2.4333,
+      "progress": 40,
+      "foreground_iou": 0.8921
+    },
+    {
+      "time_seconds": 2.4667,
+      "progress": 40,
+      "foreground_iou": 0.8921
+    },
+    {
+      "time_seconds": 2.5,
+      "progress": 40,
+      "foreground_iou": 0.8921
+    },
+    {
+      "time_seconds": 2.5333,
+      "progress": 40,
+      "foreground_iou": 0.8921
+    },
+    {
+      "time_seconds": 2.5667,
+      "progress": 40,
+      "foreground_iou": 0.8921
+    }
+  ]
+}

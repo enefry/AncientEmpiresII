@@ -1,0 +1,1629 @@
+[
+  {
+    "mission": 0,
+    "state": 0,
+    "source_line": 8313,
+    "code": "case 0:\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 1,
+    "source_line": 8316,
+    "code": "case 1:\n\tPaintableObject.currentRenderer.setCurrentDisplayable(auxMapNameMessage);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 2,
+    "source_line": 8321,
+    "code": "case 2:\n\tupdateAlphaDrap = true;\n\tgetUnit(0, 8, (byte)0).plotRoute(3, 8, false);\n\tgetUnit(1, 9, (byte)0).plotRoute(4, 9, false);\n\tgetUnit(0, 10, (byte)0).plotRoute(3, 10, false);\n\tmoveMapAndCursor(5, 9);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 3,
+    "source_line": 8328,
+    "code": "case 3:\n\tmoveMapAndCursor(9, 3);\n\tdrawCursorFlag = true;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 4,
+    "source_line": 8332,
+    "code": "case 4:\n\tsetScriptDelay(10);\n\tmapStepMax = 12;\n\tUnit.speed = Unit.UNIT_SPEED_SLOW;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 5,
+    "source_line": 8338,
+    "code": "case 5:\n\tcreateDialogScreen(PaintableObject.getLocaleString(221), (byte)2, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      221
+    ]
+  },
+  {
+    "mission": 0,
+    "state": 6,
+    "source_line": 8343,
+    "code": "case 6:\n\tUnit var12 = getUnit(9, 3, (byte)0);\n\tRenderer.vibrate(100);\n\tvar12.scheduleIdleAnimationStop(400);\n\tcreateSimpleSparkSprite(sprRedSpark, var12.currentX, var12.currentY, 0, 0, 2, 50);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 7,
+    "source_line": 8351,
+    "code": "case 7:\n\tcreateDialogScreen(PaintableObject.getLocaleString(222), (byte)2, (byte)4);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      222
+    ]
+  },
+  {
+    "mission": 0,
+    "state": 8,
+    "source_line": 8355,
+    "code": "case 8:\n\tvar11 = getUnit(9, 3, (byte)0);\n\tcreateSimpleSparkSprite(sprSpark, var11.currentX, var11.currentY, 0, 0, 1, 50);\n\tcreateSimpleSparkSprite(sprSmoke, var11.currentX, var11.currentY, 0, -3, 1, 100);\n\tvar11.removeThisUnit();\n\tsetScriptDelay(20);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 9,
+    "source_line": 8363,
+    "code": "case 9:\n\tdrawCursorFlag = false;\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 10,
+    "source_line": 8367,
+    "code": "case 10:\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 11,
+    "source_line": 8371,
+    "code": "case 11:\n\tcreateDialogScreen(PaintableObject.getLocaleString(223), (byte)0, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      223
+    ]
+  },
+  {
+    "mission": 0,
+    "state": 12,
+    "source_line": 8376,
+    "code": "case 12:\n\tcreateDialogScreen(PaintableObject.getLocaleString(224), (byte)5, (byte)4);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      224
+    ]
+  },
+  {
+    "mission": 0,
+    "state": 13,
+    "source_line": 8380,
+    "code": "case 13:\n\tstartNormalPlay();\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 14,
+    "source_line": 8384,
+    "code": "case 14:\n\tif(statusBarOffset == 0)\n\t{\n\t\tcurrentHelp = 0;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 15,
+    "source_line": 8391,
+    "code": "case 15:\n\tif(currentTurningPlayer == 0 && gameState == 1 && alphaWindowSize == 0)\n\t{\n\t\tcurrentHelp = 1;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 16,
+    "source_line": 8398,
+    "code": "case 16:\n\tif(currentTurningPlayer == 0 && lastFinishedMoveUnit != null)\n\t{\n\t\tcurrentHelp = 2;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 17,
+    "source_line": 8405,
+    "code": "case 17:\n\tif(currentTurningPlayer == 0 && lastFinishedMoveUnit != null)\n\t{\n\t\tcurrentHelp = 3;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 18,
+    "source_line": 8412,
+    "code": "case 18:\n\tif(countUnits(-1, 2, (byte)0) >= 3)\n\t{\n\t\tcurrentHelp = 4;\n\t\t++scriptState;\n\t}\n\telse if(currentTurn >= 1)\n\t{\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 19,
+    "source_line": 8423,
+    "code": "case 19:\n\tif(currentTurn >= 2)\n\t{\n\t\tcurrentHelp = 5;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 20,
+    "source_line": 8430,
+    "code": "case 20:\n\tcurrentHelp = 6;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 21,
+    "source_line": 8434,
+    "code": "case 21:\n\tif(gameState == 1 && currentTurningPlayer == 0)\n\t{\n\t\tcurrentHelp = 7;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 22,
+    "source_line": 8441,
+    "code": "case 22:\n\tif(countUnits(-1, -1, (byte)1) == 0)\n\t{\n\t\tactiveFlag = false;\n\t\tsetScriptDelay(20);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 23,
+    "source_line": 8449,
+    "code": "case 23:\n\tmoveMapAndCursor(1, 1);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 24,
+    "source_line": 8452,
+    "code": "case 24:\n\tUnit.createUnit((byte)1, (byte)1, 1, 1).plotRouteEx(1, 2, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 25,
+    "source_line": 8457,
+    "code": "case 25:\n\tmoveMapAndCursor(10, 10);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 26,
+    "source_line": 8460,
+    "code": "case 26:\n\tUnit.createUnit((byte)0, (byte)1, 10, 10).plotRouteEx(10, 9, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 27,
+    "source_line": 8465,
+    "code": "case 27:\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 28,
+    "source_line": 8468,
+    "code": "case 28:\n\tcreateDialogScreen(PaintableObject.getLocaleString(225), (byte)5, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      225
+    ]
+  },
+  {
+    "mission": 0,
+    "state": 29,
+    "source_line": 8473,
+    "code": "case 29:\n\tcreateDialogScreen(PaintableObject.getLocaleString(226), (byte)0, (byte)4);\n\tactiveFlag = true;\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      226
+    ]
+  },
+  {
+    "mission": 0,
+    "state": 30,
+    "source_line": 8478,
+    "code": "case 30:\n\tif(countUnits(-1, -1, (byte)1) == 0 && gameState == 0)\n\t{\n\t\tactiveFlag = false;\n\t\tdrawCursorFlag = false;\n\t\tsetScriptDelay(30);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 31,
+    "source_line": 8487,
+    "code": "case 31:\n\tdrawAlphaDrap = true;\n\tdrapAlphaValue = 0;\n\tsetScriptDelay(20);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 0,
+    "state": 32,
+    "source_line": 8493,
+    "code": "case 32:\n\tcreateDialogScreen(PaintableObject.getLocaleString(227), (byte)2, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      227
+    ]
+  },
+  {
+    "mission": 0,
+    "state": 33,
+    "source_line": 8498,
+    "code": "case 33:\n\tcreateDialogScreen(PaintableObject.getLocaleString(228), (byte)0, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      228
+    ]
+  },
+  {
+    "mission": 0,
+    "state": 34,
+    "source_line": 8503,
+    "code": "case 34:\n\tcreateDialogScreen(PaintableObject.getLocaleString(229), (byte)2, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      229
+    ]
+  },
+  {
+    "mission": 0,
+    "state": 35,
+    "source_line": 8508,
+    "code": "case 35:\n\tcreateDialogScreen(PaintableObject.getLocaleString(230), (byte)0, (byte)4);\n\tsetScriptDelay(15);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      230
+    ]
+  },
+  {
+    "mission": 0,
+    "state": 36,
+    "source_line": 8513,
+    "code": "case 36:\n\tcompleteMission();\n",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 1,
+    "source_line": 8521,
+    "code": "case 1:\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 2,
+    "source_line": 8525,
+    "code": "case 2:\n\tmapStepMax = 4;\n\tmoveMapAndCursor(12, 3);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 3,
+    "source_line": 8529,
+    "code": "case 3:\n\tcreateDialogScreen(PaintableObject.getLocaleString(231), (byte)1, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      231
+    ]
+  },
+  {
+    "mission": 1,
+    "state": 4,
+    "source_line": 8534,
+    "code": "case 4:\n\tcreateDialogScreen(PaintableObject.getLocaleString(232), (byte)3, (byte)4);\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": [
+      232
+    ]
+  },
+  {
+    "mission": 1,
+    "state": 5,
+    "source_line": 8538,
+    "code": "case 5:\n\tcreateDialogScreen(PaintableObject.getLocaleString(233), (byte)5, (byte)4);\n\tmoveMapAndCursor(7, 3);\n\tbreak;",
+    "text_ids": [
+      233
+    ]
+  },
+  {
+    "mission": 1,
+    "state": 6,
+    "source_line": 8542,
+    "code": "case 6:\n\tUnit.speed = 2;\n\n\tcrystallEscortLeader = Unit.createUnit((byte)0, (byte)1, 7, 3);\n\tcrystallEscortCrystall = Unit.createUnit((byte)11, (byte)1, 7, 3);\n\tcrystallEscortFollower = Unit.createUnit((byte)0, (byte)1, 7, 3);\n\n\tcrystallEscortLeader.followerUnit = crystallEscortCrystall;\n\tcrystallEscortCrystall.followerUnit = crystallEscortFollower;\n\n\tcrystallEscortLeader.plotRoute(6, -2, false);\n\n\tsetScriptDelay(30);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 7,
+    "source_line": 8557,
+    "code": "case 7:\n\tif(crystallEscortFollower.currentMapPosX == 6 && crystallEscortFollower.currentMapPosY == 1)\n\t{\n\t\tUnit.speed = 4;\n\t\ttempleWarrior = Unit.createUnit((byte)0, (byte)0, 7, 3);\n\t\ttempleWarrior.plotRoute(6, 2, false);\n\t\tcrystallEscortCrystall.followerUnit = null;\n\t\tcreateDialogScreen(PaintableObject.getLocaleString(234), (byte)2, (byte)4);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": [
+      234
+    ]
+  },
+  {
+    "mission": 1,
+    "state": 8,
+    "source_line": 8568,
+    "code": "case 8:\n\tif(templeWarrior.unitState != 1)\n\t{\n\t\tRenderer.vibrate(100);\n\t\ttempleWarrior.scheduleIdleAnimationStop(400);\n\t\tcreateSimpleSparkSprite(sprRedSpark, templeWarrior.currentX, templeWarrior.currentY, 0, 0, 2, 50);\n\t\tsetScriptDelay(10);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 9,
+    "source_line": 8578,
+    "code": "case 9:\n\tcreateDialogScreen(PaintableObject.getLocaleString(235), (byte)2, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      235
+    ]
+  },
+  {
+    "mission": 1,
+    "state": 10,
+    "source_line": 8583,
+    "code": "case 10:\n\tcreateSimpleSparkSprite(sprSmoke, templeWarrior.currentX, templeWarrior.currentY, 0, -3, 1, 100);\n\tcreateSimpleSparkSprite(sprSpark, templeWarrior.currentX, templeWarrior.currentY, 0, 0, 1, 50);\n\ttempleWarrior.removeThisUnit();\n\ttempleWarrior = null;\n\tsetScriptDelay(15);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 11,
+    "source_line": 8591,
+    "code": "case 11:\n\tUnit.speed = Unit.UNIT_SPEED_SLOW;\n\tcrystallEscortLeader.removeThisUnit();\n\tcrystallEscortCrystall.removeThisUnit();\n\tcrystallEscortLeader = null;\n\tcrystallEscortCrystall = null;\n\tcrystallEscortFollower = null;\n\tmapStepMax = 12;\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 12,
+    "source_line": 8601,
+    "code": "case 12:\n\tcreateDialogScreen(PaintableObject.getLocaleString(236), (byte)5, (byte)4);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      236
+    ]
+  },
+  {
+    "mission": 1,
+    "state": 13,
+    "source_line": 8605,
+    "code": "case 13:\n\tcreateDialogScreen(PaintableObject.getLocaleString(237), (byte)1, (byte)4);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      237
+    ]
+  },
+  {
+    "mission": 1,
+    "state": 14,
+    "source_line": 8609,
+    "code": "case 14:\n\tmoveMapAndCursor(3, 5);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 15,
+    "source_line": 8612,
+    "code": "case 15:\n\tcreateDialogScreen(PaintableObject.getLocaleString(238), (byte)5, (byte)4);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      238
+    ]
+  },
+  {
+    "mission": 1,
+    "state": 16,
+    "source_line": 8616,
+    "code": "case 16:\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 17,
+    "source_line": 8619,
+    "code": "case 17:\n\tcurrentHelp = 8;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 18,
+    "source_line": 8623,
+    "code": "case 18:\n\tcurrentHelp = 9;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 19,
+    "source_line": 8627,
+    "code": "case 19:\n\tstartNormalPlay();\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 20,
+    "source_line": 8631,
+    "code": "case 20:\n\tif(gameState == 9 && currentTurningPlayer == 0)\n\t{\n\t\tcurrentHelp = 10;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 21,
+    "source_line": 8638,
+    "code": "case 21:\n\tcurrentHelp = 11;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 22,
+    "source_line": 8642,
+    "code": "case 22:\n\tif(fractionKings[0].unitState == 3 || fractionKings[1].unitState == 3)\n\t{\n\t\tcurrentHelp = 12;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 23,
+    "source_line": 8649,
+    "code": "case 23:\n\tif(countUnits(-1, -1, (byte)1) == 0 && countCastles(1) == 0)\n\t{\n\t\tactiveFlag = false;\n\t\tsetScriptDelay(20);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 24,
+    "source_line": 8657,
+    "code": "case 24:\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 1,
+    "state": 25,
+    "source_line": 8660,
+    "code": "case 25:\n\tcreateDialogScreen(PaintableObject.getLocaleString(239), (byte)1, (byte)4);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      239
+    ]
+  },
+  {
+    "mission": 1,
+    "state": 26,
+    "source_line": 8664,
+    "code": "case 26:\n\tcreateDialogScreen(PaintableObject.getLocaleString(240), (byte)5, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      240
+    ]
+  },
+  {
+    "mission": 1,
+    "state": 27,
+    "source_line": 8669,
+    "code": "case 27:\n\tcompleteMission();\n",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 0,
+    "source_line": 8683,
+    "code": "case 0:\n\tif(crystallEscortLeader.unitState != 1)\n\t{\n\t\tcrystallEscortLeader.plotRoute(7, 14, false);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 1,
+    "source_line": 8690,
+    "code": "case 1:\n\tif(crystallEscortCrystall.unitState != 1)\n\t{\n\t\tcrystallEscortCrystall.plotRoute(7, 15, false);\n\t\tsetScriptDelay(20);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 2,
+    "source_line": 8698,
+    "code": "case 2:\n\tUnit.speed = Unit.UNIT_SPEED_SLOW;\n\tcrystallEscortLeader = null;\n\tcrystallEscortCrystall = null;\n\tcrystallEscortFollower = null;\n\tcreateDialogScreen(PaintableObject.getLocaleString(241), (byte)5, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      241
+    ]
+  },
+  {
+    "mission": 2,
+    "state": 3,
+    "source_line": 8707,
+    "code": "case 3:\n\tcreateDialogScreen(PaintableObject.getLocaleString(242), (byte)0, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      242
+    ]
+  },
+  {
+    "mission": 2,
+    "state": 4,
+    "source_line": 8712,
+    "code": "case 4:\n\tcreateDialogScreen(PaintableObject.getLocaleString(243), (byte)5, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      243
+    ]
+  },
+  {
+    "mission": 2,
+    "state": 5,
+    "source_line": 8717,
+    "code": "case 5:\n\tcurrentHelp = 14;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 6,
+    "source_line": 8721,
+    "code": "case 6:\n\tstartNormalPlay();\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 7,
+    "source_line": 8725,
+    "code": "case 7:",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 8,
+    "source_line": 8726,
+    "code": "case 8:\n\tif(scriptState == 7 && currentTurningPlayer == 0 && statusBarOffset == 0 && countUnits(-1, 3, (byte)-1) >= 1)\n\t{\n\t\tcurrentHelp = 15;\n\t\t++scriptState;\n\t}\n\n\tvar14 = listUnits(-1, 2, (byte)0);\n\tvar2 = 0;\n\n\twhile(true)\n\t{\n\t\tif(var2 >= var14.length)\n\t\t{\n\t\t\tbreak label597;\n\t\t}\n\n\t\tif(var14[var2].currentMapPosX <= 4 || var14[var2].currentMapPosY <= 10)\n\t\t{\n\t\t\tsetScriptDelay(10);\n\t\t\tactiveFlag = false;\n\t\t\tdrawCursorFlag = false;\n\t\t\tscriptState = 9;\n\t\t\tbreak label597;\n\t\t}\n\n\t\t++var2;\n\t}",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 9,
+    "source_line": 8754,
+    "code": "case 9:\n\tmoveMapAndCursor(0, 8);\n\tUnit.createUnit((byte)5, (byte)1, -1, 8).plotRoute(0, 8, false);\n\tUnit.createUnit((byte)5, (byte)1, -2, 7).plotRoute(1, 7, false);\n\tsetScriptDelay(20);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 10,
+    "source_line": 8760,
+    "code": "case 10:\n\tmoveMapAndCursor(8, 6);\n\tUnit.createUnit((byte)5, (byte)1, 12, 6).plotRoute(8, 6, false);\n\tsetScriptDelay(20);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 11,
+    "source_line": 8765,
+    "code": "case 11:\n\tmoveMapAndCursor(2, 1);\n\tUnit.createUnit((byte)5, (byte)1, 1, -2).plotRoute(1, 2, false);\n\tUnit.createUnit((byte)5, (byte)1, 3, -2).plotRoute(3, 2, false);\n\tUnit.createUnit((byte)4, (byte)1, 2, -1).plotRoute(2, 1, false);\n\tsetScriptDelay(20);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 12,
+    "source_line": 8772,
+    "code": "case 12:\n\tcreateDialogScreen(PaintableObject.getLocaleString(244), (byte)5, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      244
+    ]
+  },
+  {
+    "mission": 2,
+    "state": 13,
+    "source_line": 8777,
+    "code": "case 13:\n\tmoveMapAndCursor(4, 8);\n\tsetScriptDelay(15);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 14,
+    "source_line": 8781,
+    "code": "case 14:\n\tvar11 = Unit.createUnit((byte)2, (byte)1, 3, 8);\n\tvar3 = Unit.createUnit((byte)2, (byte)1, 4, 7);\n\tvar4 = Unit.createUnit((byte)2, (byte)1, 5, 8);\n\tcreateSimpleSparkSprite(sprSpark, var11.currentX, var11.currentY, 0, 0, 1, 50);\n\tcreateSimpleSparkSprite(sprSpark, var3.currentX, var3.currentY, 0, 0, 1, 50);\n\tcreateSimpleSparkSprite(sprSpark, var4.currentX, var4.currentY, 0, 0, 1, 50);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 15,
+    "source_line": 8791,
+    "code": "case 15:\n\tcreateDialogScreen(PaintableObject.getLocaleString(245), (byte)5, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      245
+    ]
+  },
+  {
+    "mission": 2,
+    "state": 16,
+    "source_line": 8796,
+    "code": "case 16:\n\tcreateDialogScreen(PaintableObject.getLocaleString(246), (byte)-1, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      246
+    ]
+  },
+  {
+    "mission": 2,
+    "state": 17,
+    "source_line": 8801,
+    "code": "case 17:\n\tcreateDialogScreen(PaintableObject.getLocaleString(247), (byte)0, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      247
+    ]
+  },
+  {
+    "mission": 2,
+    "state": 18,
+    "source_line": 8806,
+    "code": "case 18:\n\tPaintableObject.currentRenderer.setCurrentDisplayable(createMessageScreen((String)null, PaintableObject.getLocaleString(248), height_, 1500));\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      248
+    ]
+  },
+  {
+    "mission": 2,
+    "state": 19,
+    "source_line": 8810,
+    "code": "case 19:\n\tgetUnit(3, 8, (byte)0).removeThisUnit();\n\tgetUnit(4, 7, (byte)0).removeThisUnit();\n\tgetUnit(5, 8, (byte)0).removeThisUnit();\n\tvar11 = Unit.createUnit((byte)2, (byte)0, 3, 8);\n\tvar3 = Unit.createUnit((byte)2, (byte)0, 4, 7);\n\tvar4 = Unit.createUnit((byte)2, (byte)0, 5, 8);\n\tcreateSimpleSparkSprite(sprSpark, var11.currentX, var11.currentY, 0, 0, 1, 50);\n\tcreateSimpleSparkSprite(sprSpark, var3.currentX, var3.currentY, 0, 0, 1, 50);\n\tcreateSimpleSparkSprite(sprSpark, var4.currentX, var4.currentY, 0, 0, 1, 50);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 20,
+    "source_line": 8823,
+    "code": "case 20:\n\tactiveFlag = true;\n\tdrawCursorFlag = true;\n\tcurrentHelp = 13;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 21,
+    "source_line": 8829,
+    "code": "case 21:\n\tif(countUnits(-1, -1, (byte)1) == 0)\n\t{\n\t\tactiveFlag = false;\n\t\tsetScriptDelay(10);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 2,
+    "state": 22,
+    "source_line": 8837,
+    "code": "case 22:\n\tcompleteMission();\n",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 0,
+    "source_line": 8845,
+    "code": "case 0:\n\tPaintableObject.currentRenderer.setCurrentDisplayable(auxMapNameMessage);\n\tupdateAlphaDrap = true;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 1,
+    "source_line": 8850,
+    "code": "case 1:\n\tif(fractionKings[0].unitState != 1)\n\t{\n\t\tvar_31be = null;\n\t\tsetScriptDelay(20);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 2,
+    "source_line": 8858,
+    "code": "case 2:\n\tdrawAlphaDrap = true;\n\tupdateAlphaDrap = true;\n\tdrapAlphaValue = 0;\n\tsetScriptDelay(20);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 3,
+    "source_line": 8865,
+    "code": "case 3:\n\tcreateDialogScreen(PaintableObject.getLocaleString(249), (byte)2, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      249
+    ]
+  },
+  {
+    "mission": 3,
+    "state": 4,
+    "source_line": 8870,
+    "code": "case 4:\n\tcreateDialogScreen(PaintableObject.getLocaleString(250), (byte)0, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      250
+    ]
+  },
+  {
+    "mission": 3,
+    "state": 5,
+    "source_line": 8875,
+    "code": "case 5:\n\tcreateDialogScreen(PaintableObject.getLocaleString(251), (byte)5, (byte)4);\n\tmoveCursor(13, 3);\n\tmoveMapShowPointPixels(312, 72);\n\tfractionKings[0].setMapPosition(7, 1);\n\tcrystallEscortLeader.setMapPosition(5, 4);\n\tcrystallEscortCrystall.setMapPosition(7, 5);\n\tcrystallEscortFollower.setMapPosition(3, 3);\n\tcrystallEscortLeader = null;\n\tcrystallEscortCrystall = null;\n\tcrystallEscortFollower = null;\n\tmapStepMax = 2;\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      251
+    ]
+  },
+  {
+    "mission": 3,
+    "state": 6,
+    "source_line": 8890,
+    "code": "case 6:\n\tdrawAlphaDrap = false;\n\tinverseDrapAlpha = true;\n\tdrapAlphaValue = 0;\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 7,
+    "source_line": 8897,
+    "code": "case 7:\n\tmoveMapAndCursor(13, 10);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 8,
+    "source_line": 8900,
+    "code": "case 8:\n\tUnit.speed = 2;\n\tmapStepMax = 4;\n\tcrystallEscortLeader = getUnit(10, 10, (byte)0);\n\tcrystallEscortLeader.plotRoute(6, 10, false);\n\tmoveCursor(6, 10);\n\tmoveMapAndCursor(6, 10);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 9,
+    "source_line": 8908,
+    "code": "case 9:\n\tif(crystallEscortLeader.unitState != 1)\n\t{\n\t\tcrystallEscortLeader = null;\n\t\tdrawCursorFlag = true;\n\t\tsetScriptDelay(10);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 10,
+    "source_line": 8917,
+    "code": "case 10:\n\tmoveCursor(4, 9);\n\tmoveMapAndCursor(4, 9);\n\tcreateSimpleSparkSprite(sprRedSpark, 96, 216, 0, 0, 1, 50);\n\tsetScriptDelay(15);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 11,
+    "source_line": 8923,
+    "code": "case 11:\n\tvar_16e5 = Unit.createUnitEx((byte)0, (byte)0, 4, 9, false);\n\tvar_16e5.type = -1;\n\tvar_16e5.unitState = 4;\n\tvar_17d5 = 6;\n\tsetScriptDelay(20);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 12,
+    "source_line": 8931,
+    "code": "case 12:\n\tcreateDialogScreen(PaintableObject.getLocaleString(252), (byte)5, (byte)4);\n\tmoveMapAndCursor(7, 1);\n\tbreak;",
+    "text_ids": [
+      252
+    ]
+  },
+  {
+    "mission": 3,
+    "state": 13,
+    "source_line": 8935,
+    "code": "case 13:\n\tcreateDialogScreen(PaintableObject.getLocaleString(253), (byte)0, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      253
+    ]
+  },
+  {
+    "mission": 3,
+    "state": 14,
+    "source_line": 8940,
+    "code": "case 14:\n\tcurrentHelp = 17;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 15,
+    "source_line": 8944,
+    "code": "case 15:\n\tstartNormalPlay();\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 16,
+    "source_line": 8948,
+    "code": "case 16:\n\tif(countUnits(-1, -1, (byte)1) == 0 && countCastles(1) == 0)\n\t{\n\t\tsetScriptDelay(15);\n\t\tactiveFlag = false;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 3,
+    "state": 17,
+    "source_line": 8956,
+    "code": "case 17:\n\tcreateDialogScreen(PaintableObject.getLocaleString(254), (byte)5, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      254
+    ]
+  },
+  {
+    "mission": 3,
+    "state": 18,
+    "source_line": 8961,
+    "code": "case 18:\n\tcreateDialogScreen(PaintableObject.getLocaleString(255), (byte)0, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      255
+    ]
+  },
+  {
+    "mission": 3,
+    "state": 19,
+    "source_line": 8966,
+    "code": "case 19:\n\tcompleteMission();\n",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 0,
+    "source_line": 8996,
+    "code": "case 0:\n\tsetScriptDelay(50);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 1,
+    "source_line": 9000,
+    "code": "case 1:\n\tcreateDialogScreen(PaintableObject.getLocaleString(256), (byte)5, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      256
+    ]
+  },
+  {
+    "mission": 4,
+    "state": 2,
+    "source_line": 9005,
+    "code": "case 2:\n\tcreateDialogScreen(PaintableObject.getLocaleString(257), (byte)0, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      257
+    ]
+  },
+  {
+    "mission": 4,
+    "state": 3,
+    "source_line": 9010,
+    "code": "case 3:\n\tstartNormalPlay();\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 4,
+    "source_line": 9014,
+    "code": "case 4:\n\tvar14 = listUnits(-1, -1, (byte)0);\n\tvar2 = 0;\n\n\twhile(true)\n\t{\n\t\tif(var2 >= var14.length)\n\t\t{\n\t\t\tbreak label580;\n\t\t}\n\n\t\tif(var14[var2].unitState == 2 && var14[var2].currentMapPosX <= 8)\n\t\t{\n\t\t\tactiveFlag = false;\n\t\t\tsetScriptDelay(5);\n\t\t\t++scriptState;\n\t\t\tbreak label580;\n\t\t}\n\n\t\t++var2;\n\t}",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 5,
+    "source_line": 9035,
+    "code": "case 5:\n\tdrawCursorFlag = false;\n\tmoveMapAndCursor(4, 4);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 6,
+    "source_line": 9039,
+    "code": "case 6:\n\tUnit.createUnit((byte)10, (byte)1, 4, 4).plotRouteEx(4, 1, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 7,
+    "source_line": 9044,
+    "code": "case 7:\n\tUnit.createUnit((byte)1, (byte)1, 4, 4).plotRouteEx(5, 2, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 8,
+    "source_line": 9049,
+    "code": "case 8:\n\tUnit.createUnit((byte)10, (byte)1, 4, 4).plotRouteEx(4, 3, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 9,
+    "source_line": 9054,
+    "code": "case 9:\n\tcreateDialogScreen(PaintableObject.getLocaleString(258), (byte)5, (byte)4);\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": [
+      258
+    ]
+  },
+  {
+    "mission": 4,
+    "state": 10,
+    "source_line": 9058,
+    "code": "case 10:\n\tactiveFlag = true;\n\tdrawCursorFlag = true;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 11,
+    "source_line": 9063,
+    "code": "case 11:\n\tvar14 = listUnits(-1, -1, (byte)0);\n\tvar2 = 0;\n\n\twhile(true)\n\t{\n\t\tif(var2 >= var14.length)\n\t\t{\n\t\t\tbreak label580;\n\t\t}\n\n\t\tif(var14[var2].unitState == 2 && var14[var2].currentMapPosY >= 7)\n\t\t{\n\t\t\tactiveFlag = false;\n\t\t\tdrawCursorFlag = false;\n\t\t\tmoveMapAndCursor(6, 10);\n\t\t\tbreak label580;\n\t\t}\n\n\t\t++var2;\n\t}",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 12,
+    "source_line": 9084,
+    "code": "case 12:\n\tUnit.createUnit((byte)1, (byte)1, 6, 10).plotRouteEx(5, 10, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 13,
+    "source_line": 9089,
+    "code": "case 13:\n\tUnit.createUnit((byte)5, (byte)1, 6, 10).plotRouteEx(7, 8, false, true);\n\tsetScriptDelay(15);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 14,
+    "source_line": 9094,
+    "code": "case 14:\n\tUnit.createUnit((byte)5, (byte)1, 6, 10).plotRouteEx(7, 9, false, true);\n\tactiveFlag = true;\n\tdrawCursorFlag = true;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 15,
+    "source_line": 9100,
+    "code": "case 15:\n\tvar14 = listUnits(-1, -1, (byte)0);\n\tvar2 = 0;\n\n\twhile(true)\n\t{\n\t\tif(var2 >= var14.length)\n\t\t{\n\t\t\tbreak label580;\n\t\t}\n\n\t\tif(var14[var2].unitState == 2 && var14[var2].currentMapPosX >= 8 && var14[var2].currentMapPosY >= 6)\n\t\t{\n\t\t\tactiveFlag = false;\n\t\t\tdrawCursorFlag = false;\n\t\t\tmoveMapAndCursor(12, 5);\n\t\t\tbreak label580;\n\t\t}\n\n\t\t++var2;\n\t}",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 16,
+    "source_line": 9121,
+    "code": "case 16:\n\tUnit.createUnit((byte)5, (byte)1, 12, 5).plotRouteEx(12, 7, false, true);\n\tsetScriptDelay(15);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 17,
+    "source_line": 9126,
+    "code": "case 17:\n\tUnit.createUnit((byte)6, (byte)1, 12, 5).plotRouteEx(12, 6, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 18,
+    "source_line": 9131,
+    "code": "case 18:\n\tUnit.createUnit((byte)5, (byte)1, 12, 5).plotRouteEx(12, 5, false, true);\n\tactiveFlag = true;\n\tdrawCursorFlag = true;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 19,
+    "source_line": 9137,
+    "code": "case 19:\n\tvar14 = listUnits(-1, -1, (byte)0);\n\tvar2 = 0;\n\n\twhile(true)\n\t{\n\t\tif(var2 >= var14.length)\n\t\t{\n\t\t\tbreak label580;\n\t\t}\n\n\t\tif(var14[var2].unitState == 2 && var14[var2].currentMapPosX >= 15 && var14[var2].currentMapPosY >= 8)\n\t\t{\n\t\t\tactiveFlag = false;\n\t\t\tdrawCursorFlag = false;\n\t\t\tmoveMapAndCursor(18, 8);\n\t\t\tbreak label580;\n\t\t}\n\n\t\t++var2;\n\t}",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 20,
+    "source_line": 9158,
+    "code": "case 20:\n\tUnit.createUnit((byte)5, (byte)1, 18, 8).plotRouteEx(16, 10, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 21,
+    "source_line": 9163,
+    "code": "case 21:\n\tUnit.createUnit((byte)6, (byte)1, 18, 8).plotRouteEx(17, 10, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 22,
+    "source_line": 9168,
+    "code": "case 22:\n\tUnit.createUnit((byte)5, (byte)1, 18, 8).plotRouteEx(18, 10, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 23,
+    "source_line": 9173,
+    "code": "case 23:\n\tUnit.createUnit((byte)1, (byte)1, 18, 8).plotRouteEx(18, 9, false, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 24,
+    "source_line": 9178,
+    "code": "case 24:\n\tcreateDialogScreen(PaintableObject.getLocaleString(259), (byte)0, (byte)4);\n\tactiveFlag = true;\n\tdrawCursorFlag = true;\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      259
+    ]
+  },
+  {
+    "mission": 4,
+    "state": 25,
+    "source_line": 9184,
+    "code": "case 25:\n\tif(countUnits(-1, -1, (byte)1) == 0)\n\t{\n\t\tactiveFlag = false;\n\t\tdrawCursorFlag = false;\n\t\tsetScriptDelay(10);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 4,
+    "state": 26,
+    "source_line": 9193,
+    "code": "case 26:\n\tcompleteMission();\n\t++scriptState;\n",
+    "text_ids": []
+  },
+  {
+    "mission": 5,
+    "state": 0,
+    "source_line": 9202,
+    "code": "case 0:\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 5,
+    "state": 1,
+    "source_line": 9206,
+    "code": "case 1:\n\tcreateDialogScreen(PaintableObject.getLocaleString(260), (byte)1, (byte)4);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      260
+    ]
+  },
+  {
+    "mission": 5,
+    "state": 2,
+    "source_line": 9210,
+    "code": "case 2:\n\tstartNormalPlay();\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 5,
+    "state": 3,
+    "source_line": 9214,
+    "code": "case 3:\n\tif(countUnits(-1, -1, (byte)1) == 0 && countCastles(1) == 0)\n\t{\n\t\tactiveFlag = false;\n\t\tdrawCursorFlag = false;\n\t\tsetScriptDelay(15);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 5,
+    "state": 4,
+    "source_line": 9223,
+    "code": "case 4:\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 5,
+    "state": 5,
+    "source_line": 9226,
+    "code": "case 5:\n\tcreateDialogScreen(PaintableObject.getLocaleString(261), (byte)0, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      261
+    ]
+  },
+  {
+    "mission": 5,
+    "state": 6,
+    "source_line": 9231,
+    "code": "case 6:\n\tcompleteMission();\n",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 0,
+    "source_line": 9254,
+    "code": "case 0:\n\tif(fractionKings[0].unitState != 1)\n\t{\n\t\tvar_31be = null;\n\t\tsetScriptDelay(10);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 1,
+    "source_line": 9262,
+    "code": "case 1:\n\tcreateDialogScreen(PaintableObject.getLocaleString(262), (byte)5, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      262
+    ]
+  },
+  {
+    "mission": 6,
+    "state": 2,
+    "source_line": 9267,
+    "code": "case 2:\n\tcreateDialogScreen(PaintableObject.getLocaleString(263), (byte)0, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      263
+    ]
+  },
+  {
+    "mission": 6,
+    "state": 3,
+    "source_line": 9272,
+    "code": "case 3:\n\tvar14 = listUnits(-1, -1, (byte)0);\n\n\tfor(var2 = 0; var2 < var14.length; ++var2)\n\t{\n\t\tvar14[var2].followerUnit = null;\n\t}\n\n\tstartNormalPlay();\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 4,
+    "source_line": 9283,
+    "code": "case 4:\n\tif(currentTurn >= 2)\n\t{\n\t\tsetScriptDelay(15);\n\t\tactiveFlag = false;\n\t\tdrawCursorFlag = false;\n\t\tmoveMapAndCursor(11, 7);\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 5,
+    "source_line": 9292,
+    "code": "case 5:\n\t(var11 = Unit.createUnit((byte)5, (byte)1, 11, 8)).fillMoveRangeData(mapAlphaData);\n\tvar11.plotRoute(14, 7, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 6,
+    "source_line": 9298,
+    "code": "case 6:\n\t(var3 = Unit.createUnit((byte)0, (byte)1, 11, 8)).fillMoveRangeData(mapAlphaData);\n\tvar3.plotRoute(13, 7, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 7,
+    "source_line": 9304,
+    "code": "case 7:\n\t(var4 = Unit.createUnit((byte)3, (byte)1, 11, 8)).fillMoveRangeData(mapAlphaData);\n\tvar4.plotRoute(12, 7, true);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 8,
+    "source_line": 9310,
+    "code": "case 8:\n\tUnit.createUnit((byte)1, (byte)1, 11, 8).plotRoute(13, 8, false);\n\tsetScriptDelay(20);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 9,
+    "source_line": 9315,
+    "code": "case 9:\n\tcreateDialogScreen(PaintableObject.getLocaleString(264), (byte)5, (byte)4);\n\tactiveFlag = true;\n\tdrawCursorFlag = true;\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": [
+      264
+    ]
+  },
+  {
+    "mission": 6,
+    "state": 10,
+    "source_line": 9321,
+    "code": "case 10:\n\tboolean var6 = false;\n\tUnit[] var7 = listUnits(-1, 2, (byte)0);\n\n\tfor(int var15 = 0; var15 < var7.length; ++var15)\n\t{\n\t\tif(var7[var15].currentMapPosX <= 9 || var7[var15].currentMapPosY >= 10)\n\t\t{\n\t\t\tvar6 = true;\n\t\t\tbreak;\n\t\t}\n\t}\n\n\tif(var6 || countUnits(-1, -1, (byte)1) == 0)\n\t{\n\t\tdrawCursorFlag = false;\n\t\tactiveFlag = false;\n\t\tsetScriptDelay(10);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 11,
+    "source_line": 9342,
+    "code": "case 11:\n\tcrystallEscortLeader = listUnits(11, -1, (byte)0)[0];\n\tcrystallEscortCrystall = Unit.createUnit((byte)8, (byte)1, mapWidth, crystallEscortLeader.currentMapPosY);\n\tmoveMapAndCursor(mapWidth - 1, crystallEscortLeader.currentMapPosY);\n\tdrawCursorFlag = false;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 12,
+    "source_line": 9348,
+    "code": "case 12:\n\tcrystallEscortCrystall.plotRoute(crystallEscortLeader.currentMapPosX, crystallEscortLeader.currentMapPosY, false);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 13,
+    "source_line": 9353,
+    "code": "case 13:\n\tcreateDialogScreen(PaintableObject.getLocaleString(265), (byte)5, (byte)4);\n\tvar_31be = crystallEscortCrystall;\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      265
+    ]
+  },
+  {
+    "mission": 6,
+    "state": 14,
+    "source_line": 9358,
+    "code": "case 14:\n\tif(crystallEscortCrystall.unitState != 1)\n\t{\n\t\tcreateDialogScreen(PaintableObject.getLocaleString(266), (byte)0, (byte)4);\n\t\tcrystallEscortCrystall.plotRoute(-1, crystallEscortCrystall.currentMapPosY, false);\n\t\tsetScriptDelay(3);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": [
+      266
+    ]
+  },
+  {
+    "mission": 6,
+    "state": 15,
+    "source_line": 9367,
+    "code": "case 15:\n\tcrystallEscortLeader.plotRoute(-1, crystallEscortCrystall.currentMapPosY, false);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 16,
+    "source_line": 9371,
+    "code": "case 16:\n\tif(crystallEscortCrystall.unitState != 1)\n\t{\n\t\tsetScriptDelay(10);\n\t\tcrystallEscortLeader.removeThisUnit();\n\t\tcrystallEscortCrystall.removeThisUnit();\n\t\tmoveCursor(0, crystallEscortCrystall.currentMapPosY);\n\t\tcrystallEscortLeader = null;\n\t\tcrystallEscortCrystall = null;\n\t\tvar_31be = null;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 17,
+    "source_line": 9384,
+    "code": "case 17:\n\tmoveMapAndCursor(1, 9);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 18,
+    "source_line": 9387,
+    "code": "case 18:\n\tfractionKings[1] = Unit.createUnit((byte)9, (byte)1, -2, 8);\n\tfractionKings[1].plotRoute(0, 8, false);\n\tUnit.createUnit((byte)0, (byte)1, -1, 8).plotRoute(3, 8, false);\n\tUnit.createUnit((byte)0, (byte)1, -1, 10).plotRoute(1, 10, false);\n\tUnit.createUnit((byte)8, (byte)1, -3, 7).plotRoute(4, 8, false);\n\tUnit.createUnit((byte)8, (byte)1, -3, 11).plotRoute(2, 10, false);\n\tUnit.createUnit((byte)4, (byte)1, -2, 9).plotRoute(2, 9, false);\n\tUnit.createUnit((byte)6, (byte)1, -4, 9).plotRoute(4, 9, false);\n\tUnit.createUnit((byte)6, (byte)1, -6, 9).plotRoute(5, 10, false);\n\tsetScriptDelay(50);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 19,
+    "source_line": 9400,
+    "code": "case 19:\n\tcreateDialogScreen(PaintableObject.getLocaleString(267), (byte)3, (byte)4);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      267
+    ]
+  },
+  {
+    "mission": 6,
+    "state": 20,
+    "source_line": 9404,
+    "code": "case 20:\n\tmoveMapAndCursor(13, 14);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 21,
+    "source_line": 9407,
+    "code": "case 21:\n\tUnit.createUnit((byte)0, (byte)1, 13, 14).plotRoute(12, 14, false);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 22,
+    "source_line": 9412,
+    "code": "case 22:\n\tUnit.createUnit((byte)6, (byte)1, 13, 14).plotRoute(14, 14, false);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 23,
+    "source_line": 9417,
+    "code": "case 23:\n\tUnit.createUnit((byte)2, (byte)1, 13, 14).plotRoute(13, 12, false);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 24,
+    "source_line": 9422,
+    "code": "case 24:\n\tUnit.createUnit((byte)3, (byte)1, 13, 14).plotRoute(13, 15, false);\n\tsetScriptDelay(15);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 25,
+    "source_line": 9427,
+    "code": "case 25:\n\tcreateDialogScreen(PaintableObject.getLocaleString(268), (byte)5, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      268
+    ]
+  },
+  {
+    "mission": 6,
+    "state": 26,
+    "source_line": 9432,
+    "code": "case 26:\n\tcreateDialogScreen(PaintableObject.getLocaleString(269), (byte)0, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      269
+    ]
+  },
+  {
+    "mission": 6,
+    "state": 27,
+    "source_line": 9437,
+    "code": "case 27:\n\tmoveMapAndCursor(13, 17);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 28,
+    "source_line": 9440,
+    "code": "case 28:\n\tUnit var8;\n\t(var8 = Unit.createUnit((byte)9, (byte)0, 13, 18)).setKingVariant(2);\n\tvar8.plotRoute(13, 16, false);\n\tUnit.createUnit((byte)6, (byte)0, 12, 18).plotRoute(12, 16, false);\n\tUnit.createUnit((byte)8, (byte)0, 14, 19).plotRoute(14, 16, false);\n\tUnit.createUnit((byte)4, (byte)0, 13, 19).plotRoute(13, 17, false);\n\tUnit.createUnit((byte)1, (byte)0, 12, 19).plotRoute(12, 17, false);\n\tsetScriptDelay(20);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 29,
+    "source_line": 9451,
+    "code": "case 29:\n\tcreateDialogScreen(PaintableObject.getLocaleString(270), (byte)1, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      270
+    ]
+  },
+  {
+    "mission": 6,
+    "state": 30,
+    "source_line": 9456,
+    "code": "case 30:\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 31,
+    "source_line": 9459,
+    "code": "case 31:\n\tcurrentHelp = 18;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 32,
+    "source_line": 9463,
+    "code": "case 32:\n\tactiveFlag = true;\n\tdrawCursorFlag = true;\n\tauxObjectivesMessage = createMessageScreen(PaintableObject.getLocaleString(121 + currentMission), PaintableObject.getLocaleString(138), height_, -1);\n\tauxObjectivesMessage.setDrawSoftButtonFlag((byte)0, true);\n\tauxObjectivesMessage.setNextDisplayable((PaintableObject)null);\n\tPaintableObject.currentRenderer.setCurrentDisplayable(auxObjectivesMessage);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      138
+    ]
+  },
+  {
+    "mission": 6,
+    "state": 33,
+    "source_line": 9472,
+    "code": "case 33:\n\tif(countUnits(-1, -1, (byte)1) == 0 && countCastles(1) == 0)\n\t{\n\t\tactiveFlag = false;\n\t\tdrawCursorFlag = false;\n\t\tsetScriptDelay(10);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 6,
+    "state": 34,
+    "source_line": 9481,
+    "code": "case 34:\n\tcompleteMission();\n",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 0,
+    "source_line": 9489,
+    "code": "case 0:\n\tPaintableObject.currentRenderer.setCurrentDisplayable(auxMapNameMessage);\n\tupdateAlphaDrap = true;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 1,
+    "source_line": 9494,
+    "code": "case 1:\n\tif(!inverseDrapAlpha)\n\t{\n\t\tcreateDialogScreen(PaintableObject.getLocaleString(271), (byte)0, (byte)4);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": [
+      271
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 2,
+    "source_line": 9501,
+    "code": "case 2:\n\tmoveMapAndCursor(fractionKings[1].currentMapPosX, fractionKings[1].currentMapPosY);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 3,
+    "source_line": 9504,
+    "code": "case 3:\n\tcreateDialogScreen(PaintableObject.getLocaleString(272), (byte)4, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      272
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 4,
+    "source_line": 9509,
+    "code": "case 4:\n\tcreateDialogScreen(PaintableObject.getLocaleString(273), (byte)1, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      273
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 5,
+    "source_line": 9514,
+    "code": "case 5:\n\tcreateDialogScreen(PaintableObject.getLocaleString(274), (byte)4, (byte)4);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      274
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 6,
+    "source_line": 9518,
+    "code": "case 6:\n\tcrystallEscortLeader = getUnit(5, 2, (byte)0);\n\tcrystallEscortLeader.plotRoute(7, 2, false);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 7,
+    "source_line": 9523,
+    "code": "case 7:\n\tif(crystallEscortLeader.unitState != 1)\n\t{\n\t\tcrystallEscortLeader.removeThisUnit();\n\t\tcrystallEscortLeader = null;\n\t\tcrystallEscortCrystall = getUnit(7, 3, (byte)0);\n\t\tcrystallEscortCrystall.plotRoute(7, 2, false);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 8,
+    "source_line": 9533,
+    "code": "case 8:\n\tif(crystallEscortCrystall.unitState != 1)\n\t{\n\t\tcrystallEscortCrystall.removeThisUnit();\n\t\tcrystallEscortCrystall = null;\n\t\tcrystallEscortFollower = getUnit(9, 2, (byte)0);\n\t\tcrystallEscortFollower.plotRoute(7, 2, false);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 9,
+    "source_line": 9543,
+    "code": "case 9:\n\tif(crystallEscortFollower.unitState != 1)\n\t{\n\t\tcrystallEscortFollower.removeThisUnit();\n\t\tcrystallEscortFollower = null;\n\t\tfractionKings[1].plotRoute(7, 2, false);\n\t\tsetScriptDelay(20);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 10,
+    "source_line": 9553,
+    "code": "case 10:\n\tmoveMapAndCursor(9, 15);\n\tdrawCursorFlag = true;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 11,
+    "source_line": 9557,
+    "code": "case 11:\n\tAuxDisplayable var9;\n\t(var9 = createMessageScreen((String)null, PaintableObject.getLocaleString(279), height_, 2000)).setPosition(halfWidth_, 2, 17);\n\tPaintableObject.currentRenderer.setCurrentDisplayable(var9);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      279
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 12,
+    "source_line": 9563,
+    "code": "case 12:\n\tvar_29c1 = false;\n\tsub_26e(getUnit(9, 15, (byte)0));\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 13,
+    "source_line": 9568,
+    "code": "case 13:\n\tif(var_2985 >= 2)\n\t{\n\t\tcreateDialogScreen(PaintableObject.getLocaleString(275), (byte)0, (byte)4);\n\t\tgetUnit(9, 15, (byte)0).removeThisUnit();\n\t\tvar_29c1 = true;\n\t\tsetScriptDelay(20);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": [
+      275
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 14,
+    "source_line": 9578,
+    "code": "case 14:\n\tdrawCursorFlag = false;\n\tcreateDialogScreen(PaintableObject.getLocaleString(276), (byte)4, (byte)4);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      276
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 15,
+    "source_line": 9583,
+    "code": "case 15:\n\tcreateDialogScreen(PaintableObject.getLocaleString(277), (byte)1, (byte)4);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      277
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 16,
+    "source_line": 9588,
+    "code": "case 16:\n\tdrawCursorFlag = true;\n\tmapStepMax = 4;\n\tmoveMapAndCursor(3, 9);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 17,
+    "source_line": 9593,
+    "code": "case 17:\n\tmoveMapAndCursor(13, 4);\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 18,
+    "source_line": 9596,
+    "code": "case 18:\n\tmapStepMax = 12;\n\tcreateDialogScreen(PaintableObject.getLocaleString(278), (byte)5, (byte)4);\n\tmoveMapAndCursor(fractionKings[0].currentMapPosX, fractionKings[0].currentMapPosY);\n\tbreak;",
+    "text_ids": [
+      278
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 19,
+    "source_line": 9601,
+    "code": "case 19:\n\tstartNormalPlay();\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 20,
+    "source_line": 9605,
+    "code": "case 20:\n\tif(var_29de)\n\t{\n\t\tdrawCursorFlag = false;\n\t\tactiveFlag = false;\n\t\tsetScriptDelay(20);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 21,
+    "source_line": 9614,
+    "code": "case 21:\n\tdrawAlphaDrap = true;\n\tdrapAlphaValue = 0;\n\tupdateAlphaDrap = true;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 22,
+    "source_line": 9620,
+    "code": "case 22:\n\tif(drapAlphaValue >= 16)\n\t{\n\t\tmoveMapShowPoint(7, 2);\n\t\tmoveCursor(7, 2);\n\t\tsub_58e();\n\t\tfractionKings[1] = Unit.createUnit((byte)9, (byte)1, 7, 2);\n\t\tfractionKings[1].setKingVariant(3);\n\t\tUnit.createUnit((byte)9, (byte)0, 6, 3);\n\t\tUnit.createUnit((byte)9, (byte)0, 8, 3).setKingVariant(2);\n\t\tUnit.createUnit((byte)0, (byte)0, 6, 1);\n\t\tUnit.createUnit((byte)0, (byte)0, 8, 1);\n\t\tsetScriptDelay(10);\n\t\t++scriptState;\n\t\tRenderer.startPlayer_(8, 0);\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 23,
+    "source_line": 9637,
+    "code": "case 23:\n\tdrawAlphaDrap = false;\n\tinverseDrapAlpha = true;\n\tdrapAlphaValue = 0;\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 24,
+    "source_line": 9643,
+    "code": "case 24:\n\tif(drapAlphaValue >= 16)\n\t{\n\t\tcreateDialogScreen(PaintableObject.getLocaleString(281), (byte)4, (byte)4);\n\t\tsetScriptDelay(15);\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": [
+      281
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 25,
+    "source_line": 9651,
+    "code": "case 25:\n\tcreateDialogScreen(PaintableObject.getLocaleString(282), (byte)0, (byte)4);\n\tsetScriptDelay(8);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      282
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 26,
+    "source_line": 9656,
+    "code": "case 26:\n\tcreateDialogScreen(PaintableObject.getLocaleString(283), (byte)4, (byte)4);\n\tsetScriptDelay(15);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      283
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 27,
+    "source_line": 9661,
+    "code": "case 27:\n\tcreateSimpleSparkSprite(sprSpark, 168, 48, 0, 0, 1, 50);\n\tunits.removeElement(fractionKings[1]);\n\tsetScriptDelay(15);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 28,
+    "source_line": 9667,
+    "code": "case 28:\n\tRenderer.vibrate(400);\n\tshakeMap(5000);\n\tsetScriptDelay(10);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 29,
+    "source_line": 9673,
+    "code": "case 29:\n\tcreateDialogScreen(PaintableObject.getLocaleString(284), (byte)5, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      284
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 30,
+    "source_line": 9678,
+    "code": "case 30:\n\tcreateDialogScreen(PaintableObject.getLocaleString(285), (byte)2, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      285
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 31,
+    "source_line": 9683,
+    "code": "case 31:\n\tcreateDialogScreen(PaintableObject.getLocaleString(286), (byte)1, (byte)4);\n\tsetScriptDelay(5);\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      286
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 32,
+    "source_line": 9688,
+    "code": "case 32:\n\tcreateDialogScreen(PaintableObject.getLocaleString(287), (byte)0, (byte)4);\n\tdrawAlphaDrap = true;\n\tdrapAlphaValue = 0;\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      287
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 33,
+    "source_line": 9694,
+    "code": "case 33:\n\tif(drapAlphaValue >= 16)\n\t{\n\t\tsetScriptDelay(10);\n\t\tshakeMapFlag = false;\n\t\t++scriptState;\n\t}\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 34,
+    "source_line": 9702,
+    "code": "case 34:\n\tsetIntroMode(5, 2, 2);\n\t++scriptState;\n\tbreak;",
+    "text_ids": []
+  },
+  {
+    "mission": 7,
+    "state": 35,
+    "source_line": 9706,
+    "code": "case 35:\n\tRenderer.startPlayer_(0, 0);\n\tsub_a6b(PaintableObject.getLocaleString(288));\n\t++scriptState;\n\tbreak;",
+    "text_ids": [
+      288
+    ]
+  },
+  {
+    "mission": 7,
+    "state": 36,
+    "source_line": 9711,
+    "code": "case 36:\n\tvar_3e0c = 0;\n\tgameState = 14;\n\t++scriptState;\n",
+    "text_ids": []
+  }
+]

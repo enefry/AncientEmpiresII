@@ -1,0 +1,56 @@
+{
+  "repository": "https://github.com/AncientTree/project_aeii",
+  "commit": "ef6d59f719f946d910fbd896290bbe7418c0e32b",
+  "commitDate": "2016-06-11",
+  "commitMessage": "add 8 official downloadable maps",
+  "maps": [
+    {
+      "id": "b0",
+      "name": "classic 1",
+      "sha256": "12865e5b3f226760ee5112f5f249cb0372eaf9ad976b8adc33120dee5cea90b8",
+      "sourcePath": "android/assets/map/classic 1.aem"
+    },
+    {
+      "id": "b1",
+      "name": "classic 2",
+      "sha256": "f56e09e14b7b547485f1965d4d966caff5c8570d8ead76cc2e9a0947e9f79d73",
+      "sourcePath": "android/assets/map/classic 2.aem"
+    },
+    {
+      "id": "b2",
+      "name": "Duel",
+      "sha256": "22cbd836fa020de6abb9d83ea85d668565438de4c8dc79e7eabf91a3d396c433",
+      "sourcePath": "android/assets/map/Duel.aem"
+    },
+    {
+      "id": "b3",
+      "name": "Crossed swords",
+      "sha256": "2382911477354493406f66d274b521c30a21251d9ba27ea6251e2e64fea9f105",
+      "sourcePath": "android/assets/map/Crossed swords.aem"
+    },
+    {
+      "id": "b4",
+      "name": "Critical mass",
+      "sha256": "d60cc25f967c13c82fa5acbf9c78c2bf6f3846e6817779f24a516897af6f13cd",
+      "sourcePath": "android/assets/map/Critical mass.aem"
+    },
+    {
+      "id": "b5",
+      "name": "Midway",
+      "sha256": "75e1e8441d313544fd217eb065d424b2272b19e4105035c110a72af8d6b2f5d3",
+      "sourcePath": "android/assets/map/Midway.aem"
+    },
+    {
+      "id": "b6",
+      "name": "Swamplands",
+      "sha256": "c910ffe9f1e210b7daa19ffac88e1515f0746af16613b95f72def474b14191b6",
+      "sourcePath": "android/assets/map/Swamplands.aem"
+    },
+    {
+      "id": "b7",
+      "name": "Glu",
+      "sha256": "e253225807ed2a363338433823dce8b78668a43e578f28a7dafe04cc7ad066ee",
+      "sourcePath": "android/assets/map/Glu.aem"
+    }
+  ]
+}

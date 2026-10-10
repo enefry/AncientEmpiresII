@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-03",
+  "tool": "built-in imagegen",
+  "references": [
+    ".noindex/artifacts/full-art-map.png",
+    "reference/original/res/blue/<key>.png",
+    "reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+  ],
+  "shared": "Use case: style-transfer. Make ONE corrected Ancient Empires II map-unit sprite on real transparent background. Image 1 is the original map: blue row is the top row of units. Image 2 is the original combat sprite strip, used ONLY to clarify this unit's anatomy. Image 3 is the approved archer used ONLY for clean sharp cel-shaded finish and consistent line weight. Faithfully preserve the original map unit's silhouette, facing left, proportions and identity. Output one complete centered isolated sprite with 8% clear margin, no grid, no text, no background, no cropped extremities. Crisp smooth contours and limited large shading blocks suitable for a 96x96 game icon. No pixel staircase, blur, painted textures, realism or 3D. Saturated BLUE marks team-color areas; retain neutral white/gray for fixed highlights, eyes and teeth.",
+  "units": [
+    {
+      "key": "lizard",
+      "text": "Correct the THIRD unit from left: WATER ELEMENTAL (internal legacy filename lizard does NOT mean a reptile). Original creature is a smooth upright S-shaped WATER SPIRIT rising from a flat elliptical ripple/puddle. Oversized rounded droplet-like head leaning left, short blunt left-facing mouth and a small stern white eye, neck narrows then widens into a flowing lower liquid body; pale white chest patch; small wave-like curl on lower right merging into the base. Keep the original distinctive broad round head and continuous smooth body. Blue liquid with a few simple pale blue reflected patches. The bottom dissolves continuously into a blue ripple rather than legs. NO feet, NO toes, NO claws, NO arms, NO scales, NO dorsal spikes, NO reptile ridges, NO dragon horns, NO cute dinosaur. Remaster the original water-spirit sprite rather than inventing a different monster."
+    },
+    {
+      "key": "wisp",
+      "text": "Correct the FIFTH unit from left: WISP/LIGHT SPIRIT (精灵). Preserve the original nearly ROUND luminous magical ORB with a white-hot solid core. Thin cyan-blue outer circular halo/ring, dark blue segmented inner rim, a crisp white eight-ray scintillation INSIDE the round boundary. Short blue arcs follow the circumference with tiny pale highlights; slight oval black grounding shadow immediately underneath. The overall outline must remain round and orb-like, NOT the star-shaped black cartoon badge/cloud/burst from the previous version. White light dominates most of the circle, blue rim supplies team recolor. No eyes, mouth, face, human, fairy wings, limbs, bubble-letter black outline, large outward spikes or soft fuzzy glow. The original outer circular ring surrounding irregular white energy is the key distinguishing feature."
+    },
+    {
+      "key": "spider",
+      "text": "Correct the SIXTH unit from left: DIRE WOLF (凶狼). The internal legacy filename spider is misleading: this is a four-legged wolf, NEVER an insect or spider. Exactly match original map pose: low crouching/pouncing wolf facing LEFT, broad elongated SILVER-WHITE muzzle near the ground, small orange-red eye, two short triangular ears, powerful BLUE furred shoulders and back sloping up to a raised long bushy blue tail at upper right with pale tip. Four canine legs tucked and stretched close to ground, two front paws visible below muzzle/chest, muscular bent hind leg at right. Body long and low, about 24:18 including lifted tail. Dark navy outlines, blue fur for team color, pale gray muzzle and paws, neutral white fangs, original fierce expression. NO segmented carapace, insect abdomen, antennae, six/eight legs, tentacles, extra eyes, armor or accessories. Keep compact original alert hunting posture, not sitting or howling."
+    }
+  ]
+}

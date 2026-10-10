@@ -1,0 +1,88 @@
+final class a.a.a.b implements a.a.a.c {
+  private com.motorola.io.FileConnection a;
+    descriptor: Lcom/motorola/io/FileConnection;
+
+  public a.a.a.b(javax.microedition.io.Connection);
+    descriptor: (Ljavax/microedition/io/Connection;)V
+    Code:
+         0: aload_0
+         1: invokespecial #7                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: checkcast     #3                  // class com/motorola/io/FileConnection
+         9: putfield      #6                  // Field a:Lcom/motorola/io/FileConnection;
+        12: return
+
+  public final void close();
+    descriptor: ()V
+    Code:
+         0: aload_0
+         1: getfield      #6                  // Field a:Lcom/motorola/io/FileConnection;
+         4: invokeinterface #8,  1            // InterfaceMethod com/motorola/io/FileConnection.close:()V
+         9: return
+
+  public final java.io.InputStream openInputStream();
+    descriptor: ()Ljava/io/InputStream;
+    Code:
+         0: aload_0
+         1: getfield      #6                  // Field a:Lcom/motorola/io/FileConnection;
+         4: invokeinterface #14,  1           // InterfaceMethod com/motorola/io/FileConnection.openInputStream:()Ljava/io/InputStream;
+         9: areturn
+
+  public final java.io.DataInputStream openDataInputStream();
+    descriptor: ()Ljava/io/DataInputStream;
+    Code:
+         0: aload_0
+         1: getfield      #6                  // Field a:Lcom/motorola/io/FileConnection;
+         4: invokeinterface #12,  1           // InterfaceMethod com/motorola/io/FileConnection.openDataInputStream:()Ljava/io/DataInputStream;
+         9: areturn
+
+  public final java.io.OutputStream openOutputStream();
+    descriptor: ()Ljava/io/OutputStream;
+    Code:
+         0: aload_0
+         1: getfield      #6                  // Field a:Lcom/motorola/io/FileConnection;
+         4: invokeinterface #15,  1           // InterfaceMethod com/motorola/io/FileConnection.openOutputStream:()Ljava/io/OutputStream;
+         9: areturn
+
+  public final java.io.DataOutputStream openDataOutputStream();
+    descriptor: ()Ljava/io/DataOutputStream;
+    Code:
+         0: aload_0
+         1: getfield      #6                  // Field a:Lcom/motorola/io/FileConnection;
+         4: invokeinterface #13,  1           // InterfaceMethod com/motorola/io/FileConnection.openDataOutputStream:()Ljava/io/DataOutputStream;
+         9: areturn
+
+  public final java.util.Enumeration a();
+    descriptor: ()Ljava/util/Enumeration;
+    Code:
+         0: aload_0
+         1: getfield      #6                  // Field a:Lcom/motorola/io/FileConnection;
+         4: invokeinterface #11,  1           // InterfaceMethod com/motorola/io/FileConnection.list:()Ljava/util/Enumeration;
+         9: areturn
+
+  public final void a();
+    descriptor: ()V
+    Code:
+         0: aload_0
+         1: getfield      #6                  // Field a:Lcom/motorola/io/FileConnection;
+         4: invokeinterface #9,  1            // InterfaceMethod com/motorola/io/FileConnection.create:()V
+         9: return
+
+  public final boolean a();
+    descriptor: ()Z
+    Code:
+         0: aload_0
+         1: getfield      #6                  // Field a:Lcom/motorola/io/FileConnection;
+         4: invokeinterface #10,  1           // InterfaceMethod com/motorola/io/FileConnection.exists:()Z
+         9: ireturn
+
+  public final void a(long);
+    descriptor: (J)V
+    Code:
+         0: aload_0
+         1: getfield      #6                  // Field a:Lcom/motorola/io/FileConnection;
+         4: lconst_0
+         5: invokeinterface #16,  3           // InterfaceMethod com/motorola/io/FileConnection.truncate:(J)V
+        10: return
+}

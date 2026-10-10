@@ -1,0 +1,85 @@
+{
+  "scale": 4,
+  "sourceSHA256": "418156ae0a37364ca90d5c89c0ed41e80f7942bab1a6a2064330e6a8e6474d74",
+  "assets": {
+    "soldier": {
+      "pixelWidth": 408,
+      "pixelHeight": 144
+    },
+    "soldier_map": {
+      "pixelWidth": 96,
+      "pixelHeight": 192
+    }
+  },
+  "mask": "RGB encodes shading; alpha encodes replacement coverage. Base alpha is preserved.",
+  "palettes": {
+    "blue": [
+      [
+        18,
+        37,
+        89
+      ],
+      [
+        38,
+        112,
+        220
+      ],
+      [
+        175,
+        224,
+        255
+      ]
+    ],
+    "red": [
+      [
+        83,
+        16,
+        26
+      ],
+      [
+        211,
+        44,
+        53
+      ],
+      [
+        255,
+        187,
+        158
+      ]
+    ],
+    "green": [
+      [
+        15,
+        58,
+        35
+      ],
+      [
+        37,
+        154,
+        79
+      ],
+      [
+        183,
+        241,
+        168
+      ]
+    ],
+    "black": [
+      [
+        16,
+        19,
+        27
+      ],
+      [
+        61,
+        67,
+        83
+      ],
+      [
+        172,
+        181,
+        198
+      ]
+    ]
+  }
+}

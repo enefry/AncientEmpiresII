@@ -1,0 +1,7140 @@
+[
+  {
+    "name": "action_icons",
+    "source": "res/action_icons.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 8,
+    "frame_width": 16,
+    "frame_height": 16,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/action_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/action_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/action_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/action_icons.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "alpha",
+    "source": "res/alpha.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 2,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/alpha.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/alpha.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/alpha.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/alpha.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "archer",
+    "source": "res/archer.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 3,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          1
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          2,
+          3,
+          3
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          0
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 8,
+    "frame_width": 31,
+    "frame_height": 37,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/blue/archer.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/red/archer.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/green/archer.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/black/archer.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "archer_arrow",
+    "source": "res/archer_arrow.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          1
+        ]
+      }
+    ],
+    "align": 36,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 4,
+    "frame_width": 24,
+    "frame_height": 13,
+    "declared_sequence_count": 2,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/archer_arrow_00.png",
+          "res/archer_arrow_01.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/archer_arrow_00.png",
+          "res/archer_arrow_01.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/archer_arrow_00.png",
+          "res/archer_arrow_01.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/archer_arrow_00.png",
+          "res/archer_arrow_01.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "arrow",
+    "source": "res/arrow.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 2,
+    "frame_width": 14,
+    "frame_height": 8,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/arrow.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/arrow.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/arrow.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/arrow.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "arrow_icons",
+    "source": "res/arrow_icons.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 3,
+    "frame_width": 9,
+    "frame_height": 7,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/arrow_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/arrow_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/arrow_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/arrow_icons.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "b_smoke",
+    "source": "res/b_smoke.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 4,
+    "frame_width": 13,
+    "frame_height": 10,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/b_smoke.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/b_smoke.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/b_smoke.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/b_smoke.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "big_circle",
+    "source": "res/big_circle.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 2,
+    "frame_width": 32,
+    "frame_height": 33,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/big_circle_00.png",
+          "res/big_circle_01.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/big_circle_00.png",
+          "res/big_circle_01.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/big_circle_00.png",
+          "res/big_circle_01.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/big_circle_00.png",
+          "res/big_circle_01.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "bridge",
+    "source": "res/bridge.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 3,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/bridge.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/bridge.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/bridge.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/bridge.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "buildings",
+    "source": "res/buildings.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 2,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [],
+        "missing_sources": [
+          "res/buildings_00.png",
+          "res/buildings_01.png"
+        ]
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [],
+        "missing_sources": [
+          "res/buildings_00.png",
+          "res/buildings_01.png"
+        ]
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [],
+        "missing_sources": [
+          "res/buildings_00.png",
+          "res/buildings_01.png"
+        ]
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [],
+        "missing_sources": [
+          "res/buildings_00.png",
+          "res/buildings_01.png"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "buttons",
+    "source": "res/buttons.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 4,
+    "frame_width": 14,
+    "frame_height": 12,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/buttons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/buttons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/buttons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/buttons.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "catapult",
+    "source": "res/catapult.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          1
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          2,
+          2
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          0
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 6,
+    "frame_width": 64,
+    "frame_height": 58,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/blue/catapult.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/red/catapult.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/green/catapult.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/black/catapult.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "chars",
+    "source": "res/chars.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 7,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 8,
+        "source_index": 8,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 9,
+        "source_index": 9,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 10,
+        "source_index": 10,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 11,
+        "source_index": 11,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 12,
+    "frame_width": 6,
+    "frame_height": 7,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/chars.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/chars.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/chars.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/chars.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "crater",
+    "source": "res/crater.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 2,
+    "frame_width": 53,
+    "frame_height": 19,
+    "declared_sequence_count": 1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/crater.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/crater.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/crater.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/crater.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "cursor",
+    "source": "res/cursor.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 6,
+    "frame_width": 18,
+    "frame_height": 18,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/cursor_00.png",
+          "res/cursor_01.png",
+          "res/cursor_02.png",
+          "res/cursor_03.png",
+          "res/cursor_04.png",
+          "res/cursor_05.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/cursor_00.png",
+          "res/cursor_01.png",
+          "res/cursor_02.png",
+          "res/cursor_03.png",
+          "res/cursor_04.png",
+          "res/cursor_05.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/cursor_00.png",
+          "res/cursor_01.png",
+          "res/cursor_02.png",
+          "res/cursor_03.png",
+          "res/cursor_04.png",
+          "res/cursor_05.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/cursor_00.png",
+          "res/cursor_01.png",
+          "res/cursor_02.png",
+          "res/cursor_03.png",
+          "res/cursor_04.png",
+          "res/cursor_05.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "fish",
+    "source": "res/fish.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      }
+    ],
+    "align": 36,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 4,
+    "frame_width": 45,
+    "frame_height": 37,
+    "declared_sequence_count": 1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/fish_00.png",
+          "res/fish_01.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/fish_00.png",
+          "res/fish_01.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/fish_00.png",
+          "res/fish_01.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/fish_00.png",
+          "res/fish_01.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "golem",
+    "source": "res/golem.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 3,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          1
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          2,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          2,
+          1
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 2,
+    "frame_delay_logical_ms": 100,
+    "frame_count": 8,
+    "frame_width": 47,
+    "frame_height": 47,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/blue/golem.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/red/golem.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/green/golem.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/black/golem.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "grass",
+    "source": "res/grass.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 4,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/grass.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/grass.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/grass.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/grass.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "hud_icons",
+    "source": "res/hud_icons.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 3,
+    "frame_width": 13,
+    "frame_height": 16,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/hud_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/hud_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/hud_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/hud_icons.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "hud_icons_2",
+    "source": "res/hud_icons_2.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 2,
+    "frame_width": 11,
+    "frame_height": 11,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/hud_icons_2.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/hud_icons_2.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/hud_icons_2.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/hud_icons_2.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "king",
+    "source": "res/king.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          1
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          2,
+          2
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          1
+        ]
+      }
+    ],
+    "align": 36,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 6,
+    "frame_width": 61,
+    "frame_height": 75,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/blue/king_00.png",
+          "res/blue/king_01.png",
+          "res/blue/king_02.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/red/king_00.png",
+          "res/red/king_01.png",
+          "res/red/king_02.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/green/king_00.png",
+          "res/green/king_01.png",
+          "res/green/king_02.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/black/king_00.png",
+          "res/black/king_01.png",
+          "res/black/king_02.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "king_head_icons",
+    "source": "res/king_head_icons.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          7,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          7,
+          1
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          7,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          7,
+          1
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          7,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          7,
+          1
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          7,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          7,
+          1
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 8,
+    "frame_width": 13,
+    "frame_height": 12,
+    "declared_sequence_count": 1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_head_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_head_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_head_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_head_icons.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "king_heads",
+    "source": "res/king_heads.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          6,
+          26
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          6,
+          25
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          6,
+          26
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          6,
+          25
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          6,
+          26
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          6,
+          25
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          6,
+          26
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          6,
+          25
+        ]
+      },
+      {
+        "index": 8,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          33,
+          26
+        ]
+      },
+      {
+        "index": 9,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          33,
+          25
+        ]
+      },
+      {
+        "index": 10,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          33,
+          26
+        ]
+      },
+      {
+        "index": 11,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          33,
+          25
+        ]
+      },
+      {
+        "index": 12,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          33,
+          26
+        ]
+      },
+      {
+        "index": 13,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          33,
+          25
+        ]
+      },
+      {
+        "index": 14,
+        "source_index": 3,
+        "transform_bits": 1,
+        "translate": [
+          33,
+          26
+        ]
+      },
+      {
+        "index": 15,
+        "source_index": 3,
+        "transform_bits": 1,
+        "translate": [
+          33,
+          25
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          2,
+          3
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          4,
+          5
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          6,
+          7
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 16,
+    "frame_width": 22,
+    "frame_height": 19,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_heads.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_heads.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_heads.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_heads.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "king_heads_back",
+    "source": "res/king_heads_back.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          8,
+          26
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          8,
+          26
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          8,
+          26
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          8,
+          26
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          36,
+          26
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          36,
+          26
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          36,
+          26
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 3,
+        "transform_bits": 1,
+        "translate": [
+          36,
+          26
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 8,
+    "frame_width": 17,
+    "frame_height": 15,
+    "declared_sequence_count": 1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_heads_back.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_heads_back.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_heads_back.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/king_heads_back.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "kingslash",
+    "source": "res/kingslash.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          233,
+          249
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          43,
+          249
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 2,
+    "frame_width": 41,
+    "frame_height": 72,
+    "declared_sequence_count": 1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/kingslash.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/kingslash.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/kingslash.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/kingslash.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "kingwave",
+    "source": "res/kingwave.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 2,
+    "frame_delay_logical_ms": 100,
+    "frame_count": 4,
+    "frame_width": 48,
+    "frame_height": 34,
+    "declared_sequence_count": 1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/kingwave.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/kingwave.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/kingwave.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/kingwave.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "lava",
+    "source": "res/lava.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 4,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/lava.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/lava.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/lava.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/lava.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "lchars",
+    "source": "res/lchars.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 7,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 8,
+        "source_index": 8,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 9,
+        "source_index": 9,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 10,
+        "source_index": 10,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 11,
+        "source_index": 11,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 12,
+        "source_index": 12,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 13,
+    "frame_width": 8,
+    "frame_height": 11,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/lchars.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/lchars.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/lchars.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/lchars.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "levelup",
+    "source": "res/levelup.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 1,
+    "frame_width": 62,
+    "frame_height": 11,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/levelup.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/levelup.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/levelup.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/levelup.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "lizard",
+    "source": "res/lizard.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          1
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          1
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 6,
+    "frame_width": 34,
+    "frame_height": 38,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/blue/lizard.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/red/lizard.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/green/lizard.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/black/lizard.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "menu",
+    "source": "res/menu.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 7,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 8,
+    "frame_width": 16,
+    "frame_height": 16,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/menu.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/menu.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/menu.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/menu.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "menu_icons",
+    "source": "res/menu_icons.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 8,
+        "source_index": 7,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 9,
+        "source_index": 8,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 10,
+        "source_index": 9,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 11,
+    "frame_width": 25,
+    "frame_height": 25,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/menu_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/menu_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/menu_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/menu_icons.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "mini_icons",
+    "source": "res/mini_icons.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 4,
+    "frame_width": 10,
+    "frame_height": 10,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mini_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mini_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mini_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mini_icons.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "mountain",
+    "source": "res/mountain.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 4,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mountain.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mountain.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mountain.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mountain.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "mountain_bg",
+    "source": "res/mountain_bg.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 2,
+    "frame_width": 88,
+    "frame_height": 16,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mountain_bg.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mountain_bg.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mountain_bg.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/mountain_bg.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "portraits",
+    "source": "res/portraits.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": 6,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 6,
+    "frame_width": 85,
+    "frame_height": 85,
+    "declared_sequence_count": 0,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/portraits.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/portraits.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/portraits.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/portraits.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "redspark",
+    "source": "res/redspark.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 6,
+    "frame_width": 20,
+    "frame_height": 20,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/redspark.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/redspark.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/redspark.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/redspark.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "road",
+    "source": "res/road.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 3,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/road.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/road.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/road.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/road.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "side_arrow",
+    "source": "res/side_arrow.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 2,
+    "frame_width": 8,
+    "frame_height": 14,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/side_arrow.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/side_arrow.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/side_arrow.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/side_arrow.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "skeleton",
+    "source": "res/skeleton.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 8,
+        "source_index": 3,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 9,
+        "source_index": 4,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 10,
+        "source_index": 5,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 11,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 12,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 13,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 14,
+        "source_index": 3,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 15,
+        "source_index": 4,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 16,
+        "source_index": 5,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 17,
+        "source_index": 6,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 18,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 19,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 20,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 21,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          6,
+          6
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "align": 40,
+    "frame_delay_ticks": 2,
+    "frame_delay_logical_ms": 100,
+    "frame_count": 22,
+    "frame_width": 40,
+    "frame_height": 44,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/blue/skeleton_00.png",
+          "res/blue/skeleton_01.png",
+          "res/blue/skeleton_02.png",
+          "res/blue/skeleton_03.png",
+          "res/blue/skeleton_04.png",
+          "res/blue/skeleton_05.png",
+          "res/blue/skeleton_06.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/red/skeleton_00.png",
+          "res/red/skeleton_01.png",
+          "res/red/skeleton_02.png",
+          "res/red/skeleton_03.png",
+          "res/red/skeleton_04.png",
+          "res/red/skeleton_05.png",
+          "res/red/skeleton_06.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/green/skeleton_00.png",
+          "res/green/skeleton_01.png",
+          "res/green/skeleton_02.png",
+          "res/green/skeleton_03.png",
+          "res/green/skeleton_04.png",
+          "res/green/skeleton_05.png",
+          "res/green/skeleton_06.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/black/skeleton_00.png",
+          "res/black/skeleton_01.png",
+          "res/black/skeleton_02.png",
+          "res/black/skeleton_03.png",
+          "res/black/skeleton_04.png",
+          "res/black/skeleton_05.png",
+          "res/black/skeleton_06.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "slash",
+    "source": "res/slash.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 2,
+    "frame_width": 21,
+    "frame_height": 27,
+    "declared_sequence_count": 1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/slash.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/slash.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/slash.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/slash.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "small_circle",
+    "source": "res/small_circle.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 2,
+    "frame_width": 20,
+    "frame_height": 21,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/small_circle.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/small_circle.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/small_circle.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/small_circle.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "small_spark",
+    "source": "res/small_spark.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 5,
+    "frame_width": 7,
+    "frame_height": 7,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/small_spark.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/small_spark.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/small_spark.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/small_spark.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "smoke",
+    "source": "res/smoke.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 4,
+    "frame_width": 24,
+    "frame_height": 20,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/smoke.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/smoke.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/smoke.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/smoke.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "soldier",
+    "source": "res/soldier.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          2
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          1
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 6,
+    "frame_width": 34,
+    "frame_height": 36,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/blue/soldier.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/red/soldier.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/green/soldier.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/black/soldier.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "spark",
+    "source": "res/spark.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 6,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/spark.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/spark.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/spark.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/spark.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "spell",
+    "source": "res/spell.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 8,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 9,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 10,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 11,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 12,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 13,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 1,
+    "frame_delay_logical_ms": 50,
+    "frame_count": 14,
+    "frame_width": 31,
+    "frame_height": 31,
+    "declared_sequence_count": 1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/spell.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/spell.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/spell.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/spell.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "spider",
+    "source": "res/spider.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          2
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          1
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 6,
+    "frame_width": 59,
+    "frame_height": 30,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/blue/spider.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/red/spider.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/green/spider.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/black/spider.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "status",
+    "source": "res/status.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 2,
+    "frame_width": 7,
+    "frame_height": 9,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/status.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/status.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/status.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/status.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "stiles0",
+    "source": "res/stiles0.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 7,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 8,
+        "source_index": 8,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 9,
+        "source_index": 9,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 10,
+        "source_index": 10,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 11,
+        "source_index": 11,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 12,
+        "source_index": 12,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 13,
+        "source_index": 13,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 14,
+        "source_index": 14,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 15,
+        "source_index": 15,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 16,
+        "source_index": 16,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 17,
+        "source_index": 17,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 18,
+    "frame_width": 10,
+    "frame_height": 10,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/stiles0_00.png",
+          "res/stiles0_01.png",
+          "res/stiles0_02.png",
+          "res/stiles0_03.png",
+          "res/stiles0_04.png",
+          "res/stiles0_05.png",
+          "res/stiles0_06.png",
+          "res/stiles0_07.png",
+          "res/stiles0_08.png",
+          "res/stiles0_09.png",
+          "res/stiles0_10.png",
+          "res/stiles0_11.png",
+          "res/stiles0_12.png",
+          "res/stiles0_13.png",
+          "res/stiles0_14.png",
+          "res/stiles0_15.png",
+          "res/stiles0_16.png",
+          "res/stiles0_17.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/stiles0_00.png",
+          "res/stiles0_01.png",
+          "res/stiles0_02.png",
+          "res/stiles0_03.png",
+          "res/stiles0_04.png",
+          "res/stiles0_05.png",
+          "res/stiles0_06.png",
+          "res/stiles0_07.png",
+          "res/stiles0_08.png",
+          "res/stiles0_09.png",
+          "res/stiles0_10.png",
+          "res/stiles0_11.png",
+          "res/stiles0_12.png",
+          "res/stiles0_13.png",
+          "res/stiles0_14.png",
+          "res/stiles0_15.png",
+          "res/stiles0_16.png",
+          "res/stiles0_17.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/stiles0_00.png",
+          "res/stiles0_01.png",
+          "res/stiles0_02.png",
+          "res/stiles0_03.png",
+          "res/stiles0_04.png",
+          "res/stiles0_05.png",
+          "res/stiles0_06.png",
+          "res/stiles0_07.png",
+          "res/stiles0_08.png",
+          "res/stiles0_09.png",
+          "res/stiles0_10.png",
+          "res/stiles0_11.png",
+          "res/stiles0_12.png",
+          "res/stiles0_13.png",
+          "res/stiles0_14.png",
+          "res/stiles0_15.png",
+          "res/stiles0_16.png",
+          "res/stiles0_17.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/stiles0_00.png",
+          "res/stiles0_01.png",
+          "res/stiles0_02.png",
+          "res/stiles0_03.png",
+          "res/stiles0_04.png",
+          "res/stiles0_05.png",
+          "res/stiles0_06.png",
+          "res/stiles0_07.png",
+          "res/stiles0_08.png",
+          "res/stiles0_09.png",
+          "res/stiles0_10.png",
+          "res/stiles0_11.png",
+          "res/stiles0_12.png",
+          "res/stiles0_13.png",
+          "res/stiles0_14.png",
+          "res/stiles0_15.png",
+          "res/stiles0_16.png",
+          "res/stiles0_17.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "tiles0",
+    "source": "res/tiles0.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 7,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 8,
+        "source_index": 8,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 9,
+        "source_index": 9,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 10,
+        "source_index": 10,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 11,
+        "source_index": 11,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 12,
+        "source_index": 12,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 13,
+        "source_index": 13,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 14,
+        "source_index": 14,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 15,
+        "source_index": 15,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 16,
+        "source_index": 16,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 17,
+        "source_index": 17,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 18,
+        "source_index": 18,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 19,
+        "source_index": 19,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 20,
+        "source_index": 20,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 21,
+        "source_index": 21,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 22,
+        "source_index": 22,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 23,
+        "source_index": 23,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 24,
+        "source_index": 24,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 25,
+        "source_index": 25,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 26,
+        "source_index": 26,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 27,
+        "source_index": 27,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 28,
+        "source_index": 28,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 29,
+        "source_index": 29,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 30,
+        "source_index": 30,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 31,
+        "source_index": 31,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 32,
+        "source_index": 32,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 33,
+        "source_index": 33,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 34,
+        "source_index": 34,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 35,
+        "source_index": 35,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 36,
+        "source_index": 36,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 37,
+        "source_index": 37,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 38,
+        "source_index": 38,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 39,
+        "source_index": 39,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 40,
+        "source_index": 40,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 41,
+        "source_index": 41,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 42,
+        "source_index": 42,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 43,
+        "source_index": 43,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 44,
+        "source_index": 44,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 45,
+        "source_index": 45,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 46,
+        "source_index": 46,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 47,
+        "source_index": 47,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 48,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/tiles0_00.png",
+          "res/tiles0_01.png",
+          "res/tiles0_02.png",
+          "res/tiles0_03.png",
+          "res/tiles0_04.png",
+          "res/tiles0_05.png",
+          "res/tiles0_06.png",
+          "res/tiles0_07.png",
+          "res/tiles0_08.png",
+          "res/tiles0_09.png",
+          "res/tiles0_10.png",
+          "res/tiles0_11.png",
+          "res/tiles0_12.png",
+          "res/tiles0_13.png",
+          "res/tiles0_14.png",
+          "res/tiles0_15.png",
+          "res/tiles0_16.png",
+          "res/tiles0_17.png",
+          "res/tiles0_18.png",
+          "res/tiles0_19.png",
+          "res/tiles0_20.png",
+          "res/tiles0_21.png",
+          "res/tiles0_22.png",
+          "res/tiles0_23.png",
+          "res/tiles0_24.png",
+          "res/tiles0_25.png",
+          "res/tiles0_26.png",
+          "res/tiles0_27.png",
+          "res/tiles0_28.png",
+          "res/tiles0_29.png",
+          "res/tiles0_30.png",
+          "res/tiles0_31.png",
+          "res/tiles0_32.png",
+          "res/tiles0_33.png",
+          "res/tiles0_34.png",
+          "res/tiles0_35.png",
+          "res/tiles0_36.png",
+          "res/tiles0_37.png",
+          "res/tiles0_38.png",
+          "res/tiles0_39.png",
+          "res/tiles0_40.png",
+          "res/tiles0_41.png",
+          "res/tiles0_42.png",
+          "res/tiles0_43.png",
+          "res/tiles0_44.png",
+          "res/tiles0_45.png",
+          "res/tiles0_46.png",
+          "res/tiles0_47.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/tiles0_00.png",
+          "res/tiles0_01.png",
+          "res/tiles0_02.png",
+          "res/tiles0_03.png",
+          "res/tiles0_04.png",
+          "res/tiles0_05.png",
+          "res/tiles0_06.png",
+          "res/tiles0_07.png",
+          "res/tiles0_08.png",
+          "res/tiles0_09.png",
+          "res/tiles0_10.png",
+          "res/tiles0_11.png",
+          "res/tiles0_12.png",
+          "res/tiles0_13.png",
+          "res/tiles0_14.png",
+          "res/tiles0_15.png",
+          "res/tiles0_16.png",
+          "res/tiles0_17.png",
+          "res/tiles0_18.png",
+          "res/tiles0_19.png",
+          "res/tiles0_20.png",
+          "res/tiles0_21.png",
+          "res/tiles0_22.png",
+          "res/tiles0_23.png",
+          "res/tiles0_24.png",
+          "res/tiles0_25.png",
+          "res/tiles0_26.png",
+          "res/tiles0_27.png",
+          "res/tiles0_28.png",
+          "res/tiles0_29.png",
+          "res/tiles0_30.png",
+          "res/tiles0_31.png",
+          "res/tiles0_32.png",
+          "res/tiles0_33.png",
+          "res/tiles0_34.png",
+          "res/tiles0_35.png",
+          "res/tiles0_36.png",
+          "res/tiles0_37.png",
+          "res/tiles0_38.png",
+          "res/tiles0_39.png",
+          "res/tiles0_40.png",
+          "res/tiles0_41.png",
+          "res/tiles0_42.png",
+          "res/tiles0_43.png",
+          "res/tiles0_44.png",
+          "res/tiles0_45.png",
+          "res/tiles0_46.png",
+          "res/tiles0_47.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/tiles0_00.png",
+          "res/tiles0_01.png",
+          "res/tiles0_02.png",
+          "res/tiles0_03.png",
+          "res/tiles0_04.png",
+          "res/tiles0_05.png",
+          "res/tiles0_06.png",
+          "res/tiles0_07.png",
+          "res/tiles0_08.png",
+          "res/tiles0_09.png",
+          "res/tiles0_10.png",
+          "res/tiles0_11.png",
+          "res/tiles0_12.png",
+          "res/tiles0_13.png",
+          "res/tiles0_14.png",
+          "res/tiles0_15.png",
+          "res/tiles0_16.png",
+          "res/tiles0_17.png",
+          "res/tiles0_18.png",
+          "res/tiles0_19.png",
+          "res/tiles0_20.png",
+          "res/tiles0_21.png",
+          "res/tiles0_22.png",
+          "res/tiles0_23.png",
+          "res/tiles0_24.png",
+          "res/tiles0_25.png",
+          "res/tiles0_26.png",
+          "res/tiles0_27.png",
+          "res/tiles0_28.png",
+          "res/tiles0_29.png",
+          "res/tiles0_30.png",
+          "res/tiles0_31.png",
+          "res/tiles0_32.png",
+          "res/tiles0_33.png",
+          "res/tiles0_34.png",
+          "res/tiles0_35.png",
+          "res/tiles0_36.png",
+          "res/tiles0_37.png",
+          "res/tiles0_38.png",
+          "res/tiles0_39.png",
+          "res/tiles0_40.png",
+          "res/tiles0_41.png",
+          "res/tiles0_42.png",
+          "res/tiles0_43.png",
+          "res/tiles0_44.png",
+          "res/tiles0_45.png",
+          "res/tiles0_46.png",
+          "res/tiles0_47.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/tiles0_00.png",
+          "res/tiles0_01.png",
+          "res/tiles0_02.png",
+          "res/tiles0_03.png",
+          "res/tiles0_04.png",
+          "res/tiles0_05.png",
+          "res/tiles0_06.png",
+          "res/tiles0_07.png",
+          "res/tiles0_08.png",
+          "res/tiles0_09.png",
+          "res/tiles0_10.png",
+          "res/tiles0_11.png",
+          "res/tiles0_12.png",
+          "res/tiles0_13.png",
+          "res/tiles0_14.png",
+          "res/tiles0_15.png",
+          "res/tiles0_16.png",
+          "res/tiles0_17.png",
+          "res/tiles0_18.png",
+          "res/tiles0_19.png",
+          "res/tiles0_20.png",
+          "res/tiles0_21.png",
+          "res/tiles0_22.png",
+          "res/tiles0_23.png",
+          "res/tiles0_24.png",
+          "res/tiles0_25.png",
+          "res/tiles0_26.png",
+          "res/tiles0_27.png",
+          "res/tiles0_28.png",
+          "res/tiles0_29.png",
+          "res/tiles0_30.png",
+          "res/tiles0_31.png",
+          "res/tiles0_32.png",
+          "res/tiles0_33.png",
+          "res/tiles0_34.png",
+          "res/tiles0_35.png",
+          "res/tiles0_36.png",
+          "res/tiles0_37.png",
+          "res/tiles0_38.png",
+          "res/tiles0_39.png",
+          "res/tiles0_40.png",
+          "res/tiles0_41.png",
+          "res/tiles0_42.png",
+          "res/tiles0_43.png",
+          "res/tiles0_44.png",
+          "res/tiles0_45.png",
+          "res/tiles0_46.png",
+          "res/tiles0_47.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "town",
+    "source": "res/town.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 3,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/town.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/town.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/town.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/town.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "unit_icons",
+    "source": "res/unit_icons.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 4,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 5,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 6,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 7,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 8,
+        "source_index": 8,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 9,
+        "source_index": 9,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 10,
+        "source_index": 10,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 11,
+        "source_index": 11,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 12,
+        "source_index": 12,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 13,
+        "source_index": 13,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 14,
+        "source_index": 14,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 15,
+        "source_index": 15,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 16,
+        "source_index": 16,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 17,
+        "source_index": 17,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 18,
+        "source_index": 18,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 19,
+        "source_index": 19,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 20,
+        "source_index": 20,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 21,
+        "source_index": 21,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 22,
+        "source_index": 22,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 23,
+        "source_index": 23,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 24,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/blue/unit_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/red/unit_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/green/unit_icons.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/black/unit_icons.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "water",
+    "source": "res/water.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [],
+    "align": -1,
+    "frame_delay_ticks": 0,
+    "frame_delay_logical_ms": 0,
+    "frame_count": 3,
+    "frame_width": 24,
+    "frame_height": 24,
+    "declared_sequence_count": -1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/water.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/water.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/water.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/water.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "watermagic",
+    "source": "res/watermagic.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 1,
+    "frame_delay_logical_ms": 50,
+    "frame_count": 8,
+    "frame_width": 31,
+    "frame_height": 31,
+    "declared_sequence_count": 1,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/watermagic.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/watermagic.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/watermagic.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/watermagic.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "wisp",
+    "source": "res/wisp.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "source_index": 3,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 3,
+    "frame_delay_logical_ms": 150,
+    "frame_count": 8,
+    "frame_width": 33,
+    "frame_height": 33,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/blue/wisp.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/red/wisp.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/green/wisp.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "atlas_row_major",
+        "sources": [
+          "res/black/wisp.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "wizard",
+    "source": "res/wizard.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          1
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          1
+        ]
+      }
+    ],
+    "align": 20,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 6,
+    "frame_width": 33,
+    "frame_height": 35,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/blue/wizard_00.png",
+          "res/blue/wizard_01.png",
+          "res/blue/wizard_02.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/red/wizard_00.png",
+          "res/red/wizard_01.png",
+          "res/red/wizard_02.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/green/wizard_00.png",
+          "res/green/wizard_01.png",
+          "res/green/wizard_02.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/black/wizard_00.png",
+          "res/black/wizard_01.png",
+          "res/black/wizard_02.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  },
+  {
+    "name": "wyvern",
+    "source": "res/wyvern.sprite",
+    "frames": [
+      {
+        "index": 0,
+        "source_index": 0,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source_index": 1,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source_index": 2,
+        "transform_bits": 0,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source_index": 0,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "source_index": 1,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "source_index": 2,
+        "transform_bits": 1,
+        "translate": [
+          0,
+          0
+        ]
+      }
+    ],
+    "sequences": [
+      {
+        "index": 0,
+        "frames": [
+          0,
+          1
+        ]
+      },
+      {
+        "index": 1,
+        "frames": [
+          1
+        ]
+      },
+      {
+        "index": 2,
+        "frames": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "index": 3,
+        "frames": [
+          2,
+          1
+        ]
+      }
+    ],
+    "align": 40,
+    "frame_delay_ticks": 5,
+    "frame_delay_logical_ms": 250,
+    "frame_count": 6,
+    "frame_width": 85,
+    "frame_height": 56,
+    "declared_sequence_count": 4,
+    "image_variants": [
+      {
+        "faction_prefix": "blue/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/blue/wyvern_00.png",
+          "res/blue/wyvern_01.png",
+          "res/blue/wyvern_02.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "red/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/red/wyvern_00.png",
+          "res/red/wyvern_01.png",
+          "res/red/wyvern_02.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "green/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/green/wyvern_00.png",
+          "res/green/wyvern_01.png",
+          "res/green/wyvern_02.png"
+        ],
+        "missing_sources": []
+      },
+      {
+        "faction_prefix": "black/",
+        "mode": "individual_frames",
+        "sources": [
+          "res/black/wyvern_00.png",
+          "res/black/wyvern_01.png",
+          "res/black/wyvern_02.png"
+        ],
+        "missing_sources": []
+      }
+    ]
+  }
+]

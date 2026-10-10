@@ -1,0 +1,46 @@
+public class aeii.Main extends javax.microedition.midlet.MIDlet {
+  public static aeii.Main a;
+    descriptor: Laeii/Main;
+
+  private static aeii.c a;
+    descriptor: Laeii/c;
+
+  public aeii.Main();
+    descriptor: ()V
+    Code:
+         0: aload_0
+         1: invokespecial #8                  // Method javax/microedition/midlet/MIDlet."<init>":()V
+         4: return
+
+  public final void startApp();
+    descriptor: ()V
+    Code:
+         0: getstatic     #4                  // Field a:Laeii/Main;
+         3: ifnonnull     21
+         6: aload_0
+         7: putstatic     #4                  // Field a:Laeii/Main;
+        10: new           #2                  // class aeii/c
+        13: dup
+        14: aload_0
+        15: invokespecial #6                  // Method aeii/c."<init>":(Ljavax/microedition/midlet/MIDlet;)V
+        18: putstatic     #5                  // Field a:Laeii/c;
+        21: return
+
+  public final void destroyApp(boolean);
+    descriptor: (Z)V
+    Code:
+         0: getstatic     #5                  // Field a:Laeii/c;
+         3: ifnull        12
+         6: getstatic     #5                  // Field a:Laeii/c;
+         9: invokevirtual #7                  // Method aeii/c.c:()V
+        12: aconst_null
+        13: putstatic     #5                  // Field a:Laeii/c;
+        16: aconst_null
+        17: putstatic     #4                  // Field a:Laeii/Main;
+        20: return
+
+  public final void pauseApp();
+    descriptor: ()V
+    Code:
+         0: return
+}

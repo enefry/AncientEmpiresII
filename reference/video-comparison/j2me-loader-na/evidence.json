@@ -1,0 +1,100 @@
+{
+  "analyzed_on": "2026-10-02",
+  "video": {
+    "path": ".noindex/reference-videos/Ancient Empires II [Java ME⧸J2ME Loader] [NA].mp4",
+    "sha256": "77cdab678c9dc5d7df5b4856a6b78a439eb8c13ec983c5a8c2fe22aaaf8002ec",
+    "duration_seconds": 2310.617687,
+    "width": 720,
+    "height": 960,
+    "fps": 30,
+    "has_audio_stream": true
+  },
+  "sampling": "Whole clip every 60 seconds through 38:00 plus 38:30; early sequence every 2 seconds through 01:20, then every 10 seconds through 03:30; startup 2 fps, movement 4 fps, battle 2 fps, and selected later frames. No full-frame coverage or listening claim.",
+  "selected_frames": [
+    {
+      "file": "00-06-menu.png",
+      "video_time_seconds": 6.0,
+      "sha256": "cb26bd6bbbb30a29242cc358763c7dbc781b50f28a98f738cf5463a295cd23ac"
+    },
+    {
+      "file": "00-18-introduction.png",
+      "video_time_seconds": 18.0,
+      "sha256": "19fe3d9d5b7afccdbb0aa4073f6f0bf67792ed05f01dedbe3db0b415585f4c04"
+    },
+    {
+      "file": "00-32-dialogue.png",
+      "video_time_seconds": 32.0,
+      "sha256": "be9d6be6dcce28eb07673b0a4dca402b904ac921eed997b10054d56cc325a60b"
+    },
+    {
+      "file": "00-46-objective.png",
+      "video_time_seconds": 46.0,
+      "sha256": "9c4d5b825e63e2a787a27697b3d1fdce208c5842c1b777da9af5d96802f2a164"
+    },
+    {
+      "file": "00-52-battlefield.png",
+      "video_time_seconds": 52.0,
+      "sha256": "92db932da3982677d8f3865957b1914828dcc53108bd6fa2e852e4e6ee33b6c4"
+    },
+    {
+      "file": "00-54-movement-help.png",
+      "video_time_seconds": 54.0,
+      "sha256": "1a32620f0517273ce77b56e5b6fd5925668c2a08e1d8ac9d3d23421034371daf"
+    },
+    {
+      "file": "00-58.50-end-move.png",
+      "video_time_seconds": 58.5,
+      "sha256": "758268bb509148b97730707766853cb6eae582cfbbbdbfc32b0eaa8699a2dbb5"
+    },
+    {
+      "file": "00-59.75-terrain-help.png",
+      "video_time_seconds": 59.75,
+      "sha256": "8f52757d6a77aec70a36efb53fafa54899d5e4ea37be99bbe8a0423286ed48f8"
+    },
+    {
+      "file": "01-50-unit-details.png",
+      "video_time_seconds": 110.0,
+      "sha256": "c60f48c0a3b175e2484e45d4f52f52b6d693c3aeef50ca11df88cc274ab2c368"
+    },
+    {
+      "file": "02-08-target-selection.png",
+      "video_time_seconds": 128.0,
+      "sha256": "9004f1ab31b9f56eed045d76826e8a7fb60671b35a90f6a7e69be19e7cdac230"
+    },
+    {
+      "file": "02-11-battle.png",
+      "video_time_seconds": 131.0,
+      "sha256": "75a6a4146247272639746065ea8d25b503fa699319d590271c30085aae856c24"
+    },
+    {
+      "file": "03-00-new-turn.png",
+      "video_time_seconds": 180.0,
+      "sha256": "371a1226c5333ae32a8a081242ab9146d6e73b142bd8edeebaf46ca4cfdccaa0"
+    },
+    {
+      "file": "09-00-repair.png",
+      "video_time_seconds": 540.0,
+      "sha256": "ba5646d6ed24f13de78da616ee81d662227300b4cc6f7f8b119d4cccd4cfb0ab"
+    },
+    {
+      "file": "24-00-dialogue.png",
+      "video_time_seconds": 1440.0,
+      "sha256": "c32958c6f46f1ba80cfd13cb04c17b6ee80a60d3b5034097e62eac7485d3db2b"
+    }
+  ],
+  "current_app_screenshot": {
+    "file": "uikit-current-battlefield.png",
+    "source": ".noindex/artifacts/fullscreen-current-attachments/CC6230A7-38A0-4059-8430-E281C650E8F1.png",
+    "sha256": "df83b9a5d247e90dd651941ffce1ac64206c2d431d048d84f138cbdea341653d",
+    "captured_during": "Previously completed XCTest testFullscreenBattlefieldRestoresActionAfterProcessRestart",
+    "note": "Different gameplay state from reference video; visual layout comparison only."
+  },
+  "current_sources": {
+    "App/UI/CampaignMapViewController.swift": "9a9688765aaad36a4b9f86a9f6be25d43c38c56182cd364367d51fff67b9d7dd",
+    "App/UI/MainMenuViewController.swift": "44867415df5dcc2b75d8a8ce5502c4f428aae2172b73e2e3c4f78a7874e336ee",
+    "App/UI/TitleViewController.swift": "4ca07a6d875c2495b7b53cc58e1fc720182dc6a27926a9bb533151501c36a46b",
+    "Packages/AncientEmpiresEngine/Sources/AECore/CampaignSession.swift": "ff43ab3325ec6bfac0cab854a326f4bcb10c6cd8b4470a2b80429d77d9d35b01",
+    "AppTests/CampaignSessionTests.swift": "ac0434ba446ebafa21c9cb4b821a7c34c9f93f78d76e661fe797bfe72ddad6bd",
+    "AppUITests/AppFlowUITests.swift": "b597f81eefb8c76acd14426e6949f1595e854d1ea4ae0ceabed0f33475a7c68b"
+  }
+}

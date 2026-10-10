@@ -1,0 +1,102 @@
+[
+  {
+    "key": "head-0",
+    "transparent": true,
+    "shared": "Use case: style-transfer. Faithful high-resolution Ancient Empires II remaster. First reference is the ORIGINAL identity/composition and must be preserved. Final reference is approved archer for clean continuous contours, simple cel shading, sharp game readability. Real transparent background. One isolated asset, no text, no watermark, no pixel stair steps, blur, painterly texture, photorealism or 3D. Preserve original colors, features, facing and proportions. Do not modernize costumes or invent ornaments.",
+    "text": "Galamar map HEAD ONLY. Large warm brown swept-back shoulder-length hair, warm tan face, thick brown eyebrows and short squared brown beard/moustache, stern eyes looking LEFT. Match rounded original head proportions. No crown, helmet, shoulders, torso, weapon or body.",
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/king_head_icons-0.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "head-1",
+    "transparent": true,
+    "shared": "Use case: style-transfer. Faithful high-resolution Ancient Empires II remaster. First reference is the ORIGINAL identity/composition and must be preserved. Final reference is approved archer for clean continuous contours, simple cel shading, sharp game readability. Real transparent background. One isolated asset, no text, no watermark, no pixel stair steps, blur, painterly texture, photorealism or 3D. Preserve original colors, features, facing and proportions. Do not modernize costumes or invent ornaments.",
+    "text": "Map HEAD ONLY of the fully helmeted commander. Preserve original rounded steel-gray greathelm with rounded dome, pale upper-left reflection, dark horizontal visor, two small yellow eyes in the shadow slit, vertical steel nose guard, dark gray cheek plates and slightly tapered chin. NO exposed human face, crown, horns, neck or body.",
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/king_head_icons-1.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "head-2",
+    "transparent": true,
+    "shared": "Use case: style-transfer. Faithful high-resolution Ancient Empires II remaster. First reference is the ORIGINAL identity/composition and must be preserved. Final reference is approved archer for clean continuous contours, simple cel shading, sharp game readability. Real transparent background. One isolated asset, no text, no watermark, no pixel stair steps, blur, painterly texture, photorealism or 3D. Preserve original colors, features, facing and proportions. Do not modernize costumes or invent ornaments.",
+    "text": "Valadorn map HEAD ONLY. Golden blond swept hair across forehead, warm tan angular face with small stern dark eyes looking LEFT, clean-shaven chin, short blond sideburns. Preserve original broad angular golden hairstyle. No helmet, crown, beard, shoulders or body.",
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/king_head_icons-2.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "head-3",
+    "transparent": true,
+    "shared": "Use case: style-transfer. Faithful high-resolution Ancient Empires II remaster. First reference is the ORIGINAL identity/composition and must be preserved. Final reference is approved archer for clean continuous contours, simple cel shading, sharp game readability. Real transparent background. One isolated asset, no text, no watermark, no pixel stair steps, blur, painterly texture, photorealism or 3D. Preserve original colors, features, facing and proportions. Do not modernize costumes or invent ornaments.",
+    "text": "Saeth map HEAD ONLY. Original dark steel helmet with two short golden/tan upward horns, heavy dark horizontal visor with tiny yellow eyes, central sharp magenta/purple vertical face inset and light gray cheekplates. Match original small menacing horned head silhouette. No giant horns, skull, shoulders or body.",
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/king_head_icons-3.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "portrait-0",
+    "transparent": true,
+    "shared": "Use case: style-transfer. Faithful high-resolution Ancient Empires II remaster. First reference is the ORIGINAL identity/composition and must be preserved. Final reference is approved archer for clean continuous contours, simple cel shading, sharp game readability. Real transparent background. One isolated asset, no text, no watermark, no pixel stair steps, blur, painterly texture, photorealism or 3D. Preserve original colors, features, facing and proportions. Do not modernize costumes or invent ornaments. Retain mature original story-portrait facial proportions, NOT big-headed chibi anatomy. Crisp hand-drawn fantasy-game portrait with restrained shaded planes.",
+    "text": "Galamar: middle-aged stern man, long light-brown swept-back hair, full short golden-brown beard, thick brows, violet-gray eyes, silver plate armor. Three-quarter chest-up portrait looking RIGHT. Match original cropping at chest, shoulders reaching lower corners and transparent silhouette above shoulders.",
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/portraits-0.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "portrait-1",
+    "transparent": true,
+    "shared": "Use case: style-transfer. Faithful high-resolution Ancient Empires II remaster. First reference is the ORIGINAL identity/composition and must be preserved. Final reference is approved archer for clean continuous contours, simple cel shading, sharp game readability. Real transparent background. One isolated asset, no text, no watermark, no pixel stair steps, blur, painterly texture, photorealism or 3D. Preserve original colors, features, facing and proportions. Do not modernize costumes or invent ornaments. Retain mature original story-portrait facial proportions, NOT big-headed chibi anatomy. Crisp hand-drawn fantasy-game portrait with restrained shaded planes.",
+    "text": "Valadorn: younger clean-shaven stern man, short wavy swept golden-blond hair, strong jaw, pale violet-gray eyes, silver high collar and angular silver pauldrons. Three-quarter chest-up portrait looking RIGHT. Match original cropping at chest, shoulders reaching lower corners and transparent silhouette above shoulders.",
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/portraits-1.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "portrait-2",
+    "transparent": true,
+    "shared": "Use case: style-transfer. Faithful high-resolution Ancient Empires II remaster. First reference is the ORIGINAL identity/composition and must be preserved. Final reference is approved archer for clean continuous contours, simple cel shading, sharp game readability. Real transparent background. One isolated asset, no text, no watermark, no pixel stair steps, blur, painterly texture, photorealism or 3D. Preserve original colors, features, facing and proportions. Do not modernize costumes or invent ornaments. Retain mature original story-portrait facial proportions, NOT big-headed chibi anatomy. Crisp hand-drawn fantasy-game portrait with restrained shaded planes.",
+    "text": "Elder advisor: elderly man with long white hair, thick white mustache, solemn blue-gray eyes, ornate silver cap and cheek flaps with fine gold circular trim, silver-white robe/armor. Three-quarter chest-up portrait looking RIGHT. Preserve exact cap and face from original. Match original cropping at chest, shoulders reaching lower corners and transparent silhouette above shoulders.",
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/portraits-2.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "portrait-3",
+    "transparent": true,
+    "shared": "Use case: style-transfer. Faithful high-resolution Ancient Empires II remaster. First reference is the ORIGINAL identity/composition and must be preserved. Final reference is approved archer for clean continuous contours, simple cel shading, sharp game readability. Real transparent background. One isolated asset, no text, no watermark, no pixel stair steps, blur, painterly texture, photorealism or 3D. Preserve original colors, features, facing and proportions. Do not modernize costumes or invent ornaments. Retain mature original story-portrait facial proportions, NOT big-headed chibi anatomy. Crisp hand-drawn fantasy-game portrait with restrained shaded planes.",
+    "text": "Undead knight: ivory-gray skull with small red glowing eyes, exposed teeth, dark brown armor with silver ridges, one small skull pauldron at viewer left. Three-quarter chest-up portrait looking RIGHT. Non-gory, original fantasy portrait. Match original cropping at chest, shoulders reaching lower corners and transparent silhouette above shoulders.",
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/portraits-3.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "portrait-4",
+    "transparent": true,
+    "shared": "Use case: style-transfer. Faithful high-resolution Ancient Empires II remaster. First reference is the ORIGINAL identity/composition and must be preserved. Final reference is approved archer for clean continuous contours, simple cel shading, sharp game readability. Real transparent background. One isolated asset, no text, no watermark, no pixel stair steps, blur, painterly texture, photorealism or 3D. Preserve original colors, features, facing and proportions. Do not modernize costumes or invent ornaments. Retain mature original story-portrait facial proportions, NOT big-headed chibi anatomy. Crisp hand-drawn fantasy-game portrait with restrained shaded planes.",
+    "text": "Saeth demon: gray-purple face, two short tan horns, black brow and red eyes, original red streak under viewer-left eye, pointed ears, grim expression, dark silver armor. Three-quarter chest-up portrait looking RIGHT. Preserve original distinctive face; no added horns or symbols. Match original cropping at chest, shoulders reaching lower corners and transparent silhouette above shoulders.",
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/portraits-4.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  },
+  {
+    "key": "portrait-5",
+    "transparent": true,
+    "shared": "Use case: style-transfer. Faithful high-resolution Ancient Empires II remaster. First reference is the ORIGINAL identity/composition and must be preserved. Final reference is approved archer for clean continuous contours, simple cel shading, sharp game readability. Real transparent background. One isolated asset, no text, no watermark, no pixel stair steps, blur, painterly texture, photorealism or 3D. Preserve original colors, features, facing and proportions. Do not modernize costumes or invent ornaments. Retain mature original story-portrait facial proportions, NOT big-headed chibi anatomy. Crisp hand-drawn fantasy-game portrait with restrained shaded planes.",
+    "text": "Captain: human man with short tousled brown hair, brown mustache, no beard, stern gray eyes, silver plate armor and broad pale silver pauldron at viewer left. Three-quarter chest-up portrait looking RIGHT. Match original cropping at chest, shoulders reaching lower corners and transparent silhouette above shoulders.",
+    "refs": [
+      "/Users/chenrenwei/developer/AncientEmpiresII/.noindex/artifacts/environment-originals/portraits-5.png",
+      "/Users/chenrenwei/developer/AncientEmpiresII/reference/art/imagegen-faithful-preview/archer-blue-preview.png"
+    ]
+  }
+]

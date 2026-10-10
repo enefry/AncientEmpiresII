@@ -1,0 +1,48 @@
+{
+  "sourceCommit": "ef6d59f719f946d910fbd896290bbe7418c0e32b",
+  "originalMapComparisons": [
+    {
+      "sourcePath": "android/assets/map/Icy Paths.aem",
+      "sha256": "acaf77b9b00eae14c484b36c2b0278005d73a24584dd625f28055483510231c2",
+      "result": "All tile cells match original map after explicit tile remapping"
+    },
+    {
+      "sourcePath": "android/assets/map/Frozen fields.aem",
+      "sha256": "3d5334a23b22821e87a0fbe3f23b05bcfd87eaa4bde1561bd74ef799c9184828",
+      "result": "All tile cells match original map after explicit tile remapping"
+    },
+    {
+      "sourcePath": "android/assets/map/Liberty Port.aem",
+      "sha256": "3a14a7f9cc64ae0130e2e881ea1259afdef213d2dde2b88f74d5805b7b4c1aa5",
+      "result": "All tile cells match original map after explicit tile remapping"
+    },
+    {
+      "sourcePath": "android/assets/map/Solitude.aem",
+      "sha256": "dd69998757a994b353d4b31ec1ea17991b80ea6742245b2b97b55cadb46e4c13",
+      "result": "All tile cells match original map after explicit tile remapping"
+    }
+  ],
+  "identicalRGBAImages": [
+    {
+      "sourcePath": "android/assets/images/tiles/tile_2.png",
+      "sourceSHA256": "0b7ed23a263a734e1cb1a29391f7179f697398e94d0f51a9ceca2f512bf14497",
+      "originalTileID": 2,
+      "originalSHA256": "0b7ed23a263a734e1cb1a29391f7179f697398e94d0f51a9ceca2f512bf14497",
+      "result": "24x24 RGBA pixels identical"
+    },
+    {
+      "sourcePath": "android/assets/images/tiles/tile_42.png",
+      "sourceSHA256": "328ba51dbfe19afc33a9a1935db5e03bb38d2f26cc014228c591e763b8115805",
+      "originalTileID": 43,
+      "originalSHA256": "328ba51dbfe19afc33a9a1935db5e03bb38d2f26cc014228c591e763b8115805",
+      "result": "24x24 RGBA pixels identical"
+    },
+    {
+      "sourcePath": "android/assets/images/tiles/tile_44.png",
+      "sourceSHA256": "bfe4ada9b8dd51cbcc75ed2933e9d50015b13e11f2a9bed77bd8a1f775b07310",
+      "originalTileID": 45,
+      "originalSHA256": "bfe4ada9b8dd51cbcc75ed2933e9d50015b13e11f2a9bed77bd8a1f775b07310",
+      "result": "24x24 RGBA pixels identical"
+    }
+  ]
+}

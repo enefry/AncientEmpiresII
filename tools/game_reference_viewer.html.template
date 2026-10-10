@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>远古帝国 II · 原版资料浏览</title>
+<style>
+  :root { color-scheme: dark; font: 15px/1.65 system-ui; background:#11191e; color:#e6eded; }
+  body { margin:0; padding:24px; max-width:1500px; margin-inline:auto; }
+  h1 { font-size:25px; margin:0; } h2 { font-size:19px; }
+  p { color:#aebfc4; } button,select,input {font:inherit; background:#25343c; color:#e6eded; border:1px solid #52636a; border-radius:6px; padding:7px 12px; }
+  button {cursor:pointer;} button[aria-selected=true] {background:#29695f; border-color:#7bc2ae;}
+  nav,.controls {display:flex; flex-wrap:wrap; gap:12px; margin:20px 0; align-items:center;}
+  section[hidden] {display:none;} .stage {overflow:auto; max-height:70vh; border:1px solid #3a4c54; background:#071115;}
+  canvas,img {image-rendering:pixelated;} canvas {display:block;}
+  #inspect {min-height:4em; padding:12px; background:#1b2930; white-space:pre-line;}
+  .gallery {display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;}
+  .card {background:#1b2930;padding:14px;overflow:auto; border-radius:6px;}
+  .card img {max-width:100%;max-height:180px;object-fit:contain;object-position:left top;}
+  .card code {display:block;overflow-wrap:anywhere;font-size:12px;}
+  .card small {color:#a9bcc3;display:block;} table {border-collapse:collapse;width:100%;}
+  th,td {text-align:left;padding:8px;border-bottom:1px solid #394c55;white-space:nowrap;} .table {overflow:auto;}
+  #tile-grid {display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:12px;}
+  #tile-grid img {width:72px;height:72px;} pre {white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;}
+  .startup-previews {display:flex;gap:24px;flex-wrap:wrap;}
+  .startup-previews img {display:block;width:480px;max-width:100%;border:1px solid #3a4c54;}
+  #wave-step {padding-inline:0;}
+</style>
+<h1>远古帝国 II · 原版资料浏览</h1>
+<p>v2.5 选定 JAR 的离线资源索引。地图显示原始记录，尚未执行开场剧情；规则说明见同目录还原文档。</p>
+<p id="load-status" role="status">正在载入资料… 若此提示一直显示，请在支持 JavaScript 的浏览器中打开本页。</p>
+<nav aria-label="资料分类">
+  <button data-panel="startup" aria-selected="false">启动动画</button>
+  <button data-panel="maps" aria-selected="true">20 张地图</button>
+  <button data-panel="units">12 种单位</button>
+  <button data-panel="tiles">48 个图块</button>
+  <button data-panel="images">234 张原图</button>
+  <button data-panel="sprites">58 组精灵定义</button>
+</nav>
+<section id="maps">
+  <div class="controls"><select id="map-select" aria-label="地图"></select>
+    <label>比例 <select id="scale"><option value="1">1×</option><option value="2" selected>2×</option><option value="3">3×</option></select></label>
+    <label><input type="checkbox" id="show-units" checked> 原始单位</label>
+    <label><input type="checkbox" id="show-grid"> 网格</label></div>
+  <p id="map-summary"></p><div class="stage"><canvas id="map-canvas" aria-label="地图预览"></canvas></div>
+  <div id="inspect" role="status">将鼠标移至图块，或点击查看坐标、地形与单位记录。</div>
+</section>
+<section id="units" hidden><div class="table"><table id="unit-table"></table></div><p>攻击右端不包含；射程两端包含。中文名称为资料说明用名，英文原文和资源文件名另列。</p></section>
+<section id="tiles" hidden><div id="tile-grid"></div></section>
+<section id="images" hidden><div class="controls"><input id="image-filter" placeholder="搜索文件名，如 red/ 或 king" aria-label="搜索图片"><span id="image-count"></span></div><div id="image-gallery" class="gallery"></div></section>
+<section id="sprites" hidden><div class="controls"><select id="sprite-select" aria-label="精灵定义"></select></div><pre id="sprite-detail"></pre></section>
+<section id="startup" hidden>
+  <h2>启动标题动画 · 原算法参考回放</h2>
+  <p>使用原始图片和 JAR 函数输出的绘制指令。原逻辑画布 240×320，预览放大 2 倍，每步 66 毫秒；不含手机字体和圆形菜单。</p>
+  <p><a href="STARTUP_ANIMATION.md">算法、版本开关与验证记录</a></p>
+  <div class="startup-previews">
+    <div><h3>文字展开 → 背景淡入 → 扫光</h3><img id="startup-animation" alt="原算法启动标题动画回放"></div>
+    <div><h3>逐帧查看文字展开</h3><div class="controls"><label>进度 <input id="wave-step" type="range" min="0" max="40" value="15"></label><output id="wave-value"></output></div><img id="startup-frame" alt="文字展开单帧"><p id="startup-frame-info"></p></div>
+  </div>
+</section>
+<script id="game-data" type="application/json">__GAME_DATA__</script>
+<script>
+  'use strict';
+  (()=>{
+  const $=s=>document.querySelector(s);
+  let data;
+  try {data=JSON.parse($('#game-data').textContent);}
+  catch(error){$('#load-status').textContent='资料未载入：请打开 reference/reconstruction/viewer.html。此文件是生成模板，不能直接浏览。';return;}
+  const make=(tag,text)=>{const el=document.createElement(tag);if(text!==undefined)el.textContent=text;return el;};
+  const terrainNames=['道路','草地','树林','丘陵','山地','水域','桥梁','公共建筑 / 神庙','城镇 / 废墟','城堡','熔岩'];
+  const fractions=['中立','蓝','红','绿','黑'];
+  document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('nav button').forEach(x=>{x.setAttribute('aria-selected',String(x===b));$('#'+x.dataset.panel).hidden=x!==b;});
+  });
+  data.maps.forEach(m=>{const o=make('option',`${m.id} · ${m.name}`);o.value=m.id;$('#map-select').append(o);});
+  const loadImage=url=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=reject;im.src=url;});
+  let tiles=[],icons=[],selected=data.maps[0];
+  function draw(){
+    selected=data.maps.find(m=>m.id===$('#map-select').value);
+    const scale=Number($('#scale').value),cell=24*scale,c=$('#map-canvas');
+    c.width=selected.width*cell;c.height=selected.height*cell;
+    const ctx=c.getContext('2d');ctx.imageSmoothingEnabled=false;
+    selected.rows.forEach((row,y)=>row.forEach((tile,x)=>ctx.drawImage(tiles[tile],x*cell,y*cell,cell,cell)));
+    if($('#show-units').checked) selected.units.forEach(u=>{
+      if(!u.in_bounds)return;const im=icons[u.fraction-1],frame=u.type,cols=im.width/24;
+      ctx.drawImage(im,frame%cols*24,Math.floor(frame/cols)*24,24,24,u.x*cell,u.y*cell,cell,cell);
+    });
+    if($('#show-grid').checked){ctx.strokeStyle='#ffffff55';ctx.lineWidth=1;ctx.beginPath();
+      for(let x=0;x<=selected.width;x++){ctx.moveTo(x*cell+.5,0);ctx.lineTo(x*cell+.5,c.height);}
+      for(let y=0;y<=selected.height;y++){ctx.moveTo(0,y*cell+.5);ctx.lineTo(c.width,y*cell+.5);}ctx.stroke();}
+    $('#map-summary').textContent=`${selected.width} × ${selected.height} 格 · ${selected.units.length} 个原始单位 · ${selected.buildings.length} 处城镇 / 城堡 / 废墟（不含神庙）`;
+  }
+  const inspect=event=>{const c=$('#map-canvas'),rect=c.getBoundingClientRect(),cell=24*Number($('#scale').value);
+    const x=Math.floor((event.clientX-rect.left)*c.width/rect.width/cell),y=Math.floor((event.clientY-rect.top)*c.height/rect.height/cell);
+    if(x<0||y<0||x>=selected.width||y>=selected.height)return;
+    const id=selected.rows[y][x],tile=data.tiles[id],t=data.terrain[tile.terrain];
+    const lines=[`坐标 (${x}, ${y}) · 图块 ${id} · ${terrainNames[t.id]} · 移动消耗 ${t.steps} · 地形防御 ${t.defence>=0?'+':''}${t.defence}`];
+    if(id>=37&&id<47)lines.push(`建筑归属：${fractions[Math.floor((id-37)/2)]}`);
+    selected.units.filter(u=>u.x===x&&u.y===y).forEach(u=>lines.push(`单位 ${u.index}：${fractions[u.fraction]}方 ${data.units[u.type].display_name} (${data.units[u.type].resource_name})`));
+    $('#inspect').textContent=lines.join('\n');
+  };
+  $('#map-canvas').onmousemove=inspect;$('#map-canvas').onclick=inspect;
+  ['map-select','scale','show-units','show-grid'].forEach(id=>$('#'+id).onchange=()=>{if(tiles.length)draw();});
+  Promise.all([Promise.all(data.tile_urls.map(loadImage)),Promise.all(data.icon_urls.map(loadImage))]).then(([t,i])=>{tiles=t;icons=i;draw();$('#load-status').hidden=true;}).catch(()=>$('#load-status').textContent='资源图片载入失败，请重新打开本页。');
+  const table=$('#unit-table');const heading=make('tr');['ID','名称 / 文件','移动预算','攻击 [下界, 上界)','防御','射程','金币','战斗人数','属性'].forEach(t=>heading.append(make('th',t)));table.append(heading);
+  data.units.forEach(u=>{const row=make('tr');[u.id,`${u.chinese_reference_name} / ${u.display_name} (${u.resource_name})`,u.move_budget,`[${u.attack_min}, ${u.attack_max_exclusive})`,u.defence,`${u.range_min}…${u.range_max}`,u.cost,u.character_count,u.properties.map(p=>`${p.bit}: ${p.interpretation}`).join(', ')].forEach(t=>row.append(make('td',t)));table.append(row);});
+  data.tiles.forEach(t=>{const el=make('div');el.className='card';const im=make('img');im.src=data.tile_urls[t.id];im.alt=`图块 ${t.id}`;el.append(im,make('div',`${t.id} · ${terrainNames[t.terrain]}`));$('#tile-grid').append(el);});
+  function gallery(){const query=$('#image-filter').value.toLowerCase(),items=data.images.filter(i=>i.path.toLowerCase().includes(query));$('#image-gallery').replaceChildren();
+    $('#image-count').textContent=`${items.length} / ${data.images.length}`;
+    items.forEach(i=>{const el=make('div');el.className='card';const im=make('img');im.src=i.url;im.alt=i.path;im.loading='lazy';el.append(im,make('code',i.path),make('small',`${i.width}×${i.height} · ${i.size} bytes · PNG type ${i.color_type}`));$('#image-gallery').append(el);});}
+  $('#image-filter').oninput=gallery;gallery();
+  data.sprites.forEach(s=>{const o=make('option',s.name);o.value=s.name;$('#sprite-select').append(o);});
+  const showSprite=()=>$('#sprite-detail').textContent=JSON.stringify(data.sprites.find(s=>s.name===$('#sprite-select').value),null,2);
+  $('#sprite-select').onchange=showSprite;showSprite();
+  if(data.startup){
+    $('#startup-animation').src=data.startup.animation_url;
+    const showWave=()=>{const p=Number($('#wave-step').value);$('#wave-value').textContent=`${p} / 40`;
+      $('#startup-frame').src=data.startup.wave_urls[p];
+      $('#startup-frame-info').textContent=`可见宽度 ${Math.floor(240*p/40)} 像素 · 波幅 ${Math.floor(240*(40-p)/160)} 像素 · 起始相位 ${Math.floor(360*p/40)}°`;};
+    $('#wave-step').oninput=showWave;showWave();
+  }else{$('#startup').textContent='启动动画资料尚未生成，请运行 tools/reconstruct_startup.py 后重新生成浏览页。';}
+  })();
+</script>
+</html>

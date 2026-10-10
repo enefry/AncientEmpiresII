@@ -1,0 +1,39 @@
+# macOS and editor state
+.DS_Store
+._*
+*.swp
+*.swo
+
+# Stable local build, test, and research directories (at every project root)
+.noindex/
+.build/
+.swiftpm/
+DerivedData/
+__pycache__/
+*.py[cod]
+
+# Xcode user settings and disposable build products
+xcuserdata/
+*.xcuserstate
+*.xcresult/
+*.xcarchive/
+*.dSYM/
+*.ipa
+
+# Historical local copies; active source artwork is kept in reference/art/
+/资源备份/
+
+# Separate projects are outside this game's repository.
+/AncientEmpiresI/
+/TurnBasedEngine/
+
+# Machine-specific NetBeans settings in the supplied Java reference project
+/reference/inputs/AEIIRM_src/nbproject/private/
+
+# Shared schemes and original decompiler diagnostics are project evidence.
+# Override machine-wide ignore rules for these required files.
+!AncientEmpiresII.xcodeproj/xcshareddata/
+!AncientEmpiresII.xcodeproj/xcshareddata/**
+!reference/decompiler.log
+!reference/decompiler-normalized.log
+!reference/decompiler-cfr.log
